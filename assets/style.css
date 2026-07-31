@@ -1,0 +1,170 @@
+/* ===== Cosmos Yoga — site styles ===== */
+:root {
+  --teal-deep: #1d6b6e;
+  --teal-mid:  #2f8a8c;
+  --teal-soft: #a7c4bc;
+  --terra:     #e2703a;
+  --terra-dk:  #c8571f;
+  --saffron:   #efab2e;
+  --cream:     #f6f1e7;
+  --cream-dk:  #ece3d2;
+  --ink:       #2b2b28;
+  --ink-soft:  #55534c;
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --sans: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --maxw: 1080px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.65;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--terra-dk); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.12; color: var(--ink); margin: 0 0 .4em; }
+h1 { font-size: clamp(2.6rem, 6vw, 4.4rem); letter-spacing: .5px; }
+h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); }
+h3 { font-size: 1.5rem; }
+.eyebrow {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: .32em;
+  font-size: .74rem;
+  font-weight: 700;
+  color: var(--terra);
+  margin: 0 0 1rem;
+}
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem; }
+.center { text-align: center; }
+.lead { font-size: 1.25rem; color: var(--ink-soft); }
+
+/* ===== Header ===== */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(246,241,231,.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--cream-dk);
+}
+.nav {
+  display: flex; align-items: center; justify-content: space-between;
+  max-width: var(--maxw); margin: 0 auto; padding: .7rem 1.5rem;
+}
+.brand { display: flex; align-items: center; gap: .6rem; font-family: var(--serif); font-size: 1.5rem; font-weight: 600; color: var(--ink); }
+.brand:hover { text-decoration: none; }
+.brand img { width: 38px; height: 38px; }
+.brand .tag { letter-spacing: .28em; text-transform: uppercase; font-size: 1.05rem; }
+.nav-links { display: flex; align-items: center; gap: 1.6rem; }
+.nav-links a { color: var(--ink); font-weight: 600; font-size: .98rem; }
+.nav-links a:hover { color: var(--terra-dk); text-decoration: none; }
+.nav-links a.active { color: var(--terra-dk); }
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block; background: var(--terra); color: #fff;
+  padding: .8rem 1.7rem; border-radius: 999px; font-weight: 700;
+  font-size: .98rem; letter-spacing: .02em; transition: background .2s, transform .2s;
+}
+.btn:hover { background: var(--terra-dk); text-decoration: none; transform: translateY(-1px); }
+.btn-ghost { background: transparent; color: var(--cream); border: 1.5px solid rgba(255,255,255,.6); }
+.btn-ghost:hover { background: rgba(255,255,255,.12); color: #fff; }
+
+/* ===== Hero ===== */
+.hero {
+  background: radial-gradient(120% 120% at 50% 0%, var(--teal-mid) 0%, var(--teal-deep) 70%);
+  color: var(--cream); text-align: center; padding: 4.5rem 1.5rem 5rem;
+}
+.hero img.logo { width: min(230px, 55vw); margin: 0 auto 1.8rem; filter: drop-shadow(0 10px 30px rgba(0,0,0,.25)); }
+.hero h1 { color: #fff; }
+.hero .tagline { font-family: var(--serif); font-style: italic; font-size: clamp(1.3rem,3vw,1.8rem); color: var(--saffron); margin: .3rem 0 1.4rem; }
+.hero p.lead { color: rgba(255,255,255,.9); max-width: 640px; margin: 0 auto 2rem; }
+.hero .cta-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.hero .eyebrow { color: var(--saffron); }
+
+/* ===== Sections ===== */
+section.band { padding: 4.5rem 0; }
+section.band.alt { background: var(--cream-dk); }
+section.band.teal { background: var(--teal-deep); color: var(--cream); }
+section.band.teal h2, section.band.teal h3 { color: #fff; }
+section.band.teal .eyebrow { color: var(--saffron); }
+.narrow { max-width: 720px; margin: 0 auto; }
+
+/* ===== Cards ===== */
+.grid { display: grid; gap: 1.6rem; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.card {
+  background: var(--cream); border: 1px solid var(--cream-dk); border-radius: 16px;
+  padding: 2rem; box-shadow: 0 2px 14px rgba(29,107,110,.06);
+}
+.card h3 { color: var(--teal-deep); }
+.card .pill { display: inline-block; font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; color: var(--terra); margin-bottom: .6rem; }
+section.teal .card { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); color: var(--cream); }
+section.teal .card h3 { color: #fff; }
+
+/* ===== Teacher ===== */
+.teacher { display: grid; grid-template-columns: 130px 1fr; gap: 1.6rem; align-items: start; }
+.avatar {
+  width: 130px; height: 130px; border-radius: 50%; background: var(--teal-soft);
+  display: grid; place-items: center; font-family: var(--serif); font-size: 2.6rem; color: var(--teal-deep);
+  border: 3px solid var(--saffron); overflow: hidden;
+}
+.teacher .role { color: var(--terra-dk); font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; margin: .1rem 0 .7rem; }
+
+/* ===== Schedule table ===== */
+.table-wrap { overflow-x: auto; border-radius: 14px; border: 1px solid var(--cream-dk); }
+table.sched { width: 100%; border-collapse: collapse; background: var(--cream); min-width: 520px; }
+table.sched th, table.sched td { padding: .8rem 1rem; text-align: left; border-bottom: 1px solid var(--cream-dk); }
+table.sched th { background: var(--teal-deep); color: #fff; font-family: var(--sans); font-weight: 700; letter-spacing: .04em; font-size: .9rem; }
+table.sched td:first-child { font-weight: 700; color: var(--teal-deep); white-space: nowrap; }
+
+/* ===== Pricing ===== */
+.price-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.4rem; }
+.price {
+  background: var(--cream); border: 1px solid var(--cream-dk); border-radius: 16px; padding: 1.8rem;
+}
+.price.feature { border: 2px solid var(--terra); box-shadow: 0 6px 24px rgba(226,112,58,.14); position: relative; }
+.price.feature::after { content: "Founding rate"; position: absolute; top: -.8rem; right: 1.2rem; background: var(--terra); color: #fff; font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: .25rem .7rem; border-radius: 999px; }
+.price .amt { font-family: var(--serif); font-size: 2.4rem; color: var(--teal-deep); font-weight: 600; }
+.price .amt small { font-size: 1rem; color: var(--ink-soft); font-family: var(--sans); }
+.price h3 { margin-bottom: .3rem; }
+.price ul { margin: .6rem 0 0; padding-left: 1.1rem; color: var(--ink-soft); font-size: .95rem; }
+
+/* ===== Note / callout ===== */
+.note { background: rgba(239,171,46,.12); border-left: 4px solid var(--saffron); padding: .9rem 1.2rem; border-radius: 8px; font-size: .95rem; color: var(--ink-soft); }
+
+/* ===== Footer ===== */
+.site-footer { background: var(--ink); color: var(--cream); padding: 3rem 1.5rem; }
+.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; align-items: flex-start; }
+.site-footer a { color: var(--saffron); }
+.site-footer .foot-brand { display: flex; align-items: center; gap: .7rem; font-family: var(--serif); font-size: 1.4rem; }
+.site-footer .foot-brand img { width: 40px; }
+.site-footer h4 { font-family: var(--sans); text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; color: var(--saffron); margin: 0 0 .6rem; }
+.site-footer .muted { color: rgba(246,241,231,.6); font-size: .85rem; }
+
+/* ===== Utility ===== */
+.mt-2 { margin-top: 2rem; } .mt-1 { margin-top: 1rem; }
+.section-head { max-width: 640px; margin: 0 auto 2.6rem; text-align: center; }
+
+/* ===== Responsive ===== */
+@media (max-width: 820px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  .grid-2, .price-grid { grid-template-columns: 1fr; }
+  .nav-links { gap: 1rem; }
+  .brand .tag { display: none; }
+}
+@media (max-width: 560px) {
+  body { font-size: 17px; }
+  .teacher { grid-template-columns: 1fr; }
+  .avatar { margin: 0 auto; }
+  .teacher .center-sm { text-align: center; }
+  .nav-links a { font-size: .9rem; }
+}
