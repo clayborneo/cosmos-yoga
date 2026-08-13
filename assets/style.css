@@ -66,6 +66,16 @@ h3 { font-size: 1.5rem; }
 .nav-links a { color: var(--ink); font-weight: 600; font-size: .98rem; }
 .nav-links a:hover { color: var(--terra-dk); text-decoration: none; }
 .nav-links a.active { color: var(--terra-dk); }
+/* Mindbody login/register widget as a nav button */
+.nav-links healcode-widget { display: inline-flex; align-items: center; }
+.nav-links healcode-widget a, .nav-links a.loginRegister {
+  display: inline-block; background: var(--terra); color: #fff !important;
+  padding: .5rem 1.15rem; border-radius: 999px; font-weight: 700; font-size: .92rem;
+  letter-spacing: .01em; transition: background .2s, transform .2s; white-space: nowrap;
+}
+.nav-links healcode-widget a:hover, .nav-links a.loginRegister:hover {
+  background: var(--terra-dk); text-decoration: none; transform: translateY(-1px);
+}
 
 /* ===== Buttons ===== */
 .btn {
