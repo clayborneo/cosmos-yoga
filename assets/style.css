@@ -11,7 +11,9 @@
   --ink:       #2b2b28;
   --ink-soft:  #55534c;
   --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --serif-zine: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --script: "Caveat", "Bradley Hand", cursive;
   --maxw: 1080px;
 }
 
@@ -179,4 +181,66 @@ table.sched td:first-child { font-weight: 700; color: var(--teal-deep); white-sp
   .avatar { margin: 0 auto; }
   .teacher .center-sm { text-align: center; }
   .nav-links a { font-size: .9rem; }
+}
+
+/* ============================================================
+   ZINE HOMEPAGE  (scoped to body.home-zine — does not affect other pages)
+   ============================================================ */
+body.home-zine { background: var(--cream); position: relative; }
+/* subtle paper grain */
+body.home-zine::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: .045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+body.home-zine > * { position: relative; z-index: 1; }
+
+/* header — understated, no pill */
+.home-zine .site-header { background: rgba(246,241,231,.9); border-bottom: none; }
+.home-zine .brand .tag { font-size: 1rem; letter-spacing: .34em; }
+.home-zine .nav-links a { font-weight: 700; font-size: .95rem; }
+
+/* hero */
+.zine-hero { position: relative; overflow: hidden; padding: clamp(3rem,9vw,6.5rem) 1.5rem clamp(3.5rem,8vw,6rem); }
+.zine-hero-inner { max-width: var(--maxw); margin: 0 auto; }
+.zine-bloom {
+  position: absolute; top: -14%; right: -8%; width: min(560px, 60vw);
+  transform: rotate(-12deg); opacity: .95; pointer-events: none;
+  filter: drop-shadow(0 18px 40px rgba(29,107,110,.18));
+}
+.zine-h1 {
+  font-family: var(--serif-zine); font-weight: 600; color: var(--teal-deep);
+  font-size: clamp(2.6rem, 7.5vw, 5rem); line-height: 1.02; letter-spacing: -.5px;
+  max-width: 12ch; margin: 0 0 1.1rem; text-transform: lowercase;
+}
+.zine-h1 .ul {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M3,13 Q40,3 78,10 T154,10 T230,10 T297,9' fill='none' stroke='%23c8571f' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: left 90%; background-size: 100% .38em; padding-bottom: .12em;
+}
+.zine-script { font-family: var(--script); font-size: clamp(1.9rem,4.2vw,2.9rem); color: var(--terra-dk); line-height: 1; margin: 0 0 1.6rem; }
+.zine-lead { font-family: var(--sans); font-size: 1.2rem; color: var(--ink-soft); max-width: 30ch; margin: 0 0 2rem; line-height: 1.5; }
+.zine-cta { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; }
+.link-underline { font-weight: 700; color: var(--teal-deep); padding-bottom: 3px; background: linear-gradient(var(--saffron),var(--saffron)) left bottom/100% 3px no-repeat; }
+.link-underline:hover { text-decoration: none; background-size: 100% 6px; }
+
+/* practice band */
+.zine-practice { background: var(--teal-deep); color: var(--cream); padding: clamp(3rem,7vw,5rem) 1.5rem; }
+.zine-practice .inner { max-width: 760px; margin: 0 auto; }
+.zine-kicker { font-family: var(--script); color: var(--saffron); font-size: clamp(1.9rem,4vw,2.6rem); line-height: 1; margin: 0 0 1.8rem; }
+.zine-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 1.15rem 0; border-top: 1px solid rgba(255,255,255,.16); }
+.zine-row:last-child { border-bottom: 1px solid rgba(255,255,255,.16); }
+.zine-row h3 { font-family: var(--serif-zine); font-weight: 600; color: #fff; font-size: clamp(1.6rem,3.4vw,2.2rem); margin: 0; }
+.zine-row span { font-family: var(--serif-zine); font-style: italic; color: var(--teal-soft); font-size: 1.05rem; text-align: right; }
+
+/* invite band */
+.zine-invite { padding: clamp(3rem,7vw,5rem) 1.5rem; }
+.zine-invite .inner { max-width: 620px; margin: 0 auto; text-align: center; }
+.zine-invite .zine-kicker { color: var(--terra-dk); }
+.zine-invite h2 { font-family: var(--serif-zine); font-weight: 600; color: var(--teal-deep); font-size: clamp(2rem,5vw,3rem); margin: 0 0 1rem; line-height: 1.05; }
+.zine-invite p { font-family: var(--sans); color: var(--ink-soft); font-size: 1.12rem; line-height: 1.6; margin: 0 auto 1.8rem; max-width: 46ch; }
+
+@media (max-width: 640px) {
+  .zine-bloom { top: -6%; right: -22%; width: 68vw; opacity: .5; }
+  .zine-h1, .zine-script, .zine-lead { position: relative; }
+  .zine-row { flex-direction: column; gap: .1rem; }
+  .zine-row span { text-align: left; }
 }
