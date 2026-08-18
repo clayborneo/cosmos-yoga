@@ -258,3 +258,6 @@ body.home-zine > * { position: relative; z-index: 1; }
 .price .pack-row span small { color: var(--ink-soft); }
 .price .pack-row healcode-widget { display: inline-flex; flex: none; }
 .price .buy healcode-widget { display: inline-flex; }
+
+/* Pricing scarcity / limited highlight */
+.price .limited { display: inline-block; margin: .1rem 0 .5rem; font-size: .82rem; font-weight: 700; color: var(--terra-dk); background: rgba(239,171,46,.18); padding: .28rem .65rem; border-radius: 6px; letter-spacing: .01em; }
