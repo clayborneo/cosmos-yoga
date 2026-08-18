@@ -261,3 +261,11 @@ body.home-zine > * { position: relative; z-index: 1; }
 
 /* Pricing scarcity / limited highlight */
 .price .limited { display: inline-block; margin: .1rem 0 .5rem; font-size: .82rem; font-weight: 700; color: var(--terra-dk); background: rgba(239,171,46,.18); padding: .28rem .65rem; border-radius: 6px; letter-spacing: .01em; }
+
+/* Instagram icon in footer */
+.ig-link { display: inline-flex; align-items: center; gap: .4em; }
+.ig-icon { width: 1em; height: 1em; fill: currentColor; flex: none; }
+
+/* Soft-opening announcement banner (home) */
+.soft-banner { display: block; background: var(--terra); color: var(--cream); text-align: center; padding: .6rem 1rem; font-weight: 700; font-size: .9rem; letter-spacing: .02em; text-decoration: none; }
+.soft-banner:hover { background: var(--terra-dk); color: #fff; text-decoration: none; }
