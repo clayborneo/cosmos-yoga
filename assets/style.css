@@ -279,10 +279,10 @@ body.home-zine > * { position: relative; z-index: 1; }
   -webkit-mask-size:contain; mask-size:contain;
 }
 .brand-wordmark { height:18px; width:auto; flex:none; color:var(--teal-deep);
-  -webkit-mask-image:url(cosmos-wordmark-light.png); mask-image:url(cosmos-wordmark-light.png); }
+  -webkit-mask-image:url(cosmos-wordmark-bold.png); mask-image:url(cosmos-wordmark-bold.png); }
 @media (max-width:820px){ .brand-wordmark { display:none; } }   /* mobile: flower only, matches old tag */
 .hero-wordmark { display:block; width:min(440px,82vw); color:var(--teal-deep); margin:0 0 1.1rem; padding:0;
-  -webkit-mask-image:url(cosmos-wordmark-med.png); mask-image:url(cosmos-wordmark-med.png); }
+  -webkit-mask-image:url(cosmos-wordmark-bold.png); mask-image:url(cosmos-wordmark-bold.png); }
 .zine-subhead {
   font-family:var(--serif-zine); font-weight:600; color:var(--teal-deep);
   font-size:clamp(1.6rem,4.2vw,2.8rem); line-height:1.04; letter-spacing:-.3px;
