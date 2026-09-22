@@ -337,3 +337,13 @@ body.home-zine > * { position: relative; z-index: 1; }
   .go-node { grid-column: 1; }
   .go-row.l .go-txt, .go-row.r .go-txt { grid-column: 2; text-align: left; align-items: flex-start; padding: 0 0 0 .6rem; }
 }
+
+/* ===== Footer legal line + legal pages ===== */
+.site-footer .foot-legal { display: block; margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid rgba(246,241,231,.15); }
+.site-footer .foot-legal p { margin: 0; font-size: .82rem; color: rgba(246,241,231,.6); }
+.site-footer .foot-legal a { color: rgba(246,241,231,.8); }
+.legal h2 { font-size: clamp(1.5rem, 3vw, 1.9rem); margin-top: 2.4rem; color: var(--teal-deep); }
+.legal h3 { font-size: 1.15rem; margin-top: 1.6rem; }
+.legal p, .legal li { font-size: 1.02rem; line-height: 1.7; }
+.legal ul { padding-left: 1.3rem; } .legal li { margin: .5rem 0; }
+.legal .muted { color: var(--ink-soft); font-size: .9rem; margin-top: -1rem; }
