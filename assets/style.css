@@ -347,3 +347,20 @@ body.home-zine > * { position: relative; z-index: 1; }
 .legal p, .legal li { font-size: 1.02rem; line-height: 1.7; }
 .legal ul { padding-left: 1.3rem; } .legal li { margin: .5rem 0; }
 .legal .muted { color: var(--ink-soft); font-size: .9rem; margin-top: -1rem; }
+
+/* ===== FAQ page ===== */
+.faq h2 { font-size: clamp(1.5rem, 3vw, 1.9rem); color: var(--teal-deep); margin: 2.6rem 0 .8rem; }
+.faq h2:first-child { margin-top: 0; }
+.faq-group { border-top: 1px solid rgba(29,107,110,.22); }
+.faq details { border-bottom: 1px solid rgba(29,107,110,.22); }
+.faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  padding: 1rem .2rem; font-family: var(--sans); font-weight: 700; font-size: 1.08rem; color: var(--ink); }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; flex: none; font-size: 1.5rem; line-height: 1; font-weight: 400; color: var(--terra-dk); }
+.faq details[open] summary::after { content: "\2212"; }
+.faq summary:hover { color: var(--teal-deep); }
+.faq details > p, .faq details > ul { margin: 0 .2rem 1rem; font-size: 1.02rem; line-height: 1.7; color: var(--ink-soft); }
+.faq details > ul { padding-left: 1.3rem; } .faq details li { margin: .35rem 0; }
+.faq details > :last-child { margin-bottom: 1.3rem; }
+.faq-more { margin-top: 2.6rem; text-align: center; font-size: 1.05rem; }
+
