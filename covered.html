@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-v="20261007a">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is it covered? | Cosmos Yoga</title>
+<meta name="description" content="Internal tool: check whether a film or series is covered by Cosmos Yoga’s MPLC Blanket License.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1d6b6e">
+<link rel="icon" type="image/png" href="assets/favicon.png?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .tool { max-width: 760px; margin: 0 auto; }
+  .tool h2 { font-size: clamp(1.5rem, 3vw, 1.9rem); color: var(--teal-deep); margin: 2.6rem 0 .6rem; }
+  .tool h2:first-child { margin-top: 0; }
+  .searchrow { display: flex; gap: .6rem; flex-wrap: wrap; }
+  .searchrow input { flex: 1 1 260px; font: inherit; font-size: 1.05rem; padding: .8rem 1rem; border: 1.5px solid rgba(29,107,110,.35); border-radius: 12px; background: #fff; color: var(--ink); }
+  .searchrow input:focus { outline: 2px solid var(--teal-mid); outline-offset: 1px; }
+  .searchrow .btn { padding: .8rem 1.4rem; }
+  .tries { margin: .6rem 0 0; font-size: .9rem; color: var(--ink-soft); }
+  .tries button { font: inherit; font-size: .9rem; background: none; border: 0; padding: 0 .2rem; color: var(--terra-dk); cursor: pointer; text-decoration: underline; }
+  .picks { display: grid; gap: .5rem; margin: .4rem 0 1.2rem; }
+  .pick { text-align: left; font: inherit; background: #fff; border: 1.5px solid rgba(29,107,110,.22); border-radius: 12px; padding: .7rem .9rem; cursor: pointer; color: var(--ink); line-height: 1.4; }
+  .pick:hover { border-color: var(--teal-mid); }
+  .pick.on { border-color: var(--teal-deep); box-shadow: inset 0 0 0 1px var(--teal-deep); }
+  .pick .yr { color: var(--ink-soft); font-weight: 600; }
+  .small { font-size: .88rem; } .muted { color: var(--ink-soft); } .warn { color: var(--terra-dk); }
+  .verdict { border-radius: 16px; padding: 1.3rem 1.4rem; background: #fff; border: 1.5px solid rgba(29,107,110,.22); border-left-width: 10px; }
+  .verdict h3 { margin: .1rem 0 .3rem; color: var(--ink); }
+  .verdict-head { margin: 0; text-transform: uppercase; letter-spacing: .22em; font-size: .74rem; font-weight: 700; }
+  .verdict.yes { border-left-color: #2f8a5c; } .verdict.yes .verdict-head { color: #2f8a5c; }
+  .verdict.no { border-left-color: #c2452d; } .verdict.no .verdict-head { color: #c2452d; }
+  .verdict.maybe { border-left-color: var(--saffron); } .verdict.maybe .verdict-head { color: #b57d0e; }
+  .verdict.unknown { border-left-color: #8a8a84; } .verdict.unknown .verdict-head { color: #6d6d68; }
+  table.evidence { width: 100%; border-collapse: collapse; margin: 1rem 0 .6rem; font-size: .95rem; }
+  table.evidence th { text-align: left; font-size: .74rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); padding: .35rem .4rem; border-bottom: 1px solid rgba(29,107,110,.22); }
+  table.evidence td { padding: .5rem .4rem; border-bottom: 1px solid rgba(29,107,110,.12); vertical-align: top; }
+  .tag { display: inline-block; padding: .1rem .5rem; border-radius: 999px; font-size: .82rem; font-weight: 600; background: #e4f1ea; color: #1f6a44; }
+  .tag.weak { background: #fbefd2; color: #8a5f08; } .tag.none { background: #f4e3df; color: #9b3a28; }
+  .rules { background: var(--cream-dk); border-radius: 16px; padding: 1.1rem 1.3rem; margin: 0 0 1.6rem; font-size: .98rem; }
+  .rules ul { margin: .4rem 0 0; padding-left: 1.2rem; } .rules li { margin: .3rem 0; }
+  #moratorium ul { padding-left: 1.2rem; font-size: .95rem; columns: 1; }
+  #moratorium li { margin: .25rem 0; } #moratorium li.mora-past { color: var(--ink-soft); } #moratorium li.mora-active { font-weight: 600; }
+  details.block { border-top: 1px solid rgba(29,107,110,.22); border-bottom: 1px solid rgba(29,107,110,.22); padding: .3rem 0; margin-top: 2rem; }
+  details.block summary { cursor: pointer; font-family: var(--serif); font-size: 1.35rem; font-weight: 600; color: var(--teal-deep); padding: .6rem 0; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><img src="assets/logo-mark.png?v=4" alt="Cosmos Yoga"><span class="cosmos-wordmark brand-wordmark" aria-hidden="true"></span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="teachers.html">Teachers</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </nav>
+</header>
+
+<section class="band teal">
+  <div class="wrap narrow center">
+    <p class="eyebrow">Movie night · team tool</p>
+    <h1 style="color:#fff">Is it covered?</h1>
+    <p class="lead" style="color:rgba(255,255,255,.9)">Type a film or series. We look up who made and distributed it and check them against the rights-holder list MPLC sent Cosmos.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap tool">
+
+    <div class="rules">
+      <strong>Blanket License ground rules</strong> (MPLC’s email, Oct 7, 2026, and the agreement’s §4):
+      <ul>
+        <li><strong>No admission or other fee</strong> for a screening. Concessions and voluntary donations are fine.</li>
+        <li><strong>In public</strong> (website, Instagram, posters outside, press): no title, character names or studio name. Genre and your own art only. You may answer with the title if someone calls, texts or emails.</li>
+        <li><strong>Inside the studio and by direct email</strong> to members: the title is fine.</li>
+        <li>Any legal copy works: your own disc, a purchase, a rental, a streaming account. Not for outdoor screenings.</li>
+      </ul>
+    </div>
+
+    <h2>Check a title</h2>
+    <form id="title-form" class="searchrow" autocomplete="off">
+      <input id="title-q" type="search" placeholder="Film or series title, e.g. Practical Magic" aria-label="Film or series title" required>
+      <button class="btn" type="submit">Check</button>
+    </form>
+    <p class="tries">Try: <button type="button" data-try="Practical Magic">Practical Magic</button> · <button type="button" data-try="Ghostbusters">Ghostbusters</button> · <button type="button" data-try="Dune">Dune</button> · <button type="button" data-try="Hereditary">Hereditary</button> · <button type="button" data-try="The Maltese Falcon">The Maltese Falcon</button></p>
+    <div id="title-results"></div>
+
+    <h2>Search the list by studio</h2>
+    <p class="muted small" id="list-meta">Loading the list…</p>
+    <div class="searchrow"><input id="list-q" type="search" placeholder="Studio or producer name, e.g. Warner, A24, Lionsgate" aria-label="Studio name"></div>
+    <div id="list-results"></div>
+
+    <details class="block">
+      <summary>Titles in moratorium (temporarily unavailable)</summary>
+      <p class="small muted">From “MPLC US Moratorium 2026.pdf”. Disney+/Hulu originals have their own list of available programs on the last page of that PDF.</p>
+      <div id="moratorium"></div>
+    </details>
+
+    <p class="small muted" style="margin-top:2rem">How it works: the title search uses <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a> for the film’s production companies and distributors, then matches those names against the 1,652 rights holders on the list MPLC sent Cosmos (scope “Clubs and Leisure Centers”). It is a strong hint, not a guarantee: a studio can be on the list while a particular title is excluded, and Wikidata can be incomplete. Confirm anything you plan to announce with <a href="mailto:info@mplc.com">info@mplc.com</a>.</p>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap foot-legal">
+    <p>&copy; 2026 Cosmos Yoga, LLC &middot; internal tool, not linked from the site</p>
+  </div>
+</footer>
+
+<script src="assets/covered.js?v=20261007a"></script>
+</body>
+</html>

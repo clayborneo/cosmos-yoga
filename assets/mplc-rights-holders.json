@@ -1,0 +1,6833 @@
+{
+"source": "MPLC US Producer List - Yoga Studio.pdf + MPLC US Moratorium 2026.pdf, sent by MPLC (Alexander Aguila) to Cosmos Yoga on 2026-10-07",
+"scope": "CLU - Clubs and Leisure Centers",
+"built": "2026-10-07",
+"categories": {
+"major": "Major Hollywood Studios & Affiliated Labels",
+"independent": "Independent",
+"tv": "Tv",
+"foreign": "Foreign & International",
+"childrens": "Childrens",
+"faith": "Faith-Based",
+"spanish": "Spanish Language"
+},
+"holders": [
+{
+"name": "101 Films",
+"cat": "independent"
+},
+{
+"name": "12 Yard Productions",
+"cat": "independent"
+},
+{
+"name": "123 Go Films",
+"cat": "independent"
+},
+{
+"name": "13 Films, LLC",
+"cat": "independent"
+},
+{
+"name": "19 TV c/o Fremantle Media North America",
+"cat": "tv"
+},
+{
+"name": "2 Houses BV",
+"cat": "independent"
+},
+{
+"name": "20th Century Studios (fka Twentieth Century Fox Film Corp.)",
+"cat": "major"
+},
+{
+"name": "20th Television",
+"cat": "tv"
+},
+{
+"name": "2929 Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "3 Door Productions",
+"cat": "tv"
+},
+{
+"name": "3DD Entertainment",
+"cat": "tv"
+},
+{
+"name": "41 Entertaiment LLC",
+"cat": "tv"
+},
+{
+"name": "444 Production and Development",
+"cat": "tv"
+},
+{
+"name": "4Friends Film (Banijay)",
+"cat": "tv"
+},
+{
+"name": "51 Minds (Banijay)",
+"cat": "tv"
+},
+{
+"name": "7&7 Producers Sales Services Ltd",
+"cat": "independent"
+},
+{
+"name": "9 Story Media Group",
+"cat": "childrens"
+},
+{
+"name": "99Pro Media Gmbh",
+"cat": "foreign"
+},
+{
+"name": "A Fabrica (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "A Really Happy Film (HK) Ltd. (fka Distribution Workshop",
+"cat": "foreign"
+},
+{
+"name": "A&E Networks Productions",
+"cat": "tv"
+},
+{
+"name": "A. Smith and Co. (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "A24",
+"cat": "independent"
+},
+{
+"name": "Aardman Animations",
+"cat": "childrens"
+},
+{
+"name": "Abbey Home Media",
+"cat": "independent"
+},
+{
+"name": "ABC",
+"cat": "tv"
+},
+{
+"name": "Abot Hameiri",
+"cat": "tv"
+},
+{
+"name": "About Premium Content SAS",
+"cat": "tv"
+},
+{
+"name": "Absolutely Productions",
+"cat": "tv"
+},
+{
+"name": "Absurda c/o F. Altmans and Company",
+"cat": "independent"
+},
+{
+"name": "Acacia",
+"cat": "independent"
+},
+{
+"name": "Ace Entertainment Films Inc",
+"cat": "independent"
+},
+{
+"name": "Ace Entertainment Films UK Ltd",
+"cat": "independent"
+},
+{
+"name": "ACI Communications",
+"cat": "independent"
+},
+{
+"name": "Acorn Media Enterprises Ltd",
+"cat": "tv"
+},
+{
+"name": "Acorn Media Group, Inc.",
+"cat": "tv"
+},
+{
+"name": "Action Concept GmbH ex. Italy (fka Action Concept Film und Stuntproduktion)",
+"cat": "foreign"
+},
+{
+"name": "Action Image Gmbh & Co. KG",
+"cat": "foreign"
+},
+{
+"name": "Action Motion Pictures LLC",
+"cat": "independent"
+},
+{
+"name": "Active Entertainment",
+"cat": "tv"
+},
+{
+"name": "Adhoc Films",
+"cat": "independent"
+},
+{
+"name": "Adult Swim Productions",
+"cat": "tv"
+},
+{
+"name": "Adventure Line Productions (ALP)",
+"cat": "tv"
+},
+{
+"name": "Aenon",
+"cat": "independent"
+},
+{
+"name": "After Dark Films, LLC",
+"cat": "independent"
+},
+{
+"name": "Agatha Christie Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Agents Holding Film Company DAC",
+"cat": "independent"
+},
+{
+"name": "Ager Film",
+"cat": "foreign"
+},
+{
+"name": "AI Film Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Air Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Akkord Film Produktion",
+"cat": "foreign"
+},
+{
+"name": "Al Dakheel Inc c/o Bayt Al Shawareb",
+"cat": "tv"
+},
+{
+"name": "Alberio Films (Sun Belt Express)",
+"cat": "independent"
+},
+{
+"name": "Alchemy Television (Nent)",
+"cat": "tv"
+},
+{
+"name": "Alcina Pictures (ex. Canada)",
+"cat": "independent"
+},
+{
+"name": "Alcon Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Alcon Film Fund LLC",
+"cat": "independent"
+},
+{
+"name": "Alcon Television LLC",
+"cat": "tv"
+},
+{
+"name": "All American Communications",
+"cat": "tv"
+},
+{
+"name": "All American Goodson",
+"cat": "tv"
+},
+{
+"name": "All American Television",
+"cat": "tv"
+},
+{
+"name": "All3Media Deutschland Gmbh",
+"cat": "tv"
+},
+{
+"name": "All3Media International America, LLC",
+"cat": "tv"
+},
+{
+"name": "All3media International Ltd",
+"cat": "tv"
+},
+{
+"name": "All3Media USA, Inc.",
+"cat": "tv"
+},
+{
+"name": "Alley Cat Films",
+"cat": "faith"
+},
+{
+"name": "Allied Communications",
+"cat": "tv"
+},
+{
+"name": "All-In-Production Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Allmedia Pictures (All3Media Deutchsland)",
+"cat": "tv"
+},
+{
+"name": "Aloupis Productions (Safelight)",
+"cat": "independent"
+},
+{
+"name": "Alphablocks Ltd",
+"cat": "childrens"
+},
+{
+"name": "Altitude Films Sales Ltd",
+"cat": "independent"
+},
+{
+"name": "Amazing Maurice Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Amberwood Entertainment",
+"cat": "independent"
+},
+{
+"name": "AMBI Distribution Corp. (pka Ambi Exclusive Aquisitions Co., LLC)",
+"cat": "independent"
+},
+{
+"name": "AMBI Exclusive Acquisitions Co. LLC (pka Icon Film Distribution Pty Ltd)",
+"cat": "independent"
+},
+{
+"name": "AMC Networks Productions LLC",
+"cat": "tv"
+},
+{
+"name": "American Heroes Productions",
+"cat": "tv"
+},
+{
+"name": "American Idol Productions",
+"cat": "tv"
+},
+{
+"name": "American International Pictures Library",
+"cat": "independent"
+},
+{
+"name": "American Portrait Films",
+"cat": "faith"
+},
+{
+"name": "American World Pictures",
+"cat": "independent"
+},
+{
+"name": "AMOS Pictures Ltd",
+"cat": "tv"
+},
+{
+"name": "Andreas Wolff Film",
+"cat": "foreign"
+},
+{
+"name": "Angel City Factory (ACIP, ACP) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Anglia Television",
+"cat": "tv"
+},
+{
+"name": "Angst Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Animaccord Ltd",
+"cat": "foreign"
+},
+{
+"name": "Animaj Investment SPV SAS",
+"cat": "childrens"
+},
+{
+"name": "Animal Planet Productions",
+"cat": "tv"
+},
+{
+"name": "Animalia Productions Pty.",
+"cat": "independent"
+},
+{
+"name": "Annapurna Productions LLC",
+"cat": "independent"
+},
+{
+"name": "Another Brainy Idea",
+"cat": "independent"
+},
+{
+"name": "Ansager & Schipselmann Gmbh & Co.KG",
+"cat": "foreign"
+},
+{
+"name": "Anthem Entertainment",
+"cat": "tv"
+},
+{
+"name": "AP International Films",
+"cat": "foreign"
+},
+{
+"name": "APC Kids SAS",
+"cat": "childrens"
+},
+{
+"name": "Apollo Media",
+"cat": "foreign"
+},
+{
+"name": "Apple Tree Productions",
+"cat": "foreign"
+},
+{
+"name": "Arbitrage LLC",
+"cat": "independent"
+},
+{
+"name": "Arcadia Entertainment Inc.",
+"cat": "tv"
+},
+{
+"name": "Archery Pictures Ltd",
+"cat": "independent"
+},
+{
+"name": "Archstone Distribution",
+"cat": "independent"
+},
+{
+"name": "Arclight Films International Pty Ltd",
+"cat": "independent"
+},
+{
+"name": "ArenaFilm Pty.",
+"cat": "independent"
+},
+{
+"name": "Arenico Productions GmbH",
+"cat": "foreign"
+},
+{
+"name": "Argonon International Ltd.",
+"cat": "tv"
+},
+{
+"name": "Argonon Limited",
+"cat": "tv"
+},
+{
+"name": "Aristos Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Arrow International Media (aka Arrow Media Limited)",
+"cat": "tv"
+},
+{
+"name": "Arte France",
+"cat": "foreign"
+},
+{
+"name": "Artemis Films Limited",
+"cat": "independent"
+},
+{
+"name": "Artisan Entertainment",
+"cat": "independent"
+},
+{
+"name": "Artists Studios (Banijay)",
+"cat": "independent"
+},
+{
+"name": "Ash Entertainment Ltd.",
+"cat": "independent"
+},
+{
+"name": "Asmik Ace, Inc. (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Associated Television International",
+"cat": "tv"
+},
+{
+"name": "Astromech Records (The A-List)",
+"cat": "independent"
+},
+{
+"name": "Atlantic 2000",
+"cat": "independent"
+},
+{
+"name": "Atlantic Productions Limited",
+"cat": "tv"
+},
+{
+"name": "Atlantique Productions",
+"cat": "foreign"
+},
+{
+"name": "Atlantis Film & Video (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Attaboy TV Limited",
+"cat": "tv"
+},
+{
+"name": "August Entertainment",
+"cat": "independent"
+},
+{
+"name": "Augusta Productions dba APL Films",
+"cat": "independent"
+},
+{
+"name": "Aurora TV (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Authentic Entertainment US (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Authentic Media UK (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Autlook Films Sales",
+"cat": "independent"
+},
+{
+"name": "Avalon Distribution Ltd",
+"cat": "tv"
+},
+{
+"name": "Avalon Television",
+"cat": "tv"
+},
+{
+"name": "Awesomeness Distribution",
+"cat": "tv"
+},
+{
+"name": "Azucar Entertainment",
+"cat": "independent"
+},
+{
+"name": "B&B Endemol (B&B Endemol Shine Switzerland)",
+"cat": "tv"
+},
+{
+"name": "Baby Cow Productions Limited",
+"cat": "tv"
+},
+{
+"name": "Back2Back Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Badjelly NZ Ltd",
+"cat": "childrens"
+},
+{
+"name": "Bandai Namco Filmworks Inc. (fka Bandai Namco Art) (ex. Japan)",
+"cat": "independent"
+},
+{
+"name": "Bandicoot Productions Ltd.",
+"cat": "tv"
+},
+{
+"name": "Bandit Television (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Banijay Asia",
+"cat": "foreign"
+},
+{
+"name": "Banijay Belgium (Kanakna:Zodiak Belgium)",
+"cat": "foreign"
+},
+{
+"name": "Banijay Finland (Broadcasters Oy:Zodiak Finland)",
+"cat": "foreign"
+},
+{
+"name": "Banijay France (Banijay Studios France: Zodiak Media France)",
+"cat": "foreign"
+},
+{
+"name": "Banijay Germany (Banijay Media Germany",
+"cat": "foreign"
+},
+{
+"name": "Banijay Iberia (Endemol Iberia:Endemol Shine Iberia)",
+"cat": "foreign"
+},
+{
+"name": "Banijay International",
+"cat": "tv"
+},
+{
+"name": "Banijay Italia (DryMedia:Magnolia TV)",
+"cat": "foreign"
+},
+{
+"name": "Banijay Kids & Family Distribution",
+"cat": "childrens"
+},
+{
+"name": "Banijay Mexico & U.S. Hispanic",
+"cat": "tv"
+},
+{
+"name": "Banijay Nordic",
+"cat": "foreign"
+},
+{
+"name": "Banijay Production Media (fka Air Productions)",
+"cat": "tv"
+},
+{
+"name": "Banijay Rights Ltd dbaZodiak Kids",
+"cat": "childrens"
+},
+{
+"name": "Banijay Rights Ltd. (fka Banijay Int'l & Zodiak Rights)",
+"cat": "tv"
+},
+{
+"name": "Banijay Studios North America",
+"cat": "tv"
+},
+{
+"name": "Banijay Sweden (Zodiak Media AB)",
+"cat": "foreign"
+},
+{
+"name": "Banijay Talent",
+"cat": "foreign"
+},
+{
+"name": "Banijay UK",
+"cat": "tv"
+},
+{
+"name": "Bankside Films",
+"cat": "independent"
+},
+{
+"name": "Bantry Bay Productions",
+"cat": "foreign"
+},
+{
+"name": "Bard Entertainments",
+"cat": "independent"
+},
+{
+"name": "Barefaced TV",
+"cat": "tv"
+},
+{
+"name": "Base Productions (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Bassett Hound",
+"cat": "independent"
+},
+{
+"name": "Bauer Martinez Studios",
+"cat": "independent"
+},
+{
+"name": "Bazal Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "BBL Distribution (The Bold and the Beautiful)",
+"cat": "tv"
+},
+{
+"name": "BBP Music Publishing c/o Black Bear Pictures",
+"cat": "independent"
+},
+{
+"name": "BD Films LLC",
+"cat": "independent"
+},
+{
+"name": "Be Happy Productions",
+"cat": "foreign"
+},
+{
+"name": "Beach Life Studios, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Beacon (c/o IM Global)",
+"cat": "independent"
+},
+{
+"name": "Beak Street Studio Rentals (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Beakus Ltd",
+"cat": "childrens"
+},
+{
+"name": "Beano Productions",
+"cat": "childrens"
+},
+{
+"name": "Bear Hunt Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Beckground TV",
+"cat": "foreign"
+},
+{
+"name": "Bedford Entertainment",
+"cat": "independent"
+},
+{
+"name": "Bedrock Entertainment",
+"cat": "tv"
+},
+{
+"name": "Bee Holider (The Abomination)",
+"cat": "independent"
+},
+{
+"name": "Beetz Brothers",
+"cat": "foreign"
+},
+{
+"name": "Bejuba Entertainment Inc. obo Wishfart Productions",
+"cat": "childrens"
+},
+{
+"name": "Bellum Entertainment LLC",
+"cat": "tv"
+},
+{
+"name": "Belstone Pictures (Paul Dood's Lunchbreak)",
+"cat": "independent"
+},
+{
+"name": "Benaroya Pictures",
+"cat": "independent"
+},
+{
+"name": "Bend it Like Beckham Productions Limited",
+"cat": "tv"
+},
+{
+"name": "Bend It Networks",
+"cat": "tv"
+},
+{
+"name": "Bentley Productions (All3Media)",
+"cat": "tv"
+},
+{
+"name": "BET",
+"cat": "tv"
+},
+{
+"name": "Betty TV Limited",
+"cat": "tv"
+},
+{
+"name": "Bewegte Zeiten Filmproduktion Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Beyond Rights (fka TCB Media Rights)",
+"cat": "foreign"
+},
+{
+"name": "Bicicleta TV",
+"cat": "tv"
+},
+{
+"name": "Big Break Productions",
+"cat": "tv"
+},
+{
+"name": "Big Fish Films",
+"cat": "tv"
+},
+{
+"name": "Big Idea Entertainment",
+"cat": "faith"
+},
+{
+"name": "Big Talk Productions",
+"cat": "tv"
+},
+{
+"name": "Bigger Bang Communications Limited",
+"cat": "tv"
+},
+{
+"name": "Bildergarten Entertainment GmbH (fka Talpa Germany) (ex. DE)",
+"cat": "foreign"
+},
+{
+"name": "Billy Graham Evangelistic Ass. / World Wide Pictures",
+"cat": "faith"
+},
+{
+"name": "Biography Productions",
+"cat": "tv"
+},
+{
+"name": "BKN International AG - All Rights Reserved",
+"cat": "childrens"
+},
+{
+"name": "Black & White Productions, LLC",
+"cat": "independent"
+},
+{
+"name": "Black Bear Studios (\"Find Your Groove\")",
+"cat": "independent"
+},
+{
+"name": "Blacklight (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Blakeway Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Blast! Films Ltd",
+"cat": "tv"
+},
+{
+"name": "Bleiberg Entertainment",
+"cat": "independent"
+},
+{
+"name": "Blink Entertainment Ltd (Blink Films)",
+"cat": "tv"
+},
+{
+"name": "Block 2 Distribution Ltd.",
+"cat": "foreign"
+},
+{
+"name": "Bloodline Pictures",
+"cat": "independent"
+},
+{
+"name": "Blu",
+"cat": "foreign"
+},
+{
+"name": "Blue Ant International Ltd (ex. Canada)",
+"cat": "tv"
+},
+{
+"name": "Blue Ant Media Solutions",
+"cat": "tv"
+},
+{
+"name": "Blue Fox Entertainment 2, LLC",
+"cat": "independent"
+},
+{
+"name": "Blue Marlin Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Blue Mojo Rights Ltd (Mojo Swoptops)",
+"cat": "childrens"
+},
+{
+"name": "Blue Orbit Productions",
+"cat": "independent"
+},
+{
+"name": "Blue Zoo Productions Ltd",
+"cat": "childrens"
+},
+{
+"name": "Blueprint Entertainment (E1 Television)",
+"cat": "tv"
+},
+{
+"name": "BMG Audiovisual Productions (Soundstage / Berlin Live TV)",
+"cat": "independent"
+},
+{
+"name": "BMG Rights Management (US) LLC",
+"cat": "independent"
+},
+{
+"name": "Boat Rocker Rights",
+"cat": "tv"
+},
+{
+"name": "Bobkind c/o F. Altman and Company",
+"cat": "independent"
+},
+{
+"name": "Boc-Pix Limited",
+"cat": "tv"
+},
+{
+"name": "BOI Library Assets, LLC",
+"cat": "independent"
+},
+{
+"name": "Bold Films L.P.",
+"cat": "independent"
+},
+{
+"name": "Bon Voyage Films (All3Media Deutschland GmbH)",
+"cat": "tv"
+},
+{
+"name": "Boogie Entertainment GmbH (The Window series)",
+"cat": "foreign"
+},
+{
+"name": "Boom Cymru TV Ltd",
+"cat": "tv"
+},
+{
+"name": "Boomerang (Twofour Broadcast)",
+"cat": "tv"
+},
+{
+"name": "Boomerang Originals",
+"cat": "tv"
+},
+{
+"name": "BOS Entertainment (dba The Exchange)",
+"cat": "independent"
+},
+{
+"name": "BossaNova Ltd",
+"cat": "tv"
+},
+{
+"name": "Boundless Productions",
+"cat": "tv"
+},
+{
+"name": "Brad Lachman Productions",
+"cat": "independent"
+},
+{
+"name": "Brain Power Studio Inc",
+"cat": "tv"
+},
+{
+"name": "Brainpool-Brainpool TV",
+"cat": "tv"
+},
+{
+"name": "Brainpower TV",
+"cat": "tv"
+},
+{
+"name": "Brainstorm Media",
+"cat": "independent"
+},
+{
+"name": "Bridgestone Multimedia Group (BMG-Global)",
+"cat": "faith"
+},
+{
+"name": "Bright Road Productions, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Bright Spot Content, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Brighter (Endemol Shine UK) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Brinkworth Films Ltd (fka Touch CPWP & Productions)",
+"cat": "independent"
+},
+{
+"name": "BriteSpark Films Ltd",
+"cat": "tv"
+},
+{
+"name": "British Sky Broadcasting Ltd (BSKYB)",
+"cat": "tv"
+},
+{
+"name": "Broll Studio Limited",
+"cat": "independent"
+},
+{
+"name": "Bron Studios USA, Inc.",
+"cat": "independent"
+},
+{
+"name": "Brown Eyed Boy Productions (Banijay)",
+"cat": "independent"
+},
+{
+"name": "BTF (Bildundtonfabrik) GmbH",
+"cat": "foreign"
+},
+{
+"name": "Buena Vista Pictures",
+"cat": "major"
+},
+{
+"name": "Buffalo 8 Productions",
+"cat": "independent"
+},
+{
+"name": "Buffalo Pictures Limited",
+"cat": "tv"
+},
+{
+"name": "Bunim/Murray Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Bwark (Banijay)",
+"cat": "tv"
+},
+{
+"name": "C3 Entertainment",
+"cat": "independent"
+},
+{
+"name": "C4i (DRG - Digital Rights Group)",
+"cat": "tv"
+},
+{
+"name": "Cactus TV (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Cake Entertainment",
+"cat": "childrens"
+},
+{
+"name": "Caliwood Pictures",
+"cat": "independent"
+},
+{
+"name": "Camera Film",
+"cat": "foreign"
+},
+{
+"name": "Candlelight Media",
+"cat": "faith"
+},
+{
+"name": "Cannon Pictures",
+"cat": "major"
+},
+{
+"name": "Capstone Global",
+"cat": "independent"
+},
+{
+"name": "Caravan Media Limited",
+"cat": "tv"
+},
+{
+"name": "Cardiff Productions Limited",
+"cat": "tv"
+},
+{
+"name": "Cargo Film & Releasing",
+"cat": "independent"
+},
+{
+"name": "Carlton Film and Television",
+"cat": "tv"
+},
+{
+"name": "Carlton International Media",
+"cat": "tv"
+},
+{
+"name": "Carmel Creek Productions",
+"cat": "childrens"
+},
+{
+"name": "Carnaby Sales and Distribution",
+"cat": "independent"
+},
+{
+"name": "Carnaby Services, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Cartoon Network Productions",
+"cat": "tv"
+},
+{
+"name": "Cartoonito",
+"cat": "tv"
+},
+{
+"name": "Castle Rock Entertainment",
+"cat": "independent"
+},
+{
+"name": "Castlefield",
+"cat": "tv"
+},
+{
+"name": "Cats & Docs SAS",
+"cat": "independent"
+},
+{
+"name": "Cats on the Roof",
+"cat": "tv"
+},
+{
+"name": "Cattleya",
+"cat": "foreign"
+},
+{
+"name": "CBS Films (2015-2019)",
+"cat": "independent"
+},
+{
+"name": "CBS News",
+"cat": "tv"
+},
+{
+"name": "CBS Television",
+"cat": "tv"
+},
+{
+"name": "CDR Communications",
+"cat": "faith"
+},
+{
+"name": "Celluloid Dreams",
+"cat": "foreign"
+},
+{
+"name": "Celsius Entertainment Limited",
+"cat": "independent"
+},
+{
+"name": "Central Park Media",
+"cat": "childrens"
+},
+{
+"name": "Chalkboard TV",
+"cat": "tv"
+},
+{
+"name": "Channel 4 Learning",
+"cat": "tv"
+},
+{
+"name": "Channel 5",
+"cat": "tv"
+},
+{
+"name": "Channel Four Television: Film Four",
+"cat": "tv"
+},
+{
+"name": "Channel X Limited",
+"cat": "tv"
+},
+{
+"name": "Chapman Entertainment Ltd",
+"cat": "independent"
+},
+{
+"name": "Chapter 2",
+"cat": "independent"
+},
+{
+"name": "Cheetah (Endemol Shine UK) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Chicken Soup for the Soul Entertainment, Inc.",
+"cat": "independent"
+},
+{
+"name": "Choices, Inc.",
+"cat": "faith"
+},
+{
+"name": "Chorion",
+"cat": "independent"
+},
+{
+"name": "Christian Films (fka D Christiano Films)",
+"cat": "faith"
+},
+{
+"name": "Christian History Institute dba Vision Video",
+"cat": "faith"
+},
+{
+"name": "Christian Television Association",
+"cat": "faith"
+},
+{
+"name": "Ciby DA (Muriel's Wedding)",
+"cat": "foreign"
+},
+{
+"name": "Cineflix Media & Productions",
+"cat": "tv"
+},
+{
+"name": "Cinema Holdings SPV1 LLC",
+"cat": "independent"
+},
+{
+"name": "Cinema NX Limited",
+"cat": "independent"
+},
+{
+"name": "Cinematheque Collection",
+"cat": "foreign"
+},
+{
+"name": "Cinemavault International",
+"cat": "independent"
+},
+{
+"name": "Cinetel Films Inc.",
+"cat": "independent"
+},
+{
+"name": "Cineverse (fka Cinedigm)",
+"cat": "independent"
+},
+{
+"name": "Circle of Confusion Television",
+"cat": "tv"
+},
+{
+"name": "Circus Screen Studios Limited",
+"cat": "tv"
+},
+{
+"name": "City Lights Films (\"Crisis\")",
+"cat": "independent"
+},
+{
+"name": "Clapperboard Studios",
+"cat": "tv"
+},
+{
+"name": "Clean Slate Productions (Daddy Issues)",
+"cat": "independent"
+},
+{
+"name": "Clearlake Entertainment",
+"cat": "independent"
+},
+{
+"name": "Clearstory Ltd",
+"cat": "independent"
+},
+{
+"name": "Clock Productions, LLC (fka Hole in the Fence) (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Cloudco LLC (fka American Greetings Entertainment)",
+"cat": "tv"
+},
+{
+"name": "Clover Spy LLC",
+"cat": "tv"
+},
+{
+"name": "Cloverhill Pictures (Brampton's Own)",
+"cat": "independent"
+},
+{
+"name": "Clubdeal Ltd",
+"cat": "independent"
+},
+{
+"name": "CMT",
+"cat": "tv"
+},
+{
+"name": "CNN",
+"cat": "tv"
+},
+{
+"name": "Cobalt Pictures",
+"cat": "independent"
+},
+{
+"name": "Code Entertainment",
+"cat": "independent"
+},
+{
+"name": "Codeblack Entertainment Library titles",
+"cat": "independent"
+},
+{
+"name": "Cohen Media Group, LLC/Cohen Film Collection",
+"cat": "independent"
+},
+{
+"name": "Colin Buchanan",
+"cat": "foreign"
+},
+{
+"name": "Collective Film Group (The Penthouse)",
+"cat": "independent"
+},
+{
+"name": "Cologne-Sitkom Produktions",
+"cat": "foreign"
+},
+{
+"name": "Comedy Central",
+"cat": "tv"
+},
+{
+"name": "Company Pictures (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Concourse Media",
+"cat": "independent"
+},
+{
+"name": "Conker Pictures (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Constantin Entertainment GmbH",
+"cat": "foreign"
+},
+{
+"name": "Constantin Film Verleih GmbH",
+"cat": "foreign"
+},
+{
+"name": "Constantin Television GmbH",
+"cat": "foreign"
+},
+{
+"name": "Contender Limited (E1 Films)",
+"cat": "independent"
+},
+{
+"name": "Content Mint Pty Ltd",
+"cat": "independent"
+},
+{
+"name": "Content Partners (Red Granite Library)",
+"cat": "independent"
+},
+{
+"name": "Content Partners Fund 3 SPV (Walden)",
+"cat": "independent"
+},
+{
+"name": "Content Partners, LLC (Love & Other Impossible Pursuits)",
+"cat": "independent"
+},
+{
+"name": "Content Partners, LLC (Shark Night)",
+"cat": "independent"
+},
+{
+"name": "Content Partners, LLC (Wer)",
+"cat": "independent"
+},
+{
+"name": "Content Rocket Ltd",
+"cat": "independent"
+},
+{
+"name": "Cooking Channel Productions",
+"cat": "tv"
+},
+{
+"name": "Coolabi Productions Ltd",
+"cat": "childrens"
+},
+{
+"name": "Coproduction Office (fka Societe Parisienne de Production)",
+"cat": "foreign"
+},
+{
+"name": "Coriolanus Films Ltd.",
+"cat": "independent"
+},
+{
+"name": "Cornelia Street Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Corus Media Holdings",
+"cat": "tv"
+},
+{
+"name": "Cosgrove Hall Films",
+"cat": "childrens"
+},
+{
+"name": "CP Premiere LLC",
+"cat": "independent"
+},
+{
+"name": "CPE WOWS LLC",
+"cat": "independent"
+},
+{
+"name": "CPL Productions",
+"cat": "tv"
+},
+{
+"name": "CPL Productions Ltd - Celador & Celador International",
+"cat": "tv"
+},
+{
+"name": "Crackit Productions Ltd.",
+"cat": "tv"
+},
+{
+"name": "Cradle Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Crawford McCann Ltd",
+"cat": "tv"
+},
+{
+"name": "Creation Films",
+"cat": "independent"
+},
+{
+"name": "Crime + Investigation Productions",
+"cat": "tv"
+},
+{
+"name": "Critical Content, LLC",
+"cat": "tv"
+},
+{
+"name": "Crook Productions",
+"cat": "independent"
+},
+{
+"name": "Cross Wind Productions",
+"cat": "faith"
+},
+{
+"name": "Crossroad Motion Picture",
+"cat": "faith"
+},
+{
+"name": "Crown Broadway Productions",
+"cat": "independent"
+},
+{
+"name": "Crown Cloverfield Productions",
+"cat": "independent"
+},
+{
+"name": "Crown Entertainment",
+"cat": "faith"
+},
+{
+"name": "Crown Wilshire Productions",
+"cat": "independent"
+},
+{
+"name": "Crux Productions Limited",
+"cat": "tv"
+},
+{
+"name": "Crystal Image Ltd",
+"cat": "independent"
+},
+{
+"name": "Cuarzo Producciones (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Cyber Group Studios",
+"cat": "childrens"
+},
+{
+"name": "Cypress Entertainment L.P. (fka Spyglass Entertainment Group, L.P.)",
+"cat": "independent"
+},
+{
+"name": "Damerei LLC",
+"cat": "independent"
+},
+{
+"name": "Dan Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Dances With Wolves Productions, Inc.",
+"cat": "independent"
+},
+{
+"name": "Dancing Ledge Productions",
+"cat": "tv"
+},
+{
+"name": "Dandy Entertainment Ltd",
+"cat": "independent"
+},
+{
+"name": "Daniel Cormack",
+"cat": "independent"
+},
+{
+"name": "Danish Broadcasting Corporation (ex.Scandinavia)",
+"cat": "foreign"
+},
+{
+"name": "Darlow Smithson Productions (DSP) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Darrall MacQueen Ltd",
+"cat": "independent"
+},
+{
+"name": "Datura Studios (Green Rush)",
+"cat": "independent"
+},
+{
+"name": "David Phillip Morrow and Lucy Morrow",
+"cat": "tv"
+},
+{
+"name": "Davis Films Inc",
+"cat": "independent"
+},
+{
+"name": "Daybreak Pictures (Passion Distribution)",
+"cat": "independent"
+},
+{
+"name": "DAZN",
+"cat": "tv"
+},
+{
+"name": "DBM Films",
+"cat": "faith"
+},
+{
+"name": "DC Films and Television",
+"cat": "major"
+},
+{
+"name": "DCD Rights Ltd",
+"cat": "tv"
+},
+{
+"name": "De Angelis Group c/o Imagem FTV (Titanic Blood & Steel)",
+"cat": "tv"
+},
+{
+"name": "Deadpan Pictures Ltd",
+"cat": "tv"
+},
+{
+"name": "DEF Media Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Definitely (Banijay)",
+"cat": "tv"
+},
+{
+"name": "DeInstitutionalized (Assault on VA-33)",
+"cat": "independent"
+},
+{
+"name": "Delacheroy Films",
+"cat": "independent"
+},
+{
+"name": "Delightful Industries",
+"cat": "tv"
+},
+{
+"name": "Demolition Movie, LLC",
+"cat": "independent"
+},
+{
+"name": "Denhams Broadcast & Digital",
+"cat": "independent"
+},
+{
+"name": "Destination America Productions",
+"cat": "tv"
+},
+{
+"name": "DHX Media (Toronto) Ltd (Wildbrain)",
+"cat": "childrens"
+},
+{
+"name": "Dico Filme LLC",
+"cat": "tv"
+},
+{
+"name": "Digital Rights Group Limited (DRG)(Nent)",
+"cat": "tv"
+},
+{
+"name": "Discovery Channel Productions",
+"cat": "tv"
+},
+{
+"name": "Disney Channel",
+"cat": "tv"
+},
+{
+"name": "Distilled Media Inc (ex. AU,CA,DE,UK) - Secret Santa",
+"cat": "independent"
+},
+{
+"name": "Diverse (Banijay)",
+"cat": "tv"
+},
+{
+"name": "DLG USA Financing, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "DLO Magnolia (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Dlo Producciones (Banijay) (fka DLO)",
+"cat": "foreign"
+},
+{
+"name": "DMLS TV (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Doc & Film International",
+"cat": "foreign"
+},
+{
+"name": "D'Ocon Films",
+"cat": "childrens"
+},
+{
+"name": "Dog Run Productions",
+"cat": "tv"
+},
+{
+"name": "Dogwoof Limited",
+"cat": "independent"
+},
+{
+"name": "Doodle Productions",
+"cat": "independent"
+},
+{
+"name": "Dot to Dot Productions",
+"cat": "childrens"
+},
+{
+"name": "Double Dutch (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Double Dutch International",
+"cat": "independent"
+},
+{
+"name": "Douglas Road (Banijay)",
+"cat": "tv"
+},
+{
+"name": "DPG Media NV (Be-Entertainment) (ex. Belgium)",
+"cat": "foreign"
+},
+{
+"name": "DQ Entertainment",
+"cat": "childrens"
+},
+{
+"name": "Dr Pluto Films",
+"cat": "independent"
+},
+{
+"name": "Dragonfly Film & TV (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Drama Republic Limited",
+"cat": "tv"
+},
+{
+"name": "Dreamscape Media",
+"cat": "childrens"
+},
+{
+"name": "DreamWorks Animation",
+"cat": "major"
+},
+{
+"name": "DreamWorks Classics (fka Classic Media)",
+"cat": "childrens"
+},
+{
+"name": "Dreamworks Pictures (Library Titles)",
+"cat": "major"
+},
+{
+"name": "Dreyfuss/James Productions",
+"cat": "independent"
+},
+{
+"name": "d-rights (aka ADK Emotions Inc)",
+"cat": "foreign"
+},
+{
+"name": "Drive Media Rights Ltd",
+"cat": "independent"
+},
+{
+"name": "DSI by Inverleigh Pty",
+"cat": "independent"
+},
+{
+"name": "Dubow Media Distribution LLC (fka Access Entertainment-Bob's Your Uncle)",
+"cat": "independent"
+},
+{
+"name": "Duck Soup Films",
+"cat": "independent"
+},
+{
+"name": "Dusty Rose Pictures, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Dynamic Television",
+"cat": "tv"
+},
+{
+"name": "E1 Films International",
+"cat": "independent"
+},
+{
+"name": "E1 Television International",
+"cat": "tv"
+},
+{
+"name": "Eagle Eye Drama Ltd",
+"cat": "tv"
+},
+{
+"name": "Eagle vs Bat",
+"cat": "independent"
+},
+{
+"name": "Eaglet Films & Pictures (Piripenguins)",
+"cat": "childrens"
+},
+{
+"name": "Ealing Studios International",
+"cat": "independent"
+},
+{
+"name": "Earth Horizon Productions Limited",
+"cat": "tv"
+},
+{
+"name": "Earth Touch Limited & USA",
+"cat": "tv"
+},
+{
+"name": "East West Documentaries Ltd",
+"cat": "tv"
+},
+{
+"name": "Eastwest Film Distribution GmbH",
+"cat": "foreign"
+},
+{
+"name": "Easy Tiger",
+"cat": "tv"
+},
+{
+"name": "Ebaa Acquisition",
+"cat": "independent"
+},
+{
+"name": "Eccho Rights AB",
+"cat": "foreign"
+},
+{
+"name": "Echelon Studios",
+"cat": "independent"
+},
+{
+"name": "Echo Lake Entertainment",
+"cat": "independent"
+},
+{
+"name": "Ecosse Films Limited",
+"cat": "independent"
+},
+{
+"name": "Edko Films Limited",
+"cat": "foreign"
+},
+{
+"name": "Edward R. Pressman Film Corporation",
+"cat": "independent"
+},
+{
+"name": "Egoli Tossell Film Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Egoli Tossell Film New Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Elastic Studios LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Electric Distribution",
+"cat": "independent"
+},
+{
+"name": "Electric Robin (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Electus LLC",
+"cat": "tv"
+},
+{
+"name": "Element Pictures",
+"cat": "independent"
+},
+{
+"name": "Eleven Film",
+"cat": "independent"
+},
+{
+"name": "Elle Driver",
+"cat": "independent"
+},
+{
+"name": "Embankment Films",
+"cat": "independent"
+},
+{
+"name": "Emperor Motion Pictures (Hong Kong) Ltd",
+"cat": "foreign"
+},
+{
+"name": "Emporium Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Endemol Denmark (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Norway A/S (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Production France (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine & Shine Australia (Banijay) (ex. AU)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Australia: Southern Star (Banijay) (Ex. AU)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Belgium & Capiau Project (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Boomdog (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine Brasil (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Finland (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine France & Case Prod. (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Germany (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Iberia (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine India (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine International",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine IP BV",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Israel (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine Italy (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Latin America (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Netherlands (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine North America (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Poland (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine Portugal (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Scripted (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine South Africa (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Sweden (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Endemol Shine Switzerland",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine Turkey (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol Shine UK/Shine TV (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endemol USA (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Endgame Library Assets LLC",
+"cat": "independent"
+},
+{
+"name": "Endor Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Enlighten Content LLC",
+"cat": "independent"
+},
+{
+"name": "Entertainment Asset Holdings GP c/o Content Partners",
+"cat": "independent"
+},
+{
+"name": "EO International",
+"cat": "faith"
+},
+{
+"name": "eOne Film & TV Content",
+"cat": "tv"
+},
+{
+"name": "eOne Films Canada Inc.",
+"cat": "independent"
+},
+{
+"name": "eOne International",
+"cat": "independent"
+},
+{
+"name": "eOne Television BAP Ltd. (fka Barna Alper)",
+"cat": "tv"
+},
+{
+"name": "eOne Television Productions Ltd.",
+"cat": "tv"
+},
+{
+"name": "eOne Television USA Inc.",
+"cat": "tv"
+},
+{
+"name": "eOne U.S. LP",
+"cat": "independent"
+},
+{
+"name": "Epic Story Media",
+"cat": "childrens"
+},
+{
+"name": "Escapade Media PTY Ltd",
+"cat": "tv"
+},
+{
+"name": "Esmerelda Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Espresso TV",
+"cat": "tv"
+},
+{
+"name": "Essential Christian (fka Memralife)",
+"cat": "faith"
+},
+{
+"name": "Essential Entertainment",
+"cat": "independent"
+},
+{
+"name": "ETA Films (Grace and Grit)",
+"cat": "independent"
+},
+{
+"name": "Eureka",
+"cat": "tv"
+},
+{
+"name": "European Broadcasting Union",
+"cat": "tv"
+},
+{
+"name": "European Children's Film Corporation",
+"cat": "childrens"
+},
+{
+"name": "Euston Films",
+"cat": "tv"
+},
+{
+"name": "Evamere Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Evolution Pictures",
+"cat": "independent"
+},
+{
+"name": "Evra Media Services Inc (fka Opus Distribution)",
+"cat": "independent"
+},
+{
+"name": "Expectation Entertainment Ltd",
+"cat": "independent"
+},
+{
+"name": "Express Filmed Entertainment, LLC",
+"cat": "independent"
+},
+{
+"name": "Eyewell AB",
+"cat": "foreign"
+},
+{
+"name": "Ezeqial Productions (The Dancing Dogs of Dobrova)",
+"cat": "independent"
+},
+{
+"name": "F.l.o.r.i.d.a TV Germany (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Fabel Entertainment",
+"cat": "tv"
+},
+{
+"name": "Fabrication Films",
+"cat": "independent"
+},
+{
+"name": "Fabrik Entertainment LLC",
+"cat": "tv"
+},
+{
+"name": "Fandango Film TV Internet Produktions GmbH",
+"cat": "foreign"
+},
+{
+"name": "Fangoria Video",
+"cat": "independent"
+},
+{
+"name": "FCB Productions",
+"cat": "independent"
+},
+{
+"name": "Fellow Travelers Productions",
+"cat": "tv"
+},
+{
+"name": "Fernsehmacher Gmbh & Co. KG",
+"cat": "foreign"
+},
+{
+"name": "Feudin' Productions",
+"cat": "tv"
+},
+{
+"name": "Fiction Air (Fiction'Air) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Fiction Factory (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Fiction Valley",
+"cat": "foreign"
+},
+{
+"name": "Fifth Season, LLC (fka Endeavor Content, LLC)",
+"cat": "independent"
+},
+{
+"name": "Fifth year Productions",
+"cat": "independent"
+},
+{
+"name": "Fifty Fathoms (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Film & Music Entertainment Ltd",
+"cat": "independent"
+},
+{
+"name": "Film Bridge International",
+"cat": "independent"
+},
+{
+"name": "Film Seekers UK & France",
+"cat": "foreign"
+},
+{
+"name": "Filmexport Group Srl",
+"cat": "foreign"
+},
+{
+"name": "Filmlance Sweden (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Filmpool Entertainment Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Filmpool Fiction Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Filmpool Media Entertainment Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Films of Record Ltd",
+"cat": "independent"
+},
+{
+"name": "Fine Arts Fiji Ltd/Edgey Prod Inc",
+"cat": "foreign"
+},
+{
+"name": "Fine Line Features",
+"cat": "major"
+},
+{
+"name": "Finestripe Productions",
+"cat": "tv"
+},
+{
+"name": "Firecracker Films Limited (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Firecrest Films Ltd",
+"cat": "tv"
+},
+{
+"name": "Fireworks Acquisition Limited",
+"cat": "independent"
+},
+{
+"name": "First Hand Films GmbH",
+"cat": "foreign"
+},
+{
+"name": "Five Apples Ltd",
+"cat": "independent"
+},
+{
+"name": "Five Star Productions",
+"cat": "independent"
+},
+{
+"name": "Fizz (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Flame Distribution Ltd (Sphere Abacus Ltd)",
+"cat": "tv"
+},
+{
+"name": "Flame Television",
+"cat": "tv"
+},
+{
+"name": "Flicker Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Flying Bark Productions",
+"cat": "independent"
+},
+{
+"name": "Flying Saucer Television Ltd (fka Gobstopper North fka Handsome Prod)",
+"cat": "tv"
+},
+{
+"name": "Focus Features",
+"cat": "major"
+},
+{
+"name": "Food Network Productions",
+"cat": "tv"
+},
+{
+"name": "Foresight Unlimited",
+"cat": "independent"
+},
+{
+"name": "Fortissimo Films BV",
+"cat": "foreign"
+},
+{
+"name": "Fortitude International",
+"cat": "independent"
+},
+{
+"name": "Fortune Star Media Limited",
+"cat": "independent"
+},
+{
+"name": "Forum 5 Inc I & II (Cineflix)",
+"cat": "independent"
+},
+{
+"name": "Fox 2000 Films",
+"cat": "major"
+},
+{
+"name": "Fox Entertainment Group (Inc Mar Vista)",
+"cat": "tv"
+},
+{
+"name": "Fox Look",
+"cat": "major"
+},
+{
+"name": "Foxfield Entertainment",
+"cat": "independent"
+},
+{
+"name": "Foxtel Management",
+"cat": "independent"
+},
+{
+"name": "Fragile Films Limited",
+"cat": "independent"
+},
+{
+"name": "Frantic Films Corp. & Releasing",
+"cat": "independent"
+},
+{
+"name": "Free Dolphin Entertainment",
+"cat": "independent"
+},
+{
+"name": "Freeform",
+"cat": "tv"
+},
+{
+"name": "Freezefilm BV",
+"cat": "independent"
+},
+{
+"name": "Fremantle Goodson",
+"cat": "tv"
+},
+{
+"name": "Fremantle International (fka Fremantle Media International)",
+"cat": "tv"
+},
+{
+"name": "Fremantle Productions North America",
+"cat": "tv"
+},
+{
+"name": "FremantleMedia Ltd.",
+"cat": "tv"
+},
+{
+"name": "FremantleMedia North America, Inc.",
+"cat": "tv"
+},
+{
+"name": "Fresh TV Distribution",
+"cat": "tv"
+},
+{
+"name": "Friday TV Nordics (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Friel Kean Films",
+"cat": "tv"
+},
+{
+"name": "Friland Films A/S (ex. Norway)",
+"cat": "foreign"
+},
+{
+"name": "Fuji Creative Corporation (ex. JP)",
+"cat": "foreign"
+},
+{
+"name": "Full Fat Television",
+"cat": "tv"
+},
+{
+"name": "Fulwell 73 Limited",
+"cat": "tv"
+},
+{
+"name": "Futurikon",
+"cat": "independent"
+},
+{
+"name": "FX",
+"cat": "tv"
+},
+{
+"name": "FYI Productions",
+"cat": "tv"
+},
+{
+"name": "Gaga Corporation (ex. JP)",
+"cat": "foreign"
+},
+{
+"name": "Gaia Media Management",
+"cat": "independent"
+},
+{
+"name": "Galloping Entertainment (pka Galloping Films Pty Ltd)",
+"cat": "independent"
+},
+{
+"name": "Gameface Productions",
+"cat": "tv"
+},
+{
+"name": "Gateway Films",
+"cat": "faith"
+},
+{
+"name": "GCF Media, LLC (Gold Circle)",
+"cat": "independent"
+},
+{
+"name": "GEM Global Entertainment Magyar Kft.",
+"cat": "foreign"
+},
+{
+"name": "Gemelli",
+"cat": "independent"
+},
+{
+"name": "Gemini Films & Library Gmbh (Boat Trip)",
+"cat": "independent"
+},
+{
+"name": "Generation X Group GmbH",
+"cat": "foreign"
+},
+{
+"name": "Genesius Pictures",
+"cat": "independent"
+},
+{
+"name": "Genial Productions",
+"cat": "tv"
+},
+{
+"name": "Geteve (GTV) (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Getty Images",
+"cat": "tv"
+},
+{
+"name": "GFM Films & Animation",
+"cat": "independent"
+},
+{
+"name": "Giant Interactive LLC (dba Giant Pictures)",
+"cat": "tv"
+},
+{
+"name": "Ginger Television Productions",
+"cat": "tv"
+},
+{
+"name": "GKF Distribution",
+"cat": "independent"
+},
+{
+"name": "Glowberry Distribution Ltd.",
+"cat": "independent"
+},
+{
+"name": "Goalpost Film Limited",
+"cat": "independent"
+},
+{
+"name": "Goat Films Ltd.",
+"cat": "tv"
+},
+{
+"name": "Gobstopper Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Gold Circle Films LLC",
+"cat": "independent"
+},
+{
+"name": "Goldcrest Films International",
+"cat": "independent"
+},
+{
+"name": "Golden Books Entertainment",
+"cat": "childrens"
+},
+{
+"name": "Golden Network Asia Ltd",
+"cat": "foreign"
+},
+{
+"name": "Golden Scene",
+"cat": "foreign"
+},
+{
+"name": "Good Caper Content",
+"cat": "tv"
+},
+{
+"name": "Good Humor (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Good Times Fernsehproduktions Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Gracie Films Limited (Skellig)",
+"cat": "independent"
+},
+{
+"name": "Granada America",
+"cat": "tv"
+},
+{
+"name": "Granada Film and Television",
+"cat": "independent"
+},
+{
+"name": "Gravier Productions Inc",
+"cat": "independent"
+},
+{
+"name": "Gravitas Ventures",
+"cat": "independent"
+},
+{
+"name": "GRB Entertainment, Inc",
+"cat": "tv"
+},
+{
+"name": "Great Point Media",
+"cat": "tv"
+},
+{
+"name": "Greenboo (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Greenestreet Films LLC",
+"cat": "independent"
+},
+{
+"name": "Greenlight Media GmbH (fka Argo Ventures Gmbh)",
+"cat": "tv"
+},
+{
+"name": "Greenpoint Productions Limited (Only Human)",
+"cat": "independent"
+},
+{
+"name": "Grindstone Entertainment",
+"cat": "independent"
+},
+{
+"name": "Grizzly Adams Productions",
+"cat": "faith"
+},
+{
+"name": "Groenlandia (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Groundswell Productions II LLC",
+"cat": "independent"
+},
+{
+"name": "Grundy International Distribution",
+"cat": "tv"
+},
+{
+"name": "Grundy Television (part of Fremantle Australia)",
+"cat": "tv"
+},
+{
+"name": "Grundy UFA",
+"cat": "foreign"
+},
+{
+"name": "Guinness World Records",
+"cat": "tv"
+},
+{
+"name": "Gurney Productions",
+"cat": "independent"
+},
+{
+"name": "Guru Animation Studio",
+"cat": "childrens"
+},
+{
+"name": "H2 Channel Productions",
+"cat": "tv"
+},
+{
+"name": "H20 Productions (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Half Yard Productions LLC",
+"cat": "tv"
+},
+{
+"name": "Hammer Studios Ltd (pka Hammer Films Legacy Limited)",
+"cat": "independent"
+},
+{
+"name": "Handel Productions",
+"cat": "tv"
+},
+{
+"name": "Handmade Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Hanna-Barbera",
+"cat": "childrens"
+},
+{
+"name": "Hannibal Media (fka Hannibal Pictures)",
+"cat": "independent"
+},
+{
+"name": "Hanway Films Limited",
+"cat": "independent"
+},
+{
+"name": "Hanway Seance Limited (Seance)",
+"cat": "independent"
+},
+{
+"name": "Happy Prince",
+"cat": "tv"
+},
+{
+"name": "Hare and Tortoise",
+"cat": "tv"
+},
+{
+"name": "Hari Productions",
+"cat": "childrens"
+},
+{
+"name": "Harmony Gold USA, Inc",
+"cat": "independent"
+},
+{
+"name": "Hartswood Films Ltd",
+"cat": "tv"
+},
+{
+"name": "Harvey Entertainment",
+"cat": "childrens"
+},
+{
+"name": "Hasbro Studios",
+"cat": "childrens"
+},
+{
+"name": "Haskell Studio Rental",
+"cat": "independent"
+},
+{
+"name": "Hat Trick International Ltd",
+"cat": "tv"
+},
+{
+"name": "Hat Trick Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Hatikvah",
+"cat": "faith"
+},
+{
+"name": "Haunted Pictures",
+"cat": "independent"
+},
+{
+"name": "Haven Entertainment (All Summer's End)",
+"cat": "independent"
+},
+{
+"name": "Hawaii Film Partners Distribution",
+"cat": "independent"
+},
+{
+"name": "Hearst Media Production (fka Litton Syndications)",
+"cat": "tv"
+},
+{
+"name": "Heartland Nordics (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Hello Halo Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Hello Mary Ltd",
+"cat": "tv"
+},
+{
+"name": "Herr P Gmbh (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "HG Distribution",
+"cat": "tv"
+},
+{
+"name": "HGTV Productions",
+"cat": "tv"
+},
+{
+"name": "Hiddenlight Productions Limited",
+"cat": "independent"
+},
+{
+"name": "High Noon Entertainment",
+"cat": "independent"
+},
+{
+"name": "Highland Film Group",
+"cat": "independent"
+},
+{
+"name": "Hindsight Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "History Channel Productions",
+"cat": "tv"
+},
+{
+"name": "History en Español",
+"cat": "tv"
+},
+{
+"name": "HIT Entertainment",
+"cat": "tv"
+},
+{
+"name": "Hodder & Stoughton",
+"cat": "independent"
+},
+{
+"name": "Hoferichter and Jacobs Film",
+"cat": "foreign"
+},
+{
+"name": "Hoho Entertainment",
+"cat": "independent"
+},
+{
+"name": "Holding Pictures LLC",
+"cat": "independent"
+},
+{
+"name": "Hollywood Classics",
+"cat": "independent"
+},
+{
+"name": "Hollywood Pictures",
+"cat": "major"
+},
+{
+"name": "Holoscene LLC (fka Black Monday Film Services)",
+"cat": "independent"
+},
+{
+"name": "Home of the Giant LLC c/o SymPics Int.-Blue Rider",
+"cat": "independent"
+},
+{
+"name": "Home Screen Entertainment",
+"cat": "foreign"
+},
+{
+"name": "Hotsauce TV",
+"cat": "tv"
+},
+{
+"name": "House & Moorhouse Films (Muriel's Wedding)",
+"cat": "independent"
+},
+{
+"name": "House of Tomorrow (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Howard Braunstein Films",
+"cat": "independent"
+},
+{
+"name": "HTM Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Human Factor Netherlands (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Hungry Bear Media Ltd",
+"cat": "independent"
+},
+{
+"name": "Hurricane Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Hybrid LLC",
+"cat": "independent"
+},
+{
+"name": "Hyphenate Media Group (Banijay)",
+"cat": "tv"
+},
+{
+"name": "I & U Produktions",
+"cat": "foreign"
+},
+{
+"name": "Icon Film Distribution Limited",
+"cat": "tv"
+},
+{
+"name": "Icon Films Ltd",
+"cat": "tv"
+},
+{
+"name": "Iconix Co. Ltd",
+"cat": "independent"
+},
+{
+"name": "ID Distribution (Nent)",
+"cat": "tv"
+},
+{
+"name": "Ideas At Work Ltd",
+"cat": "independent"
+},
+{
+"name": "IDTV Film & Video Productions B.V. (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "IFC TV",
+"cat": "tv"
+},
+{
+"name": "IFM World Releasing",
+"cat": "independent"
+},
+{
+"name": "IG Media Holdings LLC",
+"cat": "foreign"
+},
+{
+"name": "Illuminated Film Company Ltd",
+"cat": "independent"
+},
+{
+"name": "IM Global",
+"cat": "independent"
+},
+{
+"name": "IMA (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Image Entertainment",
+"cat": "independent"
+},
+{
+"name": "Image Madacy Entertainment",
+"cat": "independent"
+},
+{
+"name": "Immovable Studios (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Imperium Media Rights Limited",
+"cat": "independent"
+},
+{
+"name": "Impossible Factual Limited",
+"cat": "tv"
+},
+{
+"name": "Incentive Filmed Entertainment",
+"cat": "independent"
+},
+{
+"name": "Incorporated Television Company (ITC)",
+"cat": "tv"
+},
+{
+"name": "Independence Day Productions (Independence Daysaster)",
+"cat": "independent"
+},
+{
+"name": "Independent Film Company",
+"cat": "independent"
+},
+{
+"name": "Indigo Film & Television",
+"cat": "independent"
+},
+{
+"name": "Indus Films",
+"cat": "tv"
+},
+{
+"name": "Industry Releasing",
+"cat": "independent"
+},
+{
+"name": "Infinito Originals Latam",
+"cat": "tv"
+},
+{
+"name": "Informa Media Aviation Week",
+"cat": "independent"
+},
+{
+"name": "Ingenious Collections Limited",
+"cat": "independent"
+},
+{
+"name": "Initial (Endemol Shine UK) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Insight Film Studios",
+"cat": "independent"
+},
+{
+"name": "Inspired Pictures",
+"cat": "independent"
+},
+{
+"name": "Inspired Studios (fka PPI Entertainment)",
+"cat": "independent"
+},
+{
+"name": "Intellectual Property Corporation",
+"cat": "independent"
+},
+{
+"name": "Interlight Films c/o Stuart Benjamin Production Inc.",
+"cat": "independent"
+},
+{
+"name": "Intermedia Music LLC",
+"cat": "independent"
+},
+{
+"name": "International Christian Communications (ICC)",
+"cat": "faith"
+},
+{
+"name": "International Film Forum",
+"cat": "independent"
+},
+{
+"name": "Interstellar Television Ltd (fka Keshet Productions Ltd)",
+"cat": "tv"
+},
+{
+"name": "Investigation Discovery Productions",
+"cat": "tv"
+},
+{
+"name": "IP Random Film LLC (Random Encounters)",
+"cat": "independent"
+},
+{
+"name": "IP Unwanted Film LLC (Abducted 2018)",
+"cat": "independent"
+},
+{
+"name": "Island TV, LLC (fka First and Goal Pictures) (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Itel",
+"cat": "independent"
+},
+{
+"name": "ITN Distribution, Inc.",
+"cat": "independent"
+},
+{
+"name": "ITN Productions, A Division of ITN LTD",
+"cat": "independent"
+},
+{
+"name": "ITV America",
+"cat": "tv"
+},
+{
+"name": "ITV Entertainment",
+"cat": "tv"
+},
+{
+"name": "ITV Movie (Banijay)",
+"cat": "tv"
+},
+{
+"name": "ITV Productions (fka Granada Productions)",
+"cat": "tv"
+},
+{
+"name": "ITV Studios America",
+"cat": "tv"
+},
+{
+"name": "ITV Studios Australia Pty Ltd",
+"cat": "tv"
+},
+{
+"name": "ITV Studios Daytime",
+"cat": "tv"
+},
+{
+"name": "ITV Studios Drama",
+"cat": "tv"
+},
+{
+"name": "ITV Studios Germany GmbH",
+"cat": "foreign"
+},
+{
+"name": "ITV Studios Global Distribution Ltd (fka ITV Global Entertainment Ltd)",
+"cat": "tv"
+},
+{
+"name": "ITV Studios Global Entertainment B.V. (fka Talpa Global B.V.)",
+"cat": "tv"
+},
+{
+"name": "ITV Studios UK",
+"cat": "tv"
+},
+{
+"name": "ITV Wales & West (fka Harlech Television-HTV)",
+"cat": "tv"
+},
+{
+"name": "IWC Media (aka Bullseye, Dangerous, Lucky Day)",
+"cat": "tv"
+},
+{
+"name": "J & M Entertainment",
+"cat": "independent"
+},
+{
+"name": "Jackdaw Films Limited",
+"cat": "tv"
+},
+{
+"name": "Jackie & JJ Productions Limited",
+"cat": "independent"
+},
+{
+"name": "Jamie Oliver Productions - Guppy Productions",
+"cat": "tv"
+},
+{
+"name": "Jamie Oliver Productions (fka Fresh One Production)",
+"cat": "tv"
+},
+{
+"name": "Janus TV Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Jarowskij (Enterprises AB, Finland, Sverdige)",
+"cat": "tv"
+},
+{
+"name": "Java Films",
+"cat": "foreign"
+},
+{
+"name": "JeBeep Films (Door to the Other Side)",
+"cat": "independent"
+},
+{
+"name": "Jeff Pope's Factual Drama",
+"cat": "tv"
+},
+{
+"name": "Jeremiah Films",
+"cat": "faith"
+},
+{
+"name": "JM Shiff Productions - Pirate Islands II",
+"cat": "independent"
+},
+{
+"name": "Johnson Production Group",
+"cat": "tv"
+},
+{
+"name": "Jonathan M Shiff Productions Pty Ltd",
+"cat": "independent"
+},
+{
+"name": "Jonnydepony (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Jukin Media Inc",
+"cat": "independent"
+},
+{
+"name": "Juniper TV",
+"cat": "tv"
+},
+{
+"name": "K5 International GmbH",
+"cat": "foreign"
+},
+{
+"name": "Kadokawa Shoten Co. Ltd.",
+"cat": "foreign"
+},
+{
+"name": "Kaleidoscope Film Distribution Ltd. (ex. UK/IE)",
+"cat": "independent"
+},
+{
+"name": "Kaleidoscope Home Entertainment",
+"cat": "independent"
+},
+{
+"name": "Kalel Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Kalon Media, Inc.",
+"cat": "faith"
+},
+{
+"name": "KAM&KA (ex. CA, CH, ZA)",
+"cat": "foreign"
+},
+{
+"name": "Kathbur Pictures, Inc. (Super Size Me)",
+"cat": "independent"
+},
+{
+"name": "Kavaleer Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Kazoo Films",
+"cat": "childrens"
+},
+{
+"name": "Kedoo",
+"cat": "childrens"
+},
+{
+"name": "Kensington Communications",
+"cat": "independent"
+},
+{
+"name": "KEO Films",
+"cat": "tv"
+},
+{
+"name": "Keshet International UK Ltd",
+"cat": "tv"
+},
+{
+"name": "Kew Media International - Content Film Ltd",
+"cat": "independent"
+},
+{
+"name": "Kew Media International - Winchester Film and TV",
+"cat": "independent"
+},
+{
+"name": "Kew Media International Limited (fka Kew Media Group Inc.)",
+"cat": "independent"
+},
+{
+"name": "Keystone Entertainment Inc. dba Air Bud",
+"cat": "independent"
+},
+{
+"name": "Kickoff Productions",
+"cat": "tv"
+},
+{
+"name": "Kiddinx Studios GmbH",
+"cat": "foreign"
+},
+{
+"name": "Kids Worldwide Factory BV",
+"cat": "foreign"
+},
+{
+"name": "Kidscave Entertainment Productions Ltd",
+"cat": "childrens"
+},
+{
+"name": "Kindle Entertainment (Banijay)",
+"cat": "childrens"
+},
+{
+"name": "King Bert Productions Ltd.",
+"cat": "tv"
+},
+{
+"name": "Kings Road Pictures (A Shot Through the Wall)",
+"cat": "independent"
+},
+{
+"name": "Kirk Shaw Productions Inc.",
+"cat": "independent"
+},
+{
+"name": "KM Production (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Knickerbockerglory Ltd",
+"cat": "tv"
+},
+{
+"name": "Koala Brothers Limited",
+"cat": "childrens"
+},
+{
+"name": "KOAN",
+"cat": "independent"
+},
+{
+"name": "Kometa Films",
+"cat": "foreign"
+},
+{
+"name": "Korda",
+"cat": "foreign"
+},
+{
+"name": "Krasnow Productions",
+"cat": "tv"
+},
+{
+"name": "Kudos Film & Television (Banijay)",
+"cat": "independent"
+},
+{
+"name": "Kwai",
+"cat": "foreign"
+},
+{
+"name": "LA Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Label 1",
+"cat": "tv"
+},
+{
+"name": "Laika Studios",
+"cat": "independent"
+},
+{
+"name": "Lakeshore Village Entertainment",
+"cat": "independent"
+},
+{
+"name": "LALIGA Studios (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Lambent Productions",
+"cat": "tv"
+},
+{
+"name": "Last Passenger Ltd",
+"cat": "tv"
+},
+{
+"name": "Laughing Gravy Media",
+"cat": "childrens"
+},
+{
+"name": "Lazarus Productions Ltd (fka Popkorn Media Limited)",
+"cat": "tv"
+},
+{
+"name": "LBS Communications (aka Lexington Broadcast Communications)",
+"cat": "tv"
+},
+{
+"name": "Le Bureau",
+"cat": "foreign"
+},
+{
+"name": "Leftfield Pictures",
+"cat": "independent"
+},
+{
+"name": "Legacy Filmsworks",
+"cat": "tv"
+},
+{
+"name": "Legendary Television Distribution US",
+"cat": "tv"
+},
+{
+"name": "Leopard Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Leopard Pictures",
+"cat": "tv"
+},
+{
+"name": "L'Etranger Film Productions Ltd. (ex. Canada)",
+"cat": "independent"
+},
+{
+"name": "Let's Play",
+"cat": "tv"
+},
+{
+"name": "Levelk Aps",
+"cat": "foreign"
+},
+{
+"name": "Liberty Bell",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - Comerica",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - Franchise",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - Intermedia",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - Promark",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - Shooting Gallery",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - Thinkfilm",
+"cat": "independent"
+},
+{
+"name": "Library Liquidity - UFO",
+"cat": "independent"
+},
+{
+"name": "Lifetime Channel Productions",
+"cat": "tv"
+},
+{
+"name": "Lifted Entertainment (fka ITV Studios Entertainment)",
+"cat": "tv"
+},
+{
+"name": "Liga Nacional De Futbol Profesional",
+"cat": "independent"
+},
+{
+"name": "Lightbox Media Ltd.",
+"cat": "independent"
+},
+{
+"name": "Lightning Entertainment Group Inc",
+"cat": "independent"
+},
+{
+"name": "Likely Story Limited",
+"cat": "independent"
+},
+{
+"name": "Limbo Entertainment (Limbo)",
+"cat": "independent"
+},
+{
+"name": "Lime Pictures (fka Mersey Television) (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Limelight International Media Entertainment",
+"cat": "independent"
+},
+{
+"name": "Linn Productions",
+"cat": "faith"
+},
+{
+"name": "Lion Television, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Lionsgate Entertainment",
+"cat": "major"
+},
+{
+"name": "Lionsgate Television",
+"cat": "tv"
+},
+{
+"name": "Liquid Motion Film",
+"cat": "tv"
+},
+{
+"name": "Little Dooley Ltd",
+"cat": "tv"
+},
+{
+"name": "Little Door Productions Ltd (The Pact)",
+"cat": "tv"
+},
+{
+"name": "Little Dot Studios, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Little Dragon Productions (Rise of the Dinosaurs)",
+"cat": "independent"
+},
+{
+"name": "Little Pond Television",
+"cat": "tv"
+},
+{
+"name": "Live Entertainment",
+"cat": "independent"
+},
+{
+"name": "Livewire Pictures Ltd",
+"cat": "independent"
+},
+{
+"name": "LMN - Lifetime Movies",
+"cat": "tv"
+},
+{
+"name": "Lock and Key Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "L'Officina (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Lofty Sky Distribution Inc.",
+"cat": "independent"
+},
+{
+"name": "Logo",
+"cat": "tv"
+},
+{
+"name": "London Film Productions",
+"cat": "independent"
+},
+{
+"name": "London Weekend Television",
+"cat": "tv"
+},
+{
+"name": "Lookout Point Ltd",
+"cat": "independent"
+},
+{
+"name": "LOOKS International GmbH (ex. GAS)",
+"cat": "foreign"
+},
+{
+"name": "Lorimar Telepictures",
+"cat": "major"
+},
+{
+"name": "Loud TV",
+"cat": "tv"
+},
+{
+"name": "Lovely Day (Banijay)",
+"cat": "tv"
+},
+{
+"name": "LRW Productions",
+"cat": "tv"
+},
+{
+"name": "Lucasfilm Ltd.",
+"cat": "major"
+},
+{
+"name": "Ludorum",
+"cat": "independent"
+},
+{
+"name": "Lullaby Music and Post",
+"cat": "childrens"
+},
+{
+"name": "Lunet Entertainment Gmbh (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Lupus Films (The Tiger That Came to Tea)",
+"cat": "childrens"
+},
+{
+"name": "Mad Sweeney Productions",
+"cat": "independent"
+},
+{
+"name": "MadeFor (aka MadeFor Film) (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Mag5 Nordics (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Magic Light Pictures Ltd",
+"cat": "childrens"
+},
+{
+"name": "Magical Elves (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Magnetfilm Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Magnify Media",
+"cat": "tv"
+},
+{
+"name": "Magnolia Pictures LLC",
+"cat": "independent"
+},
+{
+"name": "Magnolia TV Espana (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Magnum Media",
+"cat": "tv"
+},
+{
+"name": "Mahoney Media Group, Inc.",
+"cat": "faith"
+},
+{
+"name": "Mainsail LLC (DBA Shoreline Entertainment)",
+"cat": "independent"
+},
+{
+"name": "Mainstreet Pictures",
+"cat": "tv"
+},
+{
+"name": "Malofilm Distribution (E1 Television)",
+"cat": "tv"
+},
+{
+"name": "Mam Tor Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Mammoth Screen",
+"cat": "tv"
+},
+{
+"name": "Man Alive Entertainment Ltd",
+"cat": "tv"
+},
+{
+"name": "Manu Propria Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Maralee Dawn & Friends Ministries (fka Valiant Charitable Society)",
+"cat": "faith"
+},
+{
+"name": "Marathon Productions",
+"cat": "independent"
+},
+{
+"name": "Marathon Studio (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Mark Goodson Television Productions",
+"cat": "tv"
+},
+{
+"name": "Martin Gates (Dreamstone)Productions",
+"cat": "independent"
+},
+{
+"name": "Marvel Studios",
+"cat": "major"
+},
+{
+"name": "Mastiff Denmark (MTV Denmark)",
+"cat": "foreign"
+},
+{
+"name": "Mastiff Norway (MTV Norway)",
+"cat": "foreign"
+},
+{
+"name": "Mastiff Sweden (MTV Sweden)",
+"cat": "foreign"
+},
+{
+"name": "Mattel Inc",
+"cat": "childrens"
+},
+{
+"name": "Maverick Television, Inc (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Maximum Films (E1 Films)",
+"cat": "independent"
+},
+{
+"name": "McDougal Films",
+"cat": "faith"
+},
+{
+"name": "Me Myself & Eye Entertainment Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Medal of Honor Productions",
+"cat": "independent"
+},
+{
+"name": "Media 8 Entertainment",
+"cat": "independent"
+},
+{
+"name": "Media Asia International Distribution Ltd",
+"cat": "foreign"
+},
+{
+"name": "Media I.M. Incorporated Limited",
+"cat": "childrens"
+},
+{
+"name": "Media Res Studio LLC",
+"cat": "independent"
+},
+{
+"name": "Media Targeting Associates",
+"cat": "independent"
+},
+{
+"name": "Medstar Television (CP FF, LLC)",
+"cat": "tv"
+},
+{
+"name": "Melocoton Films",
+"cat": "foreign"
+},
+{
+"name": "Melrose Hill Entertainment",
+"cat": "independent"
+},
+{
+"name": "Mentorn",
+"cat": "tv"
+},
+{
+"name": "Mentorn International (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Mentorn Media",
+"cat": "tv"
+},
+{
+"name": "Mentorn Scotland",
+"cat": "tv"
+},
+{
+"name": "Mentorn USA (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "MEP Capital Holdings II (Hart Sharp Entertainment Library)",
+"cat": "independent"
+},
+{
+"name": "MEP Capital Holdings II, LP (Lotus Entertainment Library)",
+"cat": "independent"
+},
+{
+"name": "MEP Capital Holdings III, LP",
+"cat": "independent"
+},
+{
+"name": "Mercury Studios - Eagle Rock Entertainment",
+"cat": "independent"
+},
+{
+"name": "Meridian Television",
+"cat": "tv"
+},
+{
+"name": "Messenger Films",
+"cat": "faith"
+},
+{
+"name": "Meta Productions GmbH (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Meter Television Sweden (Banijay)",
+"cat": "tv"
+},
+{
+"name": "MetFilm Sales Ltd.",
+"cat": "independent"
+},
+{
+"name": "Method Animation",
+"cat": "independent"
+},
+{
+"name": "Metro International Entertainment Ltd",
+"cat": "independent"
+},
+{
+"name": "Metro-Goldwyn-Mayer (MGM) Studios",
+"cat": "major"
+},
+{
+"name": "Metronome & Metronome Spartacus Denmark (Banijay)",
+"cat": "tv"
+},
+{
+"name": "MGA Entertainment, Inc.",
+"cat": "independent"
+},
+{
+"name": "MIAM! Animation",
+"cat": "childrens"
+},
+{
+"name": "MIAM! Distribution",
+"cat": "childrens"
+},
+{
+"name": "Michael Mailer Films Inc",
+"cat": "independent"
+},
+{
+"name": "Middlechild Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Mighty Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Mike Pritchard (fka International Films)",
+"cat": "faith"
+},
+{
+"name": "Military History Channel Productions",
+"cat": "tv"
+},
+{
+"name": "Millennium Media Inc",
+"cat": "independent"
+},
+{
+"name": "Millimages S.A.",
+"cat": "foreign"
+},
+{
+"name": "Mind The GAP Productions (The Evil Gene)",
+"cat": "tv"
+},
+{
+"name": "Miramax Library",
+"cat": "major"
+},
+{
+"name": "Miso Film (Denmark)",
+"cat": "foreign"
+},
+{
+"name": "Miso Film Norge AS",
+"cat": "foreign"
+},
+{
+"name": "Miso Film Sverige AB",
+"cat": "foreign"
+},
+{
+"name": "Miyu Productions",
+"cat": "independent"
+},
+{
+"name": "MME Fiction Gmbh (All3 Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "MME Movement AG (All3 Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Modern FTV Company (fka China Modern Film & TV)",
+"cat": "foreign"
+},
+{
+"name": "Molten Rock Media Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Mondo TV Spa",
+"cat": "foreign"
+},
+{
+"name": "Monello Productions France (Banijay)",
+"cat": "childrens"
+},
+{
+"name": "Monogram Pictures Library",
+"cat": "major"
+},
+{
+"name": "Monster Entertainment Ltd. (dba Merrion Recording Ltd.)",
+"cat": "independent"
+},
+{
+"name": "Montecristo International Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Monumental Television",
+"cat": "tv"
+},
+{
+"name": "Moonbug Entertainment Limited",
+"cat": "childrens"
+},
+{
+"name": "Moon-Keys International Content",
+"cat": "childrens"
+},
+{
+"name": "Moonrise Media LLC",
+"cat": "independent"
+},
+{
+"name": "Moonstone Entertainment",
+"cat": "independent"
+},
+{
+"name": "Moovie - The Art of Entertainment GmbH",
+"cat": "foreign"
+},
+{
+"name": "Morgan Creek Productions",
+"cat": "independent"
+},
+{
+"name": "Motion Picture Corporation of America (“MPCA”)",
+"cat": "independent"
+},
+{
+"name": "Movieplus Productions (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Movimenti Production Italy (Banijay)",
+"cat": "childrens"
+},
+{
+"name": "Mpower Pictures (Big Fat Important Movie)",
+"cat": "independent"
+},
+{
+"name": "MRC II Distribution Company L.P.",
+"cat": "independent"
+},
+{
+"name": "MRG Entertainment dba Mainline Releasing",
+"cat": "independent"
+},
+{
+"name": "MSR Media Int'l (aka 365 Flix International)",
+"cat": "independent"
+},
+{
+"name": "MTV",
+"cat": "tv"
+},
+{
+"name": "MTV Films",
+"cat": "independent"
+},
+{
+"name": "Multicom Entertainment Group, Inc.",
+"cat": "independent"
+},
+{
+"name": "MultiStory Media (fka Shiver)",
+"cat": "tv"
+},
+{
+"name": "Multivisionnaire Pictures",
+"cat": "independent"
+},
+{
+"name": "Muse Distribution International",
+"cat": "independent"
+},
+{
+"name": "Muse Entertainment Enterprises",
+"cat": "independent"
+},
+{
+"name": "Myriad Pictures",
+"cat": "independent"
+},
+{
+"name": "Naked (fka Naked Television)",
+"cat": "tv"
+},
+{
+"name": "Narrative Capital",
+"cat": "independent"
+},
+{
+"name": "Nasser Group Inc",
+"cat": "independent"
+},
+{
+"name": "Natemme Inc. (dba Nicely Entertainment)",
+"cat": "tv"
+},
+{
+"name": "National Geographic",
+"cat": "tv"
+},
+{
+"name": "NBC/Universal Television",
+"cat": "tv"
+},
+{
+"name": "NDF International Ltd",
+"cat": "tv"
+},
+{
+"name": "Neal Street Productions",
+"cat": "tv"
+},
+{
+"name": "Nelvana International, Limited & Enterprises",
+"cat": "childrens"
+},
+{
+"name": "Nemorin Film & Video",
+"cat": "independent"
+},
+{
+"name": "Nent Studios UK Ltd",
+"cat": "tv"
+},
+{
+"name": "Neon Ink (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Neon Productions, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "NEON Rated LLC",
+"cat": "independent"
+},
+{
+"name": "Network Ireland Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Neue Road Movies Dritte Produktionen GmbH (ex. CA & SE)",
+"cat": "foreign"
+},
+{
+"name": "New Docs EK",
+"cat": "tv"
+},
+{
+"name": "New Dominion Pictures",
+"cat": "tv"
+},
+{
+"name": "New Entertainment Reasearch and Design (aka NERD)",
+"cat": "tv"
+},
+{
+"name": "New Films International",
+"cat": "foreign"
+},
+{
+"name": "New Line Cinema",
+"cat": "major"
+},
+{
+"name": "New Pictures (All3Media)",
+"cat": "tv"
+},
+{
+"name": "New Visions Pictures c/o Sindee Levin, Esq.",
+"cat": "independent"
+},
+{
+"name": "Newman Street",
+"cat": "independent"
+},
+{
+"name": "NFTV (Nordisk Film TV) (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "NHK Enterprises (ex. Canada & Japan)",
+"cat": "foreign"
+},
+{
+"name": "NHNZ Worldwide Limited",
+"cat": "tv"
+},
+{
+"name": "Nickelodeon",
+"cat": "tv"
+},
+{
+"name": "Nickelodeon Movies",
+"cat": "major"
+},
+{
+"name": "Nikkatsu Corporation (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Nine Lives Media Ltd",
+"cat": "tv"
+},
+{
+"name": "Nippon Animation Co. Ltd",
+"cat": "foreign"
+},
+{
+"name": "Nippon Television Network Corporation (ex. Japan)",
+"cat": "tv"
+},
+{
+"name": "NL Film & TV (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "No Pictures Please",
+"cat": "foreign"
+},
+{
+"name": "Noah Holdings, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Noah Media Group Ltd",
+"cat": "tv"
+},
+{
+"name": "Nobody's Hero",
+"cat": "tv"
+},
+{
+"name": "Noho Film and Television",
+"cat": "tv"
+},
+{
+"name": "Noisy Pictures (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Non Stop People France (aka Non Stop Group)",
+"cat": "foreign"
+},
+{
+"name": "Non-Panic (aka Nonpanic) (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Nordisk Banijay",
+"cat": "foreign"
+},
+{
+"name": "Nordisk Film TV (AB, Denmark, Norway, Sweden)",
+"cat": "foreign"
+},
+{
+"name": "Nordisk Group (Denmark, Norway, Sweden)",
+"cat": "foreign"
+},
+{
+"name": "North Hall Productions",
+"cat": "tv"
+},
+{
+"name": "North One Television USA, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Novel Entertainment Ltd",
+"cat": "childrens"
+},
+{
+"name": "NSP (aka NSP Media, Non Stop People Spain)",
+"cat": "foreign"
+},
+{
+"name": "Nucit Ltd",
+"cat": "independent"
+},
+{
+"name": "Number 9 Films",
+"cat": "independent"
+},
+{
+"name": "Nutopia Limited",
+"cat": "tv"
+},
+{
+"name": "Oasis International",
+"cat": "tv"
+},
+{
+"name": "Objective Productions (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Octapixx Worldwide",
+"cat": "tv"
+},
+{
+"name": "October Films Ltd",
+"cat": "tv"
+},
+{
+"name": "Odd Lot Entertainment",
+"cat": "independent"
+},
+{
+"name": "Odin's Eye Entertainment",
+"cat": "independent"
+},
+{
+"name": "Odyssey Media",
+"cat": "independent"
+},
+{
+"name": "Off The Fence BV",
+"cat": "independent"
+},
+{
+"name": "Olga Film GmbH",
+"cat": "foreign"
+},
+{
+"name": "Omnifilm Releasing Ltd. (fka WS Releasing) (ex. Canada)",
+"cat": "independent"
+},
+{
+"name": "Omnilab Pty Limited",
+"cat": "independent"
+},
+{
+"name": "One Potato, Two Potato (All3Media)",
+"cat": "tv"
+},
+{
+"name": "One Village Entertainment",
+"cat": "independent"
+},
+{
+"name": "ONYX Films",
+"cat": "independent"
+},
+{
+"name": "OP Media (Banijay)",
+"cat": "tv"
+},
+{
+"name": "OP Services",
+"cat": "independent"
+},
+{
+"name": "Open Doors International",
+"cat": "faith"
+},
+{
+"name": "Open Mike Productions",
+"cat": "tv"
+},
+{
+"name": "Open Palm Films (Undercliffe)",
+"cat": "independent"
+},
+{
+"name": "Open Range Productions USA",
+"cat": "independent"
+},
+{
+"name": "Open University Worldwide",
+"cat": "independent"
+},
+{
+"name": "Optomen Productions, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Opus One Pictures",
+"cat": "foreign"
+},
+{
+"name": "Orange Eyes Ltd",
+"cat": "childrens"
+},
+{
+"name": "Orange Smarty Ltd",
+"cat": "tv"
+},
+{
+"name": "Origin Entertainment (I Am Mortal)",
+"cat": "independent"
+},
+{
+"name": "Original Media (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Original Productions",
+"cat": "tv"
+},
+{
+"name": "Orion Pictures",
+"cat": "major"
+},
+{
+"name": "Osiris Entertainment",
+"cat": "independent"
+},
+{
+"name": "OTL Productions",
+"cat": "independent"
+},
+{
+"name": "Out of the Blue Worldwide",
+"cat": "independent"
+},
+{
+"name": "Outfit7 Ltd",
+"cat": "childrens"
+},
+{
+"name": "Outpost Entertainment",
+"cat": "tv"
+},
+{
+"name": "Outsider Pictures",
+"cat": "independent"
+},
+{
+"name": "Owl Power Ltd",
+"cat": "independent"
+},
+{
+"name": "Owlegories",
+"cat": "faith"
+},
+{
+"name": "Oxford Scientific Films Ltd",
+"cat": "tv"
+},
+{
+"name": "Oy Filmkompaniet Alpha Ab (ex. Finland)",
+"cat": "foreign"
+},
+{
+"name": "P & P Productions",
+"cat": "independent"
+},
+{
+"name": "Pacific Mercantile Bank",
+"cat": "independent"
+},
+{
+"name": "Palm Plus (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Palm Tree Pictures, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Palomar Television and Film Production SpA (ex. Italy)",
+"cat": "foreign"
+},
+{
+"name": "Pantelion Films",
+"cat": "independent"
+},
+{
+"name": "Parade Media Group",
+"cat": "tv"
+},
+{
+"name": "Parallax Film Productions, Inc (ex. Canada)",
+"cat": "tv"
+},
+{
+"name": "Parallax Independent Limited",
+"cat": "independent"
+},
+{
+"name": "Parallax Pictures Limited",
+"cat": "independent"
+},
+{
+"name": "Paramount Classics",
+"cat": "major"
+},
+{
+"name": "Paramount Insurge",
+"cat": "independent"
+},
+{
+"name": "Paramount Network (fka Spike TV)",
+"cat": "tv"
+},
+{
+"name": "Paramount Pictures",
+"cat": "major"
+},
+{
+"name": "Paramount Vantage",
+"cat": "major"
+},
+{
+"name": "Park Circus Ltd. (fka Arts Alliance Ltd)",
+"cat": "independent"
+},
+{
+"name": "Park Entertainment Limited",
+"cat": "independent"
+},
+{
+"name": "Parthenon Entertainment Group",
+"cat": "tv"
+},
+{
+"name": "Partridge Films",
+"cat": "tv"
+},
+{
+"name": "Passenger",
+"cat": "tv"
+},
+{
+"name": "Passion Distribution Ltd",
+"cat": "tv"
+},
+{
+"name": "Passion Pictures Ltd (fka Passion Docs Ltd)",
+"cat": "tv"
+},
+{
+"name": "Pathe Fund Ltd.",
+"cat": "independent"
+},
+{
+"name": "Pathe Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Paypermoon Italia SRL (ex. IT)",
+"cat": "foreign"
+},
+{
+"name": "PCB Productions (The Phoenix Incident)",
+"cat": "independent"
+},
+{
+"name": "Peace Point Rights",
+"cat": "tv"
+},
+{
+"name": "Peacock Alley Entertainment",
+"cat": "tv"
+},
+{
+"name": "Pearson Television",
+"cat": "tv"
+},
+{
+"name": "Pesky Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Peter Pan Video",
+"cat": "childrens"
+},
+{
+"name": "PFG Entertainment Inc",
+"cat": "independent"
+},
+{
+"name": "PG Productions Services",
+"cat": "foreign"
+},
+{
+"name": "PGS Company SA (f/k/a PGS HK Limited)",
+"cat": "foreign"
+},
+{
+"name": "PGS Entertainment",
+"cat": "tv"
+},
+{
+"name": "Phoenix Pictures",
+"cat": "independent"
+},
+{
+"name": "Pi Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Picnic Productions Pty Ltd",
+"cat": "independent"
+},
+{
+"name": "Picturehouse (pre-2008 Library pictures)",
+"cat": "major"
+},
+{
+"name": "Pilot Film and Television Productions",
+"cat": "tv"
+},
+{
+"name": "Pineapple Entertainment (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Pioneer Productions (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Pipkins Productions (Monty & Co)",
+"cat": "tv"
+},
+{
+"name": "Pixar Animation Studios",
+"cat": "major"
+},
+{
+"name": "Plaion Pictures GmbH (fka Koch Films GmbH fka KSM GmbH)",
+"cat": "foreign"
+},
+{
+"name": "Planet Nemo Animation",
+"cat": "childrens"
+},
+{
+"name": "Platinum Films",
+"cat": "tv"
+},
+{
+"name": "Plimsoll Productions",
+"cat": "tv"
+},
+{
+"name": "Plug-in Media Group Ltd.",
+"cat": "childrens"
+},
+{
+"name": "Plum Pictures Ltd",
+"cat": "tv"
+},
+{
+"name": "Pokeepsie (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Polygram Filmed Entertainment (Library titles)",
+"cat": "independent"
+},
+{
+"name": "Polyphon Film - Und Fernsehgesellschaft Mbh",
+"cat": "foreign"
+},
+{
+"name": "Polyscreen Produktiongesellschaft Mbh",
+"cat": "foreign"
+},
+{
+"name": "Poorhouse International Limited",
+"cat": "independent"
+},
+{
+"name": "Porpoise Productions",
+"cat": "independent"
+},
+{
+"name": "Portfolio Entertainment Inc",
+"cat": "childrens"
+},
+{
+"name": "Portfolio Funding Company LLC I (PFC)",
+"cat": "independent"
+},
+{
+"name": "Portman Film and Television (Nent)",
+"cat": "independent"
+},
+{
+"name": "Portocabo (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Portsmouth Pictures",
+"cat": "independent"
+},
+{
+"name": "Posh Productions (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Possessed",
+"cat": "tv"
+},
+{
+"name": "Potato",
+"cat": "tv"
+},
+{
+"name": "Power Entertainment Media Ltd",
+"cat": "tv"
+},
+{
+"name": "Powerkids Entertainment (Singapore) Ptd Ltd",
+"cat": "childrens"
+},
+{
+"name": "Powerkids Entertainment 2 (Singapore) Ptd Ltd",
+"cat": "childrens"
+},
+{
+"name": "Praesens Film",
+"cat": "foreign"
+},
+{
+"name": "Praise Home Video",
+"cat": "faith"
+},
+{
+"name": "Prayer Flag Pictures Ltd",
+"cat": "independent"
+},
+{
+"name": "Premiere Entertainment Group",
+"cat": "independent"
+},
+{
+"name": "Presentable (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Primal Media Ltd",
+"cat": "tv"
+},
+{
+"name": "Prime Productions Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Primeworks",
+"cat": "foreign"
+},
+{
+"name": "Princ Films",
+"cat": "independent"
+},
+{
+"name": "Princess Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Producers at Work Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Production Concept GmbH (fka Action Concept/Production Concept GmbH)",
+"cat": "foreign"
+},
+{
+"name": "Propagate Content",
+"cat": "tv"
+},
+{
+"name": "Protagonist Pictures Ltd obo Freeway Cam BV",
+"cat": "independent"
+},
+{
+"name": "Protocol (Focus)",
+"cat": "independent"
+},
+{
+"name": "Proudfoot Ltd",
+"cat": "tv"
+},
+{
+"name": "Pueblo AG",
+"cat": "foreign"
+},
+{
+"name": "Pulse Films Limited",
+"cat": "tv"
+},
+{
+"name": "Pulser Productions (Sinkhole)",
+"cat": "independent"
+},
+{
+"name": "Pyramide SAS",
+"cat": "foreign"
+},
+{
+"name": "Q Pootle 5",
+"cat": "childrens"
+},
+{
+"name": "QD3 Entertainment, Inc.",
+"cat": "independent"
+},
+{
+"name": "QITV Ltd",
+"cat": "tv"
+},
+{
+"name": "Quay Street Productions",
+"cat": "tv"
+},
+{
+"name": "Quicksilver Media",
+"cat": "tv"
+},
+{
+"name": "Quigley Village",
+"cat": "faith"
+},
+{
+"name": "Quiver Distribution",
+"cat": "independent"
+},
+{
+"name": "Quiver Entertainment",
+"cat": "independent"
+},
+{
+"name": "Rabbit Track Pictures (Banijay)",
+"cat": "independent"
+},
+{
+"name": "Radical Media - Park Bench film",
+"cat": "independent"
+},
+{
+"name": "Radical Sheep Productions",
+"cat": "tv"
+},
+{
+"name": "Rain Media Entertainment (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Rainbow Media Holding LLC",
+"cat": "tv"
+},
+{
+"name": "Rainbow Media Holdings LLC: AMC Network Entertertainment",
+"cat": "tv"
+},
+{
+"name": "Rainbow Spa (ex.Italy)",
+"cat": "foreign"
+},
+{
+"name": "Rainmaker Content Ltd",
+"cat": "tv"
+},
+{
+"name": "Raise the Roof Productions",
+"cat": "tv"
+},
+{
+"name": "Rallie",
+"cat": "independent"
+},
+{
+"name": "Ramona Productions (ex. CA, CH, ZA)",
+"cat": "foreign"
+},
+{
+"name": "Random House Studio",
+"cat": "childrens"
+},
+{
+"name": "Rank Films",
+"cat": "independent"
+},
+{
+"name": "Rare Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Rat Pack Filmproduktion Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Raw Cut Distribution",
+"cat": "tv"
+},
+{
+"name": "Raw Cut PI",
+"cat": "tv"
+},
+{
+"name": "Raw Cut Productions",
+"cat": "tv"
+},
+{
+"name": "Raw Cut Television",
+"cat": "tv"
+},
+{
+"name": "Raw Cut Ventures",
+"cat": "tv"
+},
+{
+"name": "Raw Television",
+"cat": "tv"
+},
+{
+"name": "Raw, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Raydar Media",
+"cat": "childrens"
+},
+{
+"name": "RDF Media & Television West (Banijay)",
+"cat": "tv"
+},
+{
+"name": "RDF USA (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Reason8 Films Ltd (including AV Pictures Library)",
+"cat": "independent"
+},
+{
+"name": "Recorded Picture Company",
+"cat": "independent"
+},
+{
+"name": "Red Apple Productions Inc. II (Frantic Films)",
+"cat": "independent"
+},
+{
+"name": "Red Dragon Acquisitions II Limited (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Red House Television",
+"cat": "tv"
+},
+{
+"name": "Red Kite Animation",
+"cat": "independent"
+},
+{
+"name": "Red Planet Pictures",
+"cat": "tv"
+},
+{
+"name": "Red Production Company",
+"cat": "tv"
+},
+{
+"name": "Red Sauce",
+"cat": "tv"
+},
+{
+"name": "Red Seven Entertainment Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Red Shoes Inc (Zalman King Company LLC)",
+"cat": "independent"
+},
+{
+"name": "Redbad Film BV",
+"cat": "foreign"
+},
+{
+"name": "RedRover",
+"cat": "childrens"
+},
+{
+"name": "Reef Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Reel One Entertainment",
+"cat": "tv"
+},
+{
+"name": "Reel To Real",
+"cat": "faith"
+},
+{
+"name": "Reel World Management US Inc",
+"cat": "independent"
+},
+{
+"name": "Reg Grundy Productions",
+"cat": "tv"
+},
+{
+"name": "Regent Entertainment Partnership",
+"cat": "independent"
+},
+{
+"name": "Reinvent Studios (ex. Scandinavia)",
+"cat": "foreign"
+},
+{
+"name": "Remarkable Entertainment & Television (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Remedy Pictures Ltd",
+"cat": "tv"
+},
+{
+"name": "Republic Pictures",
+"cat": "major"
+},
+{
+"name": "Respirator (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Retort",
+"cat": "independent"
+},
+{
+"name": "Revelation Films",
+"cat": "independent"
+},
+{
+"name": "Revolution Studios Distribution Company",
+"cat": "independent"
+},
+{
+"name": "Rex",
+"cat": "tv"
+},
+{
+"name": "RG Studio d.o.o.",
+"cat": "tv"
+},
+{
+"name": "Richard Glasser fka Richroe Inc",
+"cat": "independent"
+},
+{
+"name": "Rigel Independent Distribution & Entertainment",
+"cat": "independent"
+},
+{
+"name": "Right Stuf Inc",
+"cat": "independent"
+},
+{
+"name": "Ringel Film GmbH",
+"cat": "foreign"
+},
+{
+"name": "Rive Gauche Television",
+"cat": "tv"
+},
+{
+"name": "River Road",
+"cat": "independent"
+},
+{
+"name": "Riverdog Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Rize USA",
+"cat": "tv"
+},
+{
+"name": "RKO Pictures Library",
+"cat": "major"
+},
+{
+"name": "RLJ Entertainment",
+"cat": "independent"
+},
+{
+"name": "Road Movies GmbH d/b/a Neue Road Movies GmbH",
+"cat": "foreign"
+},
+{
+"name": "Roadside Attractions",
+"cat": "independent"
+},
+{
+"name": "Roche Productions",
+"cat": "independent"
+},
+{
+"name": "Rockerdale Studios Ltd",
+"cat": "tv"
+},
+{
+"name": "Rocket Distribution Ltd",
+"cat": "tv"
+},
+{
+"name": "Rocket Science Industries, Ltd.",
+"cat": "independent"
+},
+{
+"name": "Rollercoaster Television",
+"cat": "tv"
+},
+{
+"name": "Romulus Films Ltd (fka Romulus Library)",
+"cat": "foreign"
+},
+{
+"name": "Rosebank AG",
+"cat": "foreign"
+},
+{
+"name": "Roulette Entertainment (dba Film Engine)",
+"cat": "independent"
+},
+{
+"name": "Route 24",
+"cat": "tv"
+},
+{
+"name": "RSJ Films Ltd.",
+"cat": "tv"
+},
+{
+"name": "RTE",
+"cat": "tv"
+},
+{
+"name": "Rubicon TV Norway (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Ruby Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Rugged Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Rumpole, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Rumpus Media Ltd",
+"cat": "independent"
+},
+{
+"name": "Russ Doughten Films",
+"cat": "faith"
+},
+{
+"name": "Saboteur Media LLC",
+"cat": "independent"
+},
+{
+"name": "Saffron Cherry TV",
+"cat": "tv"
+},
+{
+"name": "Saltbeef Productions",
+"cat": "tv"
+},
+{
+"name": "Samka Animation (ex. CA, CH, ZA)",
+"cat": "childrens"
+},
+{
+"name": "Samka Productions (ex. CA, CH, ZA)",
+"cat": "childrens"
+},
+{
+"name": "Sanrio Global",
+"cat": "independent"
+},
+{
+"name": "SC Films International",
+"cat": "independent"
+},
+{
+"name": "SC Global Media",
+"cat": "independent"
+},
+{
+"name": "Scatena & Rosner Media LLC",
+"cat": "independent"
+},
+{
+"name": "Scenery (aka Totem Media) (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Scholastic Entertainment",
+"cat": "childrens"
+},
+{
+"name": "SCI (Science Channel) Productions",
+"cat": "tv"
+},
+{
+"name": "Score Draw Media Ltd",
+"cat": "childrens"
+},
+{
+"name": "Scorpion TV Ltd",
+"cat": "tv"
+},
+{
+"name": "Scott Ballard Films (Friday Afternoon in the Universe)",
+"cat": "independent"
+},
+{
+"name": "Scott Free Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Screen Glue Ltd",
+"cat": "independent"
+},
+{
+"name": "Screen Line Productions (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Screen Media Ventures",
+"cat": "independent"
+},
+{
+"name": "Screenchannel (Argonon)",
+"cat": "tv"
+},
+{
+"name": "Scythia Films (Percy vs Goliath)",
+"cat": "tv"
+},
+{
+"name": "Sealight Pictures",
+"cat": "tv"
+},
+{
+"name": "Seapoint Productions",
+"cat": "foreign"
+},
+{
+"name": "Searchlight Pictures (fka Fox Searchlight Pictures)",
+"cat": "major"
+},
+{
+"name": "Second Act Productions",
+"cat": "tv"
+},
+{
+"name": "See Films Inc (Blue Rider)",
+"cat": "independent"
+},
+{
+"name": "Selznick International Library",
+"cat": "major"
+},
+{
+"name": "SEPIA Lifestyle Oracle",
+"cat": "foreign"
+},
+{
+"name": "September Films",
+"cat": "independent"
+},
+{
+"name": "Serial Maven",
+"cat": "independent"
+},
+{
+"name": "Serious Lunch Limited (Monty & Co)",
+"cat": "childrens"
+},
+{
+"name": "Serious Lunch LTD",
+"cat": "childrens"
+},
+{
+"name": "Seven Arts Pictures",
+"cat": "independent"
+},
+{
+"name": "Seven Arts Productions (Library Titles)",
+"cat": "independent"
+},
+{
+"name": "Seven Network (Operations) Ltd",
+"cat": "tv"
+},
+{
+"name": "Seven Stories USA Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Seven.One Studios Intl GmbH (fka Red Arrow Studios Intl Gmbh)",
+"cat": "foreign"
+},
+{
+"name": "Seville Pictures (E1 Films)",
+"cat": "independent"
+},
+{
+"name": "Shadow Pine Studios",
+"cat": "independent"
+},
+{
+"name": "Shaftesbury Films",
+"cat": "tv"
+},
+{
+"name": "Sharp Jack (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Shavick Entertainment",
+"cat": "tv"
+},
+{
+"name": "Shin Ei Animation (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Shine Fiction France (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Shiny Button (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Shochiku Co Ltd",
+"cat": "foreign"
+},
+{
+"name": "Shogakukan Music and Digital Entertainment (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Shogakukan Shueisha Production",
+"cat": "foreign"
+},
+{
+"name": "Short Form Film (JJ I) Ltd",
+"cat": "independent"
+},
+{
+"name": "Shotglass Media",
+"cat": "independent"
+},
+{
+"name": "Showcase Entertainment",
+"cat": "independent"
+},
+{
+"name": "Showcase for Kids",
+"cat": "childrens"
+},
+{
+"name": "Shownet Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Side By Side Films",
+"cat": "faith"
+},
+{
+"name": "Sideways",
+"cat": "independent"
+},
+{
+"name": "Sidney Kimmel Entertainment",
+"cat": "independent"
+},
+{
+"name": "Sidney Street (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Sierra/Affinity",
+"cat": "independent"
+},
+{
+"name": "Silver Mountain Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Silverback Films (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Silvergate Media",
+"cat": "independent"
+},
+{
+"name": "Silvergate PPL Limited",
+"cat": "independent"
+},
+{
+"name": "Silverlining Rights Ltd",
+"cat": "tv"
+},
+{
+"name": "Silverprint Pictures",
+"cat": "tv"
+},
+{
+"name": "Simon's Cat (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Simpel Media-Zodiak (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Sinking Ship Entertainment",
+"cat": "childrens"
+},
+{
+"name": "Sirens Media",
+"cat": "tv"
+},
+{
+"name": "Sister Pictures Ltd",
+"cat": "independent"
+},
+{
+"name": "Sixteen Films",
+"cat": "independent"
+},
+{
+"name": "Sixteen South Limited",
+"cat": "tv"
+},
+{
+"name": "Sky UK (fka British Sky Broadcasting)",
+"cat": "tv"
+},
+{
+"name": "Slanted Wheel Entertainment",
+"cat": "independent"
+},
+{
+"name": "Slingshot Pictures",
+"cat": "independent"
+},
+{
+"name": "Smithsonian",
+"cat": "tv"
+},
+{
+"name": "SND S. A. (fka SNC-M6)",
+"cat": "foreign"
+},
+{
+"name": "Snow Globe Productions",
+"cat": "independent"
+},
+{
+"name": "Snowman Productions Denmark (ex. Denmark)",
+"cat": "foreign"
+},
+{
+"name": "Snowman Productions Norway",
+"cat": "foreign"
+},
+{
+"name": "SNP Media Netherlands (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "SO Television",
+"cat": "tv"
+},
+{
+"name": "Solid Entertainment",
+"cat": "independent"
+},
+{
+"name": "Sonar Entertainment LLC",
+"cat": "independent"
+},
+{
+"name": "Sony Creative Products (Gaspard & Lisa) ex. Japan",
+"cat": "foreign"
+},
+{
+"name": "Sony Pictures Classics",
+"cat": "independent"
+},
+{
+"name": "Sound Venture Productions Ottawa (Ole)",
+"cat": "independent"
+},
+{
+"name": "South Hope Street Music",
+"cat": "tv"
+},
+{
+"name": "South Shore Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Southfields (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "SP JGAG LLC c/o BSFG LLC",
+"cat": "tv"
+},
+{
+"name": "SP Passive Income Investors, LLC",
+"cat": "independent"
+},
+{
+"name": "Space Enterprises LTd",
+"cat": "independent"
+},
+{
+"name": "Spark Media Partners",
+"cat": "tv"
+},
+{
+"name": "Spark Productions Ltd",
+"cat": "faith"
+},
+{
+"name": "Sparkle Collection Ltd (fka Brown Bob Cymru Ltd)",
+"cat": "tv"
+},
+{
+"name": "Special Treats Distribution",
+"cat": "independent"
+},
+{
+"name": "Spellbound Entertainment",
+"cat": "independent"
+},
+{
+"name": "Spelthorne Community TV (All I Wanted for Christmas)",
+"cat": "tv"
+},
+{
+"name": "Sphere Abacus Ltd (fka Abacus Media Rights Ltd)",
+"cat": "tv"
+},
+{
+"name": "Spiegel TV",
+"cat": "foreign"
+},
+{
+"name": "Spin Master Ltd",
+"cat": "childrens"
+},
+{
+"name": "Splash Entertainment",
+"cat": "childrens"
+},
+{
+"name": "Spun Gold TV Ltd",
+"cat": "tv"
+},
+{
+"name": "Spyglass Media Group c/o Lionsgate",
+"cat": "independent"
+},
+{
+"name": "Spyglass Media Group, LLC (fka Lantern Entertainment LLC)",
+"cat": "independent"
+},
+{
+"name": "SSG Produktion und Vertriebs GmbH",
+"cat": "independent"
+},
+{
+"name": "St Benedict Press",
+"cat": "faith"
+},
+{
+"name": "Stan and Gran Productions",
+"cat": "childrens"
+},
+{
+"name": "Star Content Ltd",
+"cat": "tv"
+},
+{
+"name": "Star TV Medya Hizmetleri A.S.",
+"cat": "foreign"
+},
+{
+"name": "Starlight Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Starline Entertainment Ltd",
+"cat": "tv"
+},
+{
+"name": "Stars North (Woman in Motion)",
+"cat": "independent"
+},
+{
+"name": "Starz/Anchor Bay",
+"cat": "independent"
+},
+{
+"name": "STC Studios (fka STV fka Scottish Media Group)",
+"cat": "tv"
+},
+{
+"name": "Stephen David Entertainment (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Stephen J Cannell Productions",
+"cat": "tv"
+},
+{
+"name": "STO-CPH Productions Nordics (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Storm Entertainment",
+"cat": "independent"
+},
+{
+"name": "Storyboard Media",
+"cat": "independent"
+},
+{
+"name": "Storyteller Distribution Co., LLC c/o Amblin",
+"cat": "independent"
+},
+{
+"name": "Straight Forward (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Strike Global Ltd (Football Fantastics)",
+"cat": "tv"
+},
+{
+"name": "Striped Zebra Productions Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Studio 100 International GmbH (M4E GmbH library)",
+"cat": "foreign"
+},
+{
+"name": "Studio A/S Nordics (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Studio Bozzetto & CO",
+"cat": "foreign"
+},
+{
+"name": "Studio Chizu LLP (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Studio Lambert Associates USA, Inc (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Studio Lambert Media, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Studio Production Servies",
+"cat": "tv"
+},
+{
+"name": "Studio Soho Distribution Limited",
+"cat": "independent"
+},
+{
+"name": "Studio.TV.Film GmbH",
+"cat": "foreign"
+},
+{
+"name": "StudioCanal S.A.",
+"cat": "foreign"
+},
+{
+"name": "Studiocanal TV GmbH/The Lost Future",
+"cat": "tv"
+},
+{
+"name": "STV Central",
+"cat": "tv"
+},
+{
+"name": "STV Drama",
+"cat": "tv"
+},
+{
+"name": "STV Entertainment",
+"cat": "tv"
+},
+{
+"name": "STV Factual",
+"cat": "tv"
+},
+{
+"name": "STV North",
+"cat": "tv"
+},
+{
+"name": "STV Studios (fka Scottish Media Group)",
+"cat": "tv"
+},
+{
+"name": "STV/Linkee Television Ltd",
+"cat": "independent"
+},
+{
+"name": "STX (Lionsgate) Library",
+"cat": "major"
+},
+{
+"name": "SubMotion Productions",
+"cat": "independent"
+},
+{
+"name": "Subotica Ltd",
+"cat": "foreign"
+},
+{
+"name": "Summit Entertainment",
+"cat": "independent"
+},
+{
+"name": "Sundance Film Holdings",
+"cat": "tv"
+},
+{
+"name": "Sundog Pictures Limited",
+"cat": "independent"
+},
+{
+"name": "Sunset + Vine (aka Sunset and Vine - Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "SunWorld Pictures",
+"cat": "independent"
+},
+{
+"name": "Supamonks",
+"cat": "childrens"
+},
+{
+"name": "Supercollider",
+"cat": "tv"
+},
+{
+"name": "Survival (fka Survival Wilderness)",
+"cat": "tv"
+},
+{
+"name": "Sustainable Films (The Revolution Generation)",
+"cat": "independent"
+},
+{
+"name": "Swing Vote - The Movie Productions, LLC",
+"cat": "independent"
+},
+{
+"name": "Syfy Films (Chupacabra vs. The Alamo)",
+"cat": "tv"
+},
+{
+"name": "Taglicht Media Film & Fernsehproduktion Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Talkback",
+"cat": "tv"
+},
+{
+"name": "Tall Story Pictures",
+"cat": "tv"
+},
+{
+"name": "Talpa Concepts B.V.",
+"cat": "foreign"
+},
+{
+"name": "TBS Productions",
+"cat": "tv"
+},
+{
+"name": "TCF Productions",
+"cat": "independent"
+},
+{
+"name": "TCM - Turner Classic Movies Productions",
+"cat": "tv"
+},
+{
+"name": "TeamTO",
+"cat": "foreign"
+},
+{
+"name": "Teenergy Productions",
+"cat": "faith"
+},
+{
+"name": "Tele Images (Banijay)",
+"cat": "childrens"
+},
+{
+"name": "Tele-Cinema Taurus",
+"cat": "foreign"
+},
+{
+"name": "Teleginia Iberia (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Television Associates",
+"cat": "faith"
+},
+{
+"name": "Temple Street Releasing Ltd.",
+"cat": "tv"
+},
+{
+"name": "Tempo Productions Limited",
+"cat": "independent"
+},
+{
+"name": "Ten Alps Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Terence Films (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Tern Television Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Terra Mater Factual Studios Gmbh",
+"cat": "tv"
+},
+{
+"name": "Terrapin Productions",
+"cat": "independent"
+},
+{
+"name": "Tezuka Productions Co. Ltd. (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Thames",
+"cat": "tv"
+},
+{
+"name": "The Apartment Pictures",
+"cat": "independent"
+},
+{
+"name": "The Australian Children’s Television Foundation",
+"cat": "childrens"
+},
+{
+"name": "The Baywatch Production Company",
+"cat": "tv"
+},
+{
+"name": "The Blues (fka Wim Wenders Stiftung) (ex. GAS)",
+"cat": "foreign"
+},
+{
+"name": "The Chosen, Inc",
+"cat": "faith"
+},
+{
+"name": "The Comedy Unit (Banijay)",
+"cat": "tv"
+},
+{
+"name": "The Film Consortium (fka Works International)",
+"cat": "independent"
+},
+{
+"name": "The Forge (Banijay)",
+"cat": "tv"
+},
+{
+"name": "The Fremantle Corporation Canada",
+"cat": "independent"
+},
+{
+"name": "The Garden Productions",
+"cat": "tv"
+},
+{
+"name": "The Global Asylum",
+"cat": "independent"
+},
+{
+"name": "The Gulf Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "The Heist LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "The immigrant",
+"cat": "tv"
+},
+{
+"name": "The Ink Factory",
+"cat": "independent"
+},
+{
+"name": "The Jim Henson Company Inc",
+"cat": "childrens"
+},
+{
+"name": "The Natural Studios (Banijay)",
+"cat": "tv"
+},
+{
+"name": "The New Zealand Film Commision",
+"cat": "independent"
+},
+{
+"name": "The Other Man (2008)",
+"cat": "independent"
+},
+{
+"name": "The Price is Rights Productions",
+"cat": "tv"
+},
+{
+"name": "The Salt Company (International)",
+"cat": "independent"
+},
+{
+"name": "The Straight Story Inc c/o F. Altman & Company",
+"cat": "independent"
+},
+{
+"name": "The Weather Channel",
+"cat": "tv"
+},
+{
+"name": "The Weinstein Company",
+"cat": "independent"
+},
+{
+"name": "The Write Types, Inc. (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Thin Man Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Thinkfactory Media",
+"cat": "independent"
+},
+{
+"name": "Those Characters from Cleveland",
+"cat": "childrens"
+},
+{
+"name": "Three Seventeen Trust",
+"cat": "faith"
+},
+{
+"name": "Thunderbird Entertainment (fka Thunderbird Films)",
+"cat": "tv"
+},
+{
+"name": "Thunderbird Releasing",
+"cat": "independent"
+},
+{
+"name": "TI Content GmbH (pka Facet Management Inc.)",
+"cat": "independent"
+},
+{
+"name": "Tick Tock Productions",
+"cat": "tv"
+},
+{
+"name": "Tiger Aspect (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Tiger Aspect Kids and Family UK",
+"cat": "childrens"
+},
+{
+"name": "Tiger Tea Productions (The Tiger That Came to Tea)",
+"cat": "independent"
+},
+{
+"name": "Tigon Film Distributors Limited",
+"cat": "independent"
+},
+{
+"name": "Tigress Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Time2Talk Entertainment Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "Tinderbox",
+"cat": "independent"
+},
+{
+"name": "Tinopolis (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Tinopolis Cymru (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Tinopolis Factual Group Scotland (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Tinopolis Limited (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Tiny Riot",
+"cat": "independent"
+},
+{
+"name": "Titan Global Entertainment",
+"cat": "independent"
+},
+{
+"name": "TLC Productions",
+"cat": "tv"
+},
+{
+"name": "TNT Productions",
+"cat": "tv"
+},
+{
+"name": "Toei Animation (ex. JP)",
+"cat": "foreign"
+},
+{
+"name": "Toff Media Ltd",
+"cat": "tv"
+},
+{
+"name": "Tohokushinsha Film Corporation (ex. JP)",
+"cat": "foreign"
+},
+{
+"name": "Tokyo Broadcasting System (ex. Japan)",
+"cat": "foreign"
+},
+{
+"name": "Tombstone Distribution",
+"cat": "independent"
+},
+{
+"name": "Tommy Nelson",
+"cat": "faith"
+},
+{
+"name": "Tomorrow Films Corporation",
+"cat": "independent"
+},
+{
+"name": "Tomorrow Studios",
+"cat": "tv"
+},
+{
+"name": "Tomos TV",
+"cat": "tv"
+},
+{
+"name": "Tooco (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Toon2Tango Gmbh & Co. KG",
+"cat": "childrens"
+},
+{
+"name": "Toonz Entertainment Pte Ltd",
+"cat": "childrens"
+},
+{
+"name": "Top Hat Productions Ltd",
+"cat": "independent"
+},
+{
+"name": "Topical Television",
+"cat": "tv"
+},
+{
+"name": "Topkapi (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Tornante Trifecta",
+"cat": "tv"
+},
+{
+"name": "Tornante Trino LLC (Crime Expose')",
+"cat": "tv"
+},
+{
+"name": "Touch CPWP",
+"cat": "tv"
+},
+{
+"name": "Touch Productions",
+"cat": "tv"
+},
+{
+"name": "Touchpaper Television (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Touchstone Pictures",
+"cat": "major"
+},
+{
+"name": "Tower Productions Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "TPC Library Holding, LLC",
+"cat": "independent"
+},
+{
+"name": "Transparent Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Travel Channel Productions",
+"cat": "tv"
+},
+{
+"name": "Tresor TV Produktions Gmbh",
+"cat": "foreign"
+},
+{
+"name": "Tricon Film and TV",
+"cat": "independent"
+},
+{
+"name": "Trifecta Entertainment",
+"cat": "tv"
+},
+{
+"name": "Trijbits Productions",
+"cat": "independent"
+},
+{
+"name": "Trimark",
+"cat": "independent"
+},
+{
+"name": "Trion Pictures S.R.L",
+"cat": "childrens"
+},
+{
+"name": "Triple Threat Productions",
+"cat": "tv"
+},
+{
+"name": "Triumph Films Library",
+"cat": "major"
+},
+{
+"name": "True Entertainment (Banijay)",
+"cat": "tv"
+},
+{
+"name": "True North Productions",
+"cat": "tv"
+},
+{
+"name": "Truly Original (Banijay)",
+"cat": "tv"
+},
+{
+"name": "TruTV Productions",
+"cat": "tv"
+},
+{
+"name": "Tuesday's Child Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Tuiwok Estudios (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Tulipop Studios ehf",
+"cat": "foreign"
+},
+{
+"name": "Turner Entertainment",
+"cat": "tv"
+},
+{
+"name": "Turnip & Duck",
+"cat": "childrens"
+},
+{
+"name": "TV Entertainment Reality Network BV (aka Insight TV)",
+"cat": "tv"
+},
+{
+"name": "TV Land",
+"cat": "tv"
+},
+{
+"name": "TVA/Quigley's Village",
+"cat": "faith"
+},
+{
+"name": "TVBV (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "TVF Limited (aka TVF International)",
+"cat": "tv"
+},
+{
+"name": "Twin Peaks Productions Inc c/o F. Altman and Company",
+"cat": "independent"
+},
+{
+"name": "Two Cities Television Ltd",
+"cat": "tv"
+},
+{
+"name": "Two Rivers Media",
+"cat": "tv"
+},
+{
+"name": "Twofour Broadcast Ltd",
+"cat": "tv"
+},
+{
+"name": "Twofour Group (ITV)",
+"cat": "tv"
+},
+{
+"name": "TwoFour54",
+"cat": "independent"
+},
+{
+"name": "Tyne Tees Television",
+"cat": "tv"
+},
+{
+"name": "UFA Film Und Fernseah Gmbh (fka CLT-UFA SA)",
+"cat": "foreign"
+},
+{
+"name": "UFA Magyarország",
+"cat": "foreign"
+},
+{
+"name": "Ulf (European Fraîch' Force & Fantasy)",
+"cat": "childrens"
+},
+{
+"name": "Ultimate Media Group, LLC",
+"cat": "independent"
+},
+{
+"name": "Ultra V RML NL Assets, LLC (fka Relativity Media)",
+"cat": "independent"
+},
+{
+"name": "Unanico (Buddi)",
+"cat": "childrens"
+},
+{
+"name": "Unclaimed Freight Productions",
+"cat": "independent"
+},
+{
+"name": "Unique Media Entertainment Gmbh",
+"cat": "foreign"
+},
+{
+"name": "United Artists Pictures",
+"cat": "major"
+},
+{
+"name": "United Copyright Limited (Three Blind Mice)",
+"cat": "independent"
+},
+{
+"name": "Universal Pictures",
+"cat": "major"
+},
+{
+"name": "Up North Entertainment",
+"cat": "tv"
+},
+{
+"name": "UpStream Media (Passion Distribution)",
+"cat": "tv"
+},
+{
+"name": "Urban Canyons",
+"cat": "tv"
+},
+{
+"name": "Urban Factory",
+"cat": "independent"
+},
+{
+"name": "Urban Sales SAS (fka Urban Distribution International)",
+"cat": "foreign"
+},
+{
+"name": "USA Films",
+"cat": "major"
+},
+{
+"name": "Valley Village Beats",
+"cat": "independent"
+},
+{
+"name": "Vampire Squid Productions",
+"cat": "independent"
+},
+{
+"name": "Vantage Media International",
+"cat": "independent"
+},
+{
+"name": "Vaudeville Productions",
+"cat": "independent"
+},
+{
+"name": "Vector Productions LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Vega Baby Releasing",
+"cat": "independent"
+},
+{
+"name": "Very Nice TV Ltd",
+"cat": "tv"
+},
+{
+"name": "Vestron Pictures",
+"cat": "independent"
+},
+{
+"name": "VH1",
+"cat": "tv"
+},
+{
+"name": "Viacom Media Networks US",
+"cat": "tv"
+},
+{
+"name": "ViceTV Productions",
+"cat": "tv"
+},
+{
+"name": "Vico Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Vine Manchester Library",
+"cat": "independent"
+},
+{
+"name": "Vision Distribution SpA",
+"cat": "foreign"
+},
+{
+"name": "Voc Film BV",
+"cat": "independent"
+},
+{
+"name": "Voltage Pictures",
+"cat": "independent"
+},
+{
+"name": "Voltage TV Productions",
+"cat": "tv"
+},
+{
+"name": "Voom HD Holdings",
+"cat": "tv"
+},
+{
+"name": "Waddell Media",
+"cat": "tv"
+},
+{
+"name": "Wag Entertainment (fka Wag TV)",
+"cat": "tv"
+},
+{
+"name": "Walden Media LLC",
+"cat": "independent"
+},
+{
+"name": "Walt Disney Animation Studios",
+"cat": "major"
+},
+{
+"name": "Walt Disney Pictures",
+"cat": "major"
+},
+{
+"name": "Walt Disney Television",
+"cat": "tv"
+},
+{
+"name": "Wanda and the Alien",
+"cat": "childrens"
+},
+{
+"name": "Wanderlust Productions",
+"cat": "tv"
+},
+{
+"name": "Warehouse 51 Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Warner Bros. Animation",
+"cat": "major"
+},
+{
+"name": "Warner Bros. Pictures",
+"cat": "major"
+},
+{
+"name": "Warner Bros. Television",
+"cat": "tv"
+},
+{
+"name": "Warner Horizon Television",
+"cat": "tv"
+},
+{
+"name": "Warner Independent Pictures",
+"cat": "major"
+},
+{
+"name": "Warner Premiere",
+"cat": "major"
+},
+{
+"name": "Warrior Women",
+"cat": "independent"
+},
+{
+"name": "Waterfront Pictures Inc.",
+"cat": "tv"
+},
+{
+"name": "WE: Women's Entertainment LLC",
+"cat": "tv"
+},
+{
+"name": "West Is West Limited (West is West)",
+"cat": "independent"
+},
+{
+"name": "West One International Ltd",
+"cat": "tv"
+},
+{
+"name": "WestEnd Films",
+"cat": "independent"
+},
+{
+"name": "Westside Filmproduktion Gmbh",
+"cat": "foreign"
+},
+{
+"name": "White Balance Gmbh (All3Media Deutschland)",
+"cat": "tv"
+},
+{
+"name": "White Horse Library Collections LLC",
+"cat": "independent"
+},
+{
+"name": "White Light International Media",
+"cat": "tv"
+},
+{
+"name": "Whizz Kid Entertainment",
+"cat": "independent"
+},
+{
+"name": "Wild Blue Media",
+"cat": "tv"
+},
+{
+"name": "Wild Mercury Productions (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Wildside",
+"cat": "foreign"
+},
+{
+"name": "Wind Dancer Entertainment",
+"cat": "independent"
+},
+{
+"name": "Windfall Films",
+"cat": "tv"
+},
+{
+"name": "Windrose",
+"cat": "foreign"
+},
+{
+"name": "Wisenquest",
+"cat": "faith"
+},
+{
+"name": "Wish Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Wissper Ltd",
+"cat": "independent"
+},
+{
+"name": "WMR Library (aka World Media Rights)",
+"cat": "independent"
+},
+{
+"name": "Wonder (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Wonderfilm Media Corp",
+"cat": "tv"
+},
+{
+"name": "Wonderphil",
+"cat": "independent"
+},
+{
+"name": "Woodcut Media Limited",
+"cat": "tv"
+},
+{
+"name": "Woodman Park Productions, LLC (All3Media)",
+"cat": "tv"
+},
+{
+"name": "Work Friends",
+"cat": "tv"
+},
+{
+"name": "Worker Bee (Banijay)",
+"cat": "tv"
+},
+{
+"name": "World Almanac Video",
+"cat": "tv"
+},
+{
+"name": "World International Network (WIN)",
+"cat": "independent"
+},
+{
+"name": "World Productions",
+"cat": "independent"
+},
+{
+"name": "Worldwide Bag Media",
+"cat": "tv"
+},
+{
+"name": "WS Picture Licensing LLC",
+"cat": "tv"
+},
+{
+"name": "Wyndley Rights LTD",
+"cat": "independent"
+},
+{
+"name": "Xenon Home Video",
+"cat": "independent"
+},
+{
+"name": "XYZ Films, Inc.",
+"cat": "independent"
+},
+{
+"name": "YBG Productions",
+"cat": "independent"
+},
+{
+"name": "Yellow Affair Oy",
+"cat": "foreign"
+},
+{
+"name": "Yellow Truck Productions LLC c/o Bus. Mng-Blue Rider",
+"cat": "independent"
+},
+{
+"name": "Yellowbird (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "YFG Services Inc (dba YFG International)",
+"cat": "tv"
+},
+{
+"name": "Yorkshire Television (YTV)",
+"cat": "tv"
+},
+{
+"name": "You Young Rights BV",
+"cat": "independent"
+},
+{
+"name": "Young Films",
+"cat": "independent"
+},
+{
+"name": "Youngest Media Ltd",
+"cat": "independent"
+},
+{
+"name": "Your Family Entertainment AG",
+"cat": "childrens"
+},
+{
+"name": "Ytinifni Pictures",
+"cat": "foreign"
+},
+{
+"name": "Zeal Entertainment (Nent)",
+"cat": "tv"
+},
+{
+"name": "ZED",
+"cat": "foreign"
+},
+{
+"name": "ZED Magasines",
+"cat": "foreign"
+},
+{
+"name": "Zeppelin Films Ltd",
+"cat": "independent"
+},
+{
+"name": "Zeppotron (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Zig Zag Productions Ltd",
+"cat": "tv"
+},
+{
+"name": "Zinc Television London Ltd (fka Brook Lapping Productions Ltd)",
+"cat": "tv"
+},
+{
+"name": "Zinc Television Regions Ltd",
+"cat": "tv"
+},
+{
+"name": "Zodiac Pictures (Zodiac: Signs of the Apocalypse)",
+"cat": "independent"
+},
+{
+"name": "Zodiak Kids & Family France",
+"cat": "childrens"
+},
+{
+"name": "Zodiak Kids & Family Productions UK",
+"cat": "childrens"
+},
+{
+"name": "Zodiak Latino (Banjay)",
+"cat": "foreign"
+},
+{
+"name": "Zodiak Netherlands (Banijay)",
+"cat": "foreign"
+},
+{
+"name": "Zodiak Rights (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Zodiak USA (Banijay)",
+"cat": "tv"
+},
+{
+"name": "Zoo Productions (All3Media)",
+"cat": "tv"
+}
+],
+"moratorium": [
+{
+"raw": "Artemis Fowl (2020)",
+"title": "Artemis Fowl",
+"note": true,
+"year": 2020
+},
+{
+"raw": "Batman Begins (2005) 09/18/26 until 09/24/26",
+"title": "Batman Begins",
+"start": "2026-09-18",
+"end": "2026-09-24",
+"year": 2005
+},
+{
+"raw": "Blade Runner & Blade Runner: The Director’s Cut – only FINAL cut available",
+"title": "Blade Runner & Blade Runner: The Director’s Cut – only FINAL cut available",
+"note": true
+},
+{
+"raw": "Clint Eastwood: A Cinematic Legacy (2021) until Indefinite",
+"title": "Clint Eastwood: A Cinematic Legacy",
+"indefinite": true,
+"year": 2021
+},
+{
+"raw": "Dark Knight, The (2008) 09/18/26 until 09/24/26",
+"title": "The Dark Knight",
+"start": "2026-09-18",
+"end": "2026-09-24",
+"year": 2008
+},
+{
+"raw": "Dark Knight Rises, The (2012) 09/18/26 until 09/24/26",
+"title": "The Dark Knight Rises",
+"start": "2026-09-18",
+"end": "2026-09-24",
+"year": 2012
+},
+{
+"raw": "Disney+/Hulu Originals - Please check last page for original programs available from Disney+ and Hulu",
+"title": "Disney+/Hulu Originals - Please check last page for original programs available from Disney+ and Hulu",
+"note": true
+},
+{
+"raw": "(outdoor screenings restricted)",
+"title": "(outdoor screenings restricted)",
+"note": true
+},
+{
+"raw": "Dune (2021) 05/01/26 until 12/31/26",
+"title": "Dune",
+"start": "2026-05-01",
+"end": "2026-12-31",
+"year": 2021
+},
+{
+"raw": "Dune: Part 2 (2024) 05/01/26 until 12/31/26",
+"title": "Dune: Part 2",
+"start": "2026-05-01",
+"end": "2026-12-31",
+"year": 2024
+},
+{
+"raw": "Edge of Tomorrow (2014) 05/13/26 until 10/31/26",
+"title": "Edge of Tomorrow",
+"start": "2026-05-13",
+"end": "2026-10-31",
+"year": 2014
+},
+{
+"raw": "Evil Dead Rise (2023) 03/03/26 until 09/01/26",
+"title": "Evil Dead Rise",
+"start": "2026-03-03",
+"end": "2026-09-01",
+"year": 2023
+},
+{
+"raw": "Frozen Sing-Along (2013)",
+"title": "Frozen Sing-Along",
+"note": true,
+"year": 2013
+},
+{
+"raw": "Gone With the Wind (1939) 09/10/26 until 10/29/26",
+"title": "Gone With the Wind",
+"start": "2026-09-10",
+"end": "2026-10-29",
+"year": 1939
+},
+{
+"raw": "Gravity (2013) 01/01/26 until 12/31/26",
+"title": "Gravity",
+"start": "2026-01-01",
+"end": "2026-12-31",
+"year": 2013
+},
+{
+"raw": "Gremlins (1984) 08/19/27 until 12/10/27",
+"title": "Gremlins",
+"start": "2027-08-19",
+"end": "2027-12-10",
+"year": 1984
+},
+{
+"raw": "Gremlins 2: The New Batch (1990) 08/19/27 until 12/10/27",
+"title": "Gremlins 2: The New Batch",
+"start": "2027-08-19",
+"end": "2027-12-10",
+"year": 1990
+},
+{
+"raw": "Harry Potter franchise (2011-2010) 01/01/26 until 2/28/27",
+"title": "Harry Potter franchise (2011-2010)",
+"start": "2026-01-01",
+"end": "2027-02-28"
+},
+{
+"raw": "Havoc (2005) until indefinite",
+"title": "Havoc",
+"indefinite": true,
+"year": 2005
+},
+{
+"raw": "Interview with The Vampire (1994) 01/01/26 until 10/14/26",
+"title": "Interview with The Vampire",
+"start": "2026-01-01",
+"end": "2026-10-14",
+"year": 1994
+},
+{
+"raw": "Last Samurai, The (2003) 06/12/26 until 10/31/26",
+"title": "The Last Samurai",
+"start": "2026-06-12",
+"end": "2026-10-31",
+"year": 2003
+},
+{
+"raw": "Maltese Falcon, The (1941) 11/06/26 until 12/24/26",
+"title": "The Maltese Falcon",
+"start": "2026-11-06",
+"end": "2026-12-24",
+"year": 1941
+},
+{
+"raw": "Minecraft Movie, A (2025) 04/23/27 until 08/23/27",
+"title": "A Minecraft Movie",
+"start": "2027-04-23",
+"end": "2027-08-23",
+"year": 2025
+},
+{
+"raw": "Natural Born Killer’s Director’s Cut (2008) until Indefinite",
+"title": "Natural Born Killer’s Director’s Cut",
+"indefinite": true,
+"year": 2008
+},
+{
+"raw": "Oklahoma! (1956) until Indefinite",
+"title": "Oklahoma!",
+"indefinite": true,
+"year": 1956
+},
+{
+"raw": "Paradise Now (2005) until Indefinite",
+"title": "Paradise Now",
+"indefinite": true,
+"year": 2005
+},
+{
+"raw": "Peanuts – all programs prior to 2014 are restricted",
+"title": "Peanuts – all programs prior to 2014 are restricted",
+"note": true
+},
+{
+"raw": "Practical Magic (1998) 04/01/26 until 09/30/26",
+"title": "Practical Magic",
+"start": "2026-04-01",
+"end": "2026-09-30",
+"year": 1998
+},
+{
+"raw": "Priest’s Wife, The (1971) 01/01/27 until 07/31/27",
+"title": "The Priest’s Wife",
+"start": "2027-01-01",
+"end": "2027-07-31",
+"year": 1971
+},
+{
+"raw": "South Pacific (1958) until indefinite",
+"title": "South Pacific",
+"indefinite": true,
+"year": 1958
+},
+{
+"raw": "Training Day (2001) 01/01/26 until 12/31/26",
+"title": "Training Day",
+"start": "2026-01-01",
+"end": "2026-12-31",
+"year": 2001
+},
+{
+"raw": "V for Vendetta (2006) 10/2/26 until 11/20/26",
+"title": "V for Vendetta",
+"start": "2026-10-02",
+"end": "2026-11-20",
+"year": 2006
+}
+]
+}
