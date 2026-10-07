@@ -6,7 +6,7 @@
   const $ = (s) => document.querySelector(s);
   const WD = 'https://www.wikidata.org/w/api.php';
   const FILM_CLASSES = ['Q11424', 'Q5398426', 'Q506240', 'Q93204', 'Q202866', 'Q24862', 'Q1259759', 'Q581714', 'Q1261214', 'Q20650540', 'Q29168811', 'Q24869', 'Q63952888', 'Q229390', 'Q226730'];
-  const TODAY = new Date().toISOString().slice(0, 10);
+  const TODAY = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })();
 
   // Wikidata labels that mean a company NOT on the Cosmos list (so we can say why).
   const KNOWN_OUT = [
@@ -54,7 +54,7 @@
     'spyglass entertainment': 'Spyglass Media Group c/o Lionsgate', 'spyglass media group': 'Spyglass Media Group c/o Lionsgate',
   };
   const GENERIC = new Set(('pictures picture entertainment studios studio films film inc llc ltd limited corporation corp co company ' +
-    'productions production international media group distribution distributing releasing library the television tv home video ' +
+    'productions production international media group distribution distributing releasing library the home video ' +
     'worldwide motion holdings gmbh sa sl srl llp plc ag bv nv ab spa as kg sas us usa america american of and').split(' '));
 
   const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/&/g, ' and ')
@@ -69,7 +69,8 @@
     return out;
   };
 
-  let DATA = null, INDEX = null;
+  const ALIAS = new Map(Object.entries(ALIASES).map(([k, v]) => [norm(k), v]));
+  let DATA = null, INDEX = null, ready = null;
   async function load() {
     const r = await fetch('assets/mplc-rights-holders.json?v=' + encodeURIComponent(document.documentElement.dataset.v || '1'));
     DATA = await r.json();
@@ -88,8 +89,8 @@
   // Match one company label against the list. Returns {level, holders, note}
   function matchCompany(label) {
     const n = norm(label);
-    if (Object.prototype.hasOwnProperty.call(ALIASES, n)) {
-      const target = ALIASES[n];
+    if (ALIAS.has(n)) {
+      const target = ALIAS.get(n);
       if (target === null) return { level: 'none', holders: [] };
       const hs = DATA.holders.filter((h) => h.name === target);
       if (hs.length) return { level: 'exact', holders: hs };
@@ -98,7 +99,7 @@
     const c = core(label);
     if (c && INDEX.core.has(c)) {
       const hs = INDEX.core.get(c);
-      const strong = c.split(' ').length >= 2 || hs.some((h) => h.cat === 'major');
+      const strong = c.split(' ').length >= 2;
       return { level: strong ? 'strong' : 'weak', holders: hs };
     }
     const out = KNOWN_OUT.find((k) => k.re.test(label));
@@ -112,7 +113,7 @@
       key = key.split(/\s[–-]\s/)[0].split(' & ')[0].replace(/\s*franchise.*$/i, '').replace(/\s*all programs.*$/i, '');
       const k = norm(key);
       if (!k || k.length < 4) continue;
-      const same = t === k || (k.split(' ').length >= 2 && t.startsWith(k + ' ')) || (m.title !== key && t.startsWith(k));
+      const same = t === k || (k.split(' ').length >= 2 && t.startsWith(k + ' '));
       if (!same) continue;
       if (m.year && year && m.year !== year) continue;
       let state = 'note';
@@ -125,16 +126,19 @@
 
   async function wd(params) {
     const u = new URL(WD); u.search = new URLSearchParams({ format: 'json', origin: '*', ...params });
-    const r = await fetch(u); if (!r.ok) throw new Error('Wikidata ' + r.status); return r.json();
+    const r = await fetch(u); if (!r.ok) throw new Error('Wikidata ' + r.status);
+    const j = await r.json(); if (j.error) throw new Error('Wikidata: ' + (j.error.info || j.error.code)); return j;
   }
   async function searchTitles(q) {
     const cls = FILM_CLASSES.map((c) => 'P31=' + c).join('|');
     const srsearch = `${q} haswbstatement:${cls}`;
-    const [byLinks, byRelevance] = await Promise.all([
+    const settled = await Promise.allSettled([
       wd({ action: 'query', list: 'search', srsearch, srlimit: 8, srsort: 'incoming_links_desc' }),
       wd({ action: 'query', list: 'search', srsearch, srlimit: 5 }),
     ]);
-    const ids = [...new Set([...byLinks.query.search, ...byRelevance.query.search].map((s) => s.title))];
+    const hits = settled.filter((r) => r.status === 'fulfilled').flatMap((r) => r.value.query?.search || []);
+    if (!hits.length && settled.every((r) => r.status === 'rejected')) throw settled[0].reason;
+    const ids = [...new Set(hits.map((s) => s.title))].filter((id) => /^Q[1-9]\d*$/.test(id));
     if (!ids.length) return [];
     const e = await wd({ action: 'wbgetentities', ids: ids.join('|'), props: 'labels|descriptions|claims', languages: 'en' });
     const films = ids.map((id) => e.entities[id]).filter(Boolean).map(parseFilm);
@@ -169,10 +173,14 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
   const CAT = (k) => (DATA.categories[k] || k).replace(' & Affiliated Labels', '');
 
+  let searchGen = 0, pickGen = 0;
   async function runTitle(q) {
+    const gen = ++searchGen;
     const res = $('#title-results'); res.innerHTML = '<p class="muted">Searching Wikidata…</p>';
     try {
+      await ready;
       const films = await searchTitles(q);
+      if (gen !== searchGen) return;
       if (!films.length) { res.innerHTML = '<p class="muted">No film or series by that name on Wikidata. Try the exact title, or search the list by studio below.</p>'; return; }
       res.innerHTML = '<p class="muted small">Pick the one you mean:</p><div class="picks">' + films.map((f, i) =>
         `<button class="pick" data-i="${i}"><strong>${esc(f.label)}</strong>${f.year ? ` <span class="yr">${f.year}</span>` : ''}<br><span class="small">${esc(f.desc)}</span></button>`).join('') + '</div><div id="verdict"></div>';
@@ -182,13 +190,16 @@
   }
 
   async function showVerdict(f) {
-    const v = $('#verdict'); v.innerHTML = '<p class="muted">Looking up studios…</p>';
+    const gen = ++pickGen;
+    const v = $('#verdict'); if (!v) return; v.innerHTML = '<p class="muted">Looking up studios…</p>';
     const ids = [...f.producers, ...f.distributors.map((d) => d.id), ...f.distributors.flatMap((d) => d.countries), ...f.directors];
-    const L = await labelsFor(ids);
+    let L;
+    try { L = await labelsFor(ids); } catch (e) { if (gen === pickGen) v.innerHTML = `<p class="warn">Could not reach Wikidata (${esc(e.message)}). Try again.</p>`; return; }
+    if (gen !== pickGen) return;
     const rows = [];
     for (const d of f.distributors) rows.push({ role: 'Distributor', label: L[d.id], where: d.countries.map((c) => L[c]).join(', '), us: !d.countries.length || d.countries.includes('Q30'), m: matchCompany(L[d.id]) });
     for (const p of f.producers) rows.push({ role: 'Production co.', label: L[p], where: '', us: true, m: matchCompany(L[p]) });
-    for (const r of rows) { if (/^Q\d+$/.test(r.label)) r.skip = true; if (STREAMING.test(r.label)) { r.streaming = true; r.role += ' (streaming outlet)'; } }
+    for (const r of rows) { if (!r.label || /^Q\d+$/.test(r.label)) r.skip = true; else if (r.role === 'Distributor' && STREAMING.test(r.label)) { r.streaming = true; r.role += ' (streaming outlet)'; } }
     const real = rows.filter((r) => !r.skip);
     const owners = real.filter((r) => !r.streaming);
     const good = owners.filter((r) => r.us && (r.m.level === 'exact' || r.m.level === 'strong'));
@@ -198,14 +209,16 @@
     const activeMora = mora.filter((m) => m.state === 'active' || m.state === 'note');
 
     let cls, head, body;
-    if (PUBLIC_DOMAIN.has(f.id)) { cls = 'yes'; head = 'Public domain'; body = 'This film is in the US public domain, so no license is needed and you may advertise the title freely.'; }
-    else if (activeMora.length) { cls = 'no'; head = 'In moratorium right now'; body = `MPLC lists this title as temporarily unavailable: ${activeMora.map((m) => esc(m.raw)).join('; ')}. Not covered until that lifts.`; }
-    else if (good.length) { cls = 'yes'; head = 'On the list'; body = `${esc(good[0].label)} is a rights holder on the Cosmos list (${esc(CAT(good[0].m.holders[0].cat))}). A legally bought disc or stream of it can be shown under the Blanket License.`; }
+    const noted = activeMora.filter((m) => m.state === 'note'), blocked = activeMora.filter((m) => m.state === 'active');
+    if (PUBLIC_DOMAIN.has(f.id)) { cls = 'yes'; head = 'Public domain'; body = 'This film is in the US public domain, so no license is needed and you may advertise the title freely. Check that the copy you show is the original edition, not a restored or re-scored release.'; }
+    else if (blocked.length) { cls = 'no'; head = 'In moratorium right now'; body = `MPLC lists this title as temporarily unavailable: ${blocked.map((m) => esc(m.raw)).join('; ')}. Not covered until that lifts.`; }
+    else if (noted.length) { cls = 'maybe'; head = 'Restriction noted'; body = `MPLC’s moratorium list has a note on this title: ${noted.map((m) => esc(m.raw)).join('; ')}. Read it before choosing a version.`; }
+    else if (good.length) { cls = 'yes'; head = 'Rights holder on the list'; body = `${esc(good[0].label)} is a rights holder on the Cosmos list (${esc(CAT(good[0].m.holders[0].cat))}), so this title is likely covered by the Blanket License. Confirm the title with MPLC before you announce a date, and show it from a disc, a purchase or a rental you own (streaming services like Netflix forbid public showings in their own terms).`; }
     else if (weak.length) { cls = 'maybe'; head = 'Possible match, verify'; body = `A name on the list resembles ${esc(weak[0].label)} but is not clearly the same company. Email info@mplc.com with the title before announcing it.`; }
-    else if (owners.length) { cls = 'no'; head = 'Not on the list'; body = `None of this title’s studios (${owners.map((r) => esc(r.label)).join(', ')}) appear on the Cosmos list.${notes.length ? ' ' + notes.map(esc).join(' ') : ''}`; }
+    else if (owners.length) { cls = 'no'; head = 'No listed studio found'; body = `None of this title’s studios (${owners.map((r) => esc(r.label)).join(', ')}) appear on the Cosmos list.${notes.length ? ' ' + notes.map(esc).join(' ') : ''}`; }
     else if (real.length) { cls = 'unknown'; head = 'Can’t tell'; body = `Wikidata only records streaming outlets (${real.map((r) => esc(r.label)).join(', ')}) for this title, which says nothing about who owns it.${notes.length ? ' ' + notes.map(esc).join(' ') : ''}`; }
     else { cls = 'unknown'; head = 'Can’t tell'; body = 'Wikidata has no producer or distributor recorded for this title. Search the list by studio below, or ask MPLC.'; }
-    if (f.year && f.year <= 1930) body += ' Films published in 1930 or earlier are in the US public domain and need no license at all.';
+    if (f.year && f.year <= 1930 && !PUBLIC_DOMAIN.has(f.id)) { cls = 'maybe'; head = 'Probably public domain'; body = `Films published in 1930 or earlier are in the US public domain and need no license, but verify the edition you would show (restorations and new scores can carry their own copyright). ${body}`; }
     const pastMora = mora.filter((m) => m.state === 'past' || m.state === 'upcoming');
     const moraLine = pastMora.map((m) => `<p class="small"><strong>Moratorium note:</strong> ${esc(m.raw)} (${m.state === 'past' ? 'that window has passed' : 'upcoming, plan around it'}).</p>`).join('');
     const dir = f.directors.map((d) => L[d]).filter(Boolean).join(', ');
@@ -217,7 +230,7 @@
         <p>${body}</p>${moraLine}
         ${real.length ? `<table class="evidence"><thead><tr><th>Role</th><th>Company (Wikidata)</th><th>On the Cosmos list?</th></tr></thead><tbody>` +
           real.map((r) => `<tr><td>${r.role}${r.where ? `<br><span class="small muted">${esc(r.where)}</span>` : ''}</td><td>${esc(r.label)}</td><td>${r.m.holders.length ? r.m.holders.map((h) => `<span class="tag ${r.m.level}">${esc(h.name)}</span> <span class="small muted">${esc(CAT(h.cat))}</span>`).join('<br>') : '<span class="tag none">no</span>'}</td></tr>`).join('') + '</tbody></table>' : ''}
-        <p class="small muted">Being on the list means MPLC represents that company; individual titles can still drop off (MPLC’s terms, §6). When it matters, confirm the title with <a href="mailto:info@mplc.com">info@mplc.com</a>. Data: <a href="https://www.wikidata.org/wiki/${f.id}" target="_blank" rel="noopener">Wikidata ${f.id}</a>.</p>
+        <p class="small muted">Being on the list means MPLC represents that company; individual titles can still drop off (MPLC’s terms, §6). When it matters, confirm the title with <a href="mailto:info@mplc.com">info@mplc.com</a>. Data: <a href="https://www.wikidata.org/wiki/${esc(f.id)}" target="_blank" rel="noopener">Wikidata ${esc(f.id)}</a>.</p>
       </div>`;
   }
 
@@ -237,7 +250,10 @@
   }
 
   $('#title-form').addEventListener('submit', (e) => { e.preventDefault(); const q = $('#title-q').value.trim(); if (q) runTitle(q); });
-  $('#list-q').addEventListener('input', (e) => runList(e.target.value));
+  $('#list-q').addEventListener('input', (e) => { if (DATA) runList(e.target.value); });
   document.querySelectorAll('[data-try]').forEach((b) => b.addEventListener('click', () => { $('#title-q').value = b.dataset.try; runTitle(b.dataset.try); }));
-  load().catch((e) => { $('#list-meta').textContent = 'Could not load the rights-holder list: ' + e.message; });
+  const controls = document.querySelectorAll('#title-q, #title-form button, #list-q, [data-try]');
+  controls.forEach((c) => { c.disabled = true; });
+  ready = load().then(() => controls.forEach((c) => { c.disabled = false; }))
+    .catch((e) => { $('#list-meta').textContent = 'Could not load the rights-holder list: ' + e.message; throw e; });
 })();
