@@ -177,6 +177,8 @@ table.sched td:first-child { font-weight: 700; color: var(--teal-deep); white-sp
 }
 @media (max-width: 560px) {
   body { font-size: 17px; }
+  .nav { flex-wrap: wrap; row-gap: .3rem; }
+  .nav-links { flex-wrap: wrap; justify-content: flex-end; gap: .25rem .85rem; }
   .teacher { grid-template-columns: 1fr; }
   .avatar { margin: 0 auto; }
   .teacher .center-sm { text-align: center; }
