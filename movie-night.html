@@ -72,7 +72,7 @@ body.mn [hidden] { display: none !important; }
 .mn-spots { font-family: "Special Elite", monospace; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: #a1d5cb; margin: .6rem 0 0; }
 
 /* the collage */
-.mn-art { display: block; width: min(100%, 860px); margin: 2.2rem auto 0; filter: drop-shadow(0 10px 24px rgba(0,0,0,.35)); }
+.mn-art { display: block; width: min(100%, 860px); margin: 2.2rem auto 0; border-radius: 14px; filter: drop-shadow(0 10px 24px rgba(0,0,0,.35)); }
 
 /* clue note + post-it */
 .mn-game { display: grid; grid-template-columns: 1.7fr 1fr; gap: 1.6rem; align-items: start; max-width: 860px; margin: 2rem auto 0; text-align: left; }
@@ -181,7 +181,7 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
     </div>
     <p class="mn-spots" id="spots">Up to 40 spots available · reserve to be sure</p>
 
-    <img class="mn-art" id="art" src="" alt="Collage: an old house, two black umbrellas, a moon, rose petals, a broom, a toad and limes">
+    <img class="mn-art" id="art" src="" alt="">
 
     <div class="mn-game" id="game">
       <div class="mn-note">
@@ -288,7 +288,11 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
   var now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   function fmt(d) { return local(d).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" }); }
   function short(d) { return local(d).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }).toUpperCase().replace(/,/g, " ·"); }
-  function clue(n) { return "is " + esc(n.tag) + ", featuring <b>" + esc(n.hints[0]) + "</b>… <b>" + esc(n.hints[1]) + "</b>… and <b>" + esc(n.hints[2]) + "</b>."; }
+  // the note: a riddle (one line per "\n"), or the "is <tag>, featuring <hints>" sentence
+  function clue(n) {
+    if (n.riddle) return "<em>" + n.riddle.split("\n").map(esc).join("<br>") + "</em>";
+    return "is " + esc(n.tag) + ", featuring <b>" + esc(n.hints[0]) + "</b>… <b>" + esc(n.hints[1]) + "</b>… and <b>" + esc(n.hints[2]) + "</b>.";
+  }
 
   nights.sort(function (a, b) { return a.date < b.date ? -1 : 1; });
   var upcoming = nights.filter(function (n) { return local(n.date) >= today; });
@@ -302,7 +306,8 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
     $("rev").textContent = "title revealed at the door · " + cur.rating;
     $("marq1").innerHTML = "<span>" + esc(short(cur.date)) + "</span> <b>·</b> <span>DOORS " + esc(cur.doors) + " <b>·</b> FILM " + esc(cur.film) + "</span>";
     $("seat").href = cur.rsvp; $("seat2").href = cur.rsvp;
-    $("art").src = cur.art;
+    $("art").src = cur.art; $("art").alt = cur.alt || "";
+    $("lbl").textContent = cur.riddle ? "This week's movie, in a riddle" : "This week's movie";
     $("clue").innerHTML = clue(cur);
     $("prize").textContent = cur.prize;
     $("cred").textContent = cur.credit || "";
@@ -317,7 +322,7 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
     $("seat").textContent = "Follow for the date"; $("seat").href = "https://instagram.com/cosmosyogachattanooga";
     $("seat2").href = "https://instagram.com/cosmosyogachattanooga"; $("seat2").textContent = "follow us on Instagram";
     $("spots").textContent = "free · BYO seating · snack bar";
-    if (last) { $("art").src = last.art; $("cred").textContent = last.credit || ""; } else { $("art").hidden = true; }
+    if (last) { $("art").src = last.art; $("art").alt = last.alt || ""; $("cred").textContent = last.credit || ""; } else { $("art").hidden = true; }
     $("game").hidden = true;
   }
 
@@ -326,11 +331,11 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
   if (!past.length) { $("past").hidden = true; }  // section stays off the page until the first night has happened (Clay, 2026-10-17)
   past.forEach(function (n) {
     var title = (n.reveal && n.title) ? "<p class='title'>" + esc(n.title) + "</p>" : "<p><em>Title revealed at the door.</em></p>";
-    var hints = "<p>" + esc(n.tag.charAt(0).toUpperCase() + n.tag.slice(1)) + ": " + n.hints.map(esc).join(", ") + ".</p>";
+    var hints = n.riddle ? "<p><em>" + n.riddle.split("\n").map(esc).join("<br>") + "</em></p>" : "<p>" + esc(n.tag.charAt(0).toUpperCase() + n.tag.slice(1)) + ": " + n.hints.map(esc).join(", ") + ".</p>";
     var recap = n.recap ? "<p>" + esc(n.recap) + "</p>" : "";
     var links = n.flyer ? "<p class='links'><a href='" + esc(n.flyer) + "' target='_blank' rel='noopener'>See the flyer</a></p>" : "";
     grid.insertAdjacentHTML("beforeend",
-      "<article class='mn-card'><div class='art'><img src='" + esc(n.art) + "' alt='' loading='lazy'></div><div class='body'>" +
+      "<article class='mn-card'><div class='art'><img src='" + esc(n.art) + "' alt='" + esc(n.alt || "") + "' loading='lazy'></div><div class='body'>" +
       "<span class='pill'>Movie Night No. " + n.no + "</span><h3>" + esc(n.tag.charAt(0).toUpperCase() + n.tag.slice(1)) + "</h3>" +
       "<p class='when'>" + esc(fmt(n.date)) + "</p>" + title + hints + recap + links + "</div></article>");
   });

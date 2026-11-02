@@ -10,9 +10,13 @@
      rating   MPAA rating, shown as "title revealed at the door · PG-13"
      tag      the genre line, e.g. "a Halloween classic"
      hints    three short hints, shown highlighted in the clue sentence
+     riddle   optional (night 2 on): a short riddle, one line per "\n". When set, the note on the page
+              shows the riddle instead of the "is <tag>, featuring <hints>" sentence, and so does the
+              past-night card; tag still heads the card.
      prize    what the first right DM wins
      rsvp     the Mindbody link behind Save Your Seat and the flyer's QR code
-     art      the collage image (transparent WebP) for the hero and the past-nights card
+     art      the picture under the hero and on the past-nights card (a transparent collage, or a scene)
+     alt      what that picture shows, for screen readers
      flyer    the full flyer image, linked from the card
      title    the film's name. Leave it "" until the night has happened: this file is public on GitHub
               and the MPLC license keeps the title out of public view before the screening. The morning
@@ -32,8 +36,28 @@ window.MOVIE_NIGHTS = [
     prize: "a free popcorn + candy + drink combo at the door",
     rsvp: "https://clients.mindbodyonline.com/classic/ws?studioid=5755552&stype=41&sTG=35",
     art: "assets/movie-night/no1-collage.webp",
+    alt: "Collage: an old house, two black umbrellas, a moon, rose petals, a broom, a toad and limes",
     flyer: "assets/movie-night/no1-flyer.webp",
     credit: "House photo: Jimmy_Joe, Flickr, CC BY. Other photos public domain and CC0 via Openverse.",
+    title: "",
+    reveal: false,
+    recap: ""
+  },
+  {
+    no: 2,
+    date: "2026-11-06",
+    doors: "7:00",
+    film: "7:30",
+    rating: "PG-13",
+    tag: "a riddle in three parts",
+    hints: ["a week upon land", "a day on the sea", "an hour in the air"],
+    riddle: "a week upon land\na day on the sea\nan hour in the air\ntickticktick for all three",
+    prize: "a free popcorn + candy + drink combo at the door",
+    rsvp: "https://clients.mindbodyonline.com/classic/ws?studioid=5755552&stype=-7&sTG=35&sView=day&sLoc=0&date=2026-11-06",
+    art: "assets/movie-night/no2-scene.webp",
+    alt: "Silhouettes at dusk: a long pier running out to sea with a queue of men along it, little ships on the horizon, a fighter plane banking low over the water",
+    flyer: "assets/movie-night/no2-flyer.webp",
+    credit: "Original illustration.",
     title: "",
     reveal: false,
     recap: ""
