@@ -26,7 +26,7 @@ window.MOVIE_NIGHT = {
     handle: "@cosmosyogachattanooga",          // the Instagram handle, linked wherever it appears
     prizeLead: "First right answer wins",      // followed by the night's prize
     seat: "Save your seat",                    // the button (opens the night's Mindbody link)
-    spots: "Up to 40 spots available · reserve to be sure",
+    spots: "Up to 40 spots available",
 
     // when no night is on the calendar
     soon: {
@@ -45,7 +45,7 @@ window.MOVIE_NIGHT = {
         text: "Blankets, cushions, floor chairs, low camp chairs: bring what makes you comfortable.\nSpace is limited to 40, so {seat} and we'll know to expect you.",
         seatText: "save your seat" },
       { heading: "Guess the movie",
-        text: "Read the hints, then DM your guess to {ig}. The first right answer wins a free Cosmos Combo (popcorn/candy/drink).\nWe only confirm guesses in DMs, so no spoilers in the comments, please." }
+        text: "Check out the poster, then DM your guess to {ig}. The first right answer wins a free Cosmos Combo (popcorn/candy/drink).\nWe only confirm guesses in DMs, so no spoilers in the comments, please." }
     ],
 
     // past nights
