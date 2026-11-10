@@ -64,7 +64,8 @@ window.MOVIE_NIGHT = {
        tag      a few words for the past card's heading (and, with hints, for a night without a riddle)
        hints    three short hints, used only when there is no riddle: "is <tag>, featuring a… b… and c."
        prize    what the first right DM wins
-       rsvp     the Mindbody link behind Save your seat
+       rsvp     the Mindbody link behind Save your seat (the booking page for that date from Mindbody's Links & Shortcuts:
+                https://go.mindbodyonline.com/book/app/classes/5755552?date=YYYY-MM-DD ; the poster's QR points at this web page)
        hero     the picture behind the poster on the page (leave "" for plain dark)
        art      the picture on the past-nights card
        alt      what that picture shows, for screen readers
@@ -126,7 +127,7 @@ window.MOVIE_NIGHT = {
       tag: "a desert hideout",
       hints: ["an abandoned bakery", "a fishing village in Tunisia", "a film crew in 1976"],
       prize: "a famous Cosmos Combo (popcorn, candy and a drink) at the door",
-      rsvp: "https://clients.mindbodyonline.com/classic/ws?studioid=5755552&stype=-7&sTG=35&sView=day&sLoc=0&date=2026-11-13",
+      rsvp: "https://go.mindbodyonline.com/book/app/classes/5755552?date=2026-11-13&mbo_src=links-shortcuts",   // Mindbody's own booking page for the night (Links & Shortcuts, Clay 2026-11-10): the event with its Book button
       hero: "assets/movie-night/no3-art.webp",
       art: "assets/movie-night/no3-scene.webp",
       alt: "A sun-baked domed building of crumbling stone under a blue sky, a lone chimney on top, white houses and a palm in the distance",
