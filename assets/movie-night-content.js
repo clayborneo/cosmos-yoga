@@ -71,7 +71,10 @@ window.MOVIE_NIGHT = {
        flyer    the printable poster, linked from the card
        credit   a line of small print under the poster (picture credits), or ""
        title    the film's name: "" until the morning after, then fill it in and set reveal: true
-       recap    a sentence or two after the night (optional) */
+       recap    a sentence or two after the night (optional)
+       look     (optional) the night's own colors and type, so the page matches that night's poster.
+                Leave it out for the house look (cream Poiret One title, gold Fraunces italics).
+                css: CSS variables on the poster sheet; clueLabel: small caps over the riddle. */
   nights: [
     {
       no: 1,
@@ -112,6 +115,53 @@ window.MOVIE_NIGHT = {
       title: "",
       reveal: false,
       recap: ""
+    },
+    {
+      no: 3,
+      date: "2026-11-13",
+      doors: "7:00",
+      film: "7:30",
+      rating: "PG",
+      riddle: "This abandoned bakery stands in Ajim, a fishing village off the coast of Tunisia. In the spring of 1976 a film crew came to visit and decided the domed roof would be a perfect setting for a certain 'wretched hive of scum and villainy.'",
+      tag: "a desert hideout",
+      hints: ["an abandoned bakery", "a fishing village in Tunisia", "a film crew in 1976"],
+      prize: "a famous Cosmos Combo (popcorn, candy and a drink) at the door",
+      rsvp: "https://clients.mindbodyonline.com/classic/ws?studioid=5755552&stype=-7&sTG=35&sView=day&sLoc=0&date=2026-11-13",
+      hero: "assets/movie-night/no3-art.webp",
+      art: "assets/movie-night/no3-scene.webp",
+      alt: "A sun-baked domed building of crumbling stone under a blue sky, a lone chimney on top, white houses and a palm in the distance",
+      flyer: "assets/movie-night/no3-post.webp",
+      credit: "",
+      title: "",
+      reveal: false,
+      recap: "",
+      // the poster's look: the film's yellow on black, a heavy block title, the crawl face, the clue in a brick panel over the photo
+      look: {
+        clueLabel: "This week's mystery movie clue",
+        css: {
+          "--accent": "#ffe81f",
+          "--title-font": "'Archivo Black', 'Nunito Sans', sans-serif",
+          "--title-weight": "400",
+          "--title-spacing": ".01em",
+          "--title-color": "#ffe81f",
+          "--no-font": "'News Cycle', 'Nunito Sans', sans-serif",
+          "--no-style": "normal",
+          "--no-weight": "700",
+          "--riddle-font": "'News Cycle', 'Nunito Sans', sans-serif",
+          "--riddle-style": "normal",
+          "--riddle-weight": "700",
+          "--riddle-size": "clamp(1.05rem, 2.5vw, 1.55rem)",
+          "--clue-box": "rgba(166, 72, 42, .5)",
+          "--clue-radius": "48% 52% 46% 54% / 60% 40% 60% 40%",
+          "--clue-pad": "clamp(1.1rem, 3vw, 2rem) clamp(1.3rem, 4vw, 2.6rem)",
+          "--marq-font": "'Archivo Black', 'Nunito Sans', sans-serif",
+          "--marq-weight": "400",
+          "--marq-spacing": ".04em",
+          "--marq-color": "#ffe81f",
+          "--hero-pos": "58% 50%",
+          "--veil": "linear-gradient(180deg, rgba(6,15,18,.55) 0%, rgba(6,15,18,.08) 28%, rgba(6,15,18,.08) 55%, rgba(6,15,18,.7) 100%)"
+        }
+      }
     }
   ]
 };

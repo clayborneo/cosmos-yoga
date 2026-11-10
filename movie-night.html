@@ -12,20 +12,20 @@
 <!-- the share picture is made by flyer/movie-night/src/build_og.py in the cosmos repo; for the next night, rebuild it and update the title, description and image lines here (crawlers do not run the page script) -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Cosmos Yoga">
-<meta property="og:title" content="Mystery Movie Night No. 2 · Fri Nov 6 | Cosmos Yoga">
-<meta property="og:description" content="A free film on the big screen at the studio, Fri Nov 6, doors 7:00. BYO picnic-style seating, snack bar, title revealed at the door. Save your seat.">
+<meta property="og:title" content="Mystery Movie Night No. 3 · Fri Nov 13 | Cosmos Yoga">
+<meta property="og:description" content="A free film on the big screen at the studio, Fri Nov 13, doors 7:00. BYO picnic-style seating, snack bar, title revealed at the door. Save your seat.">
 <meta property="og:url" content="https://cosmosyogachattanooga.com/movie-night.html">
-<meta property="og:image" content="https://cosmosyogachattanooga.com/assets/movie-night/no2-share.jpg">
+<meta property="og:image" content="https://cosmosyogachattanooga.com/assets/movie-night/no3-share.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Cosmos presents Mystery Movie Night No. 2 · Fri Nov 6 · doors 7:00 · film 7:30">
+<meta property="og:image:alt" content="Cosmos presents Mystery Movie Night No. 3 · Fri Nov 13 · doors 7:00 · film 7:30">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Mystery Movie Night No. 2 · Fri Nov 6 | Cosmos Yoga">
-<meta name="twitter:description" content="A free film on the big screen at the studio, Fri Nov 6. Save your seat.">
-<meta name="twitter:image" content="https://cosmosyogachattanooga.com/assets/movie-night/no2-share.jpg">
+<meta name="twitter:title" content="Mystery Movie Night No. 3 · Fri Nov 13 | Cosmos Yoga">
+<meta name="twitter:description" content="A free film on the big screen at the studio, Fri Nov 13. Save your seat.">
+<meta name="twitter:image" content="https://cosmosyogachattanooga.com/assets/movie-night/no3-share.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Caveat:wght@700&family=Fraunces:ital,wght@0,600;0,700;1,600&family=Poiret+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Caveat:wght@700&family=Fraunces:ital,wght@0,600;0,700;1,600&family=Poiret+One&family=News+Cycle:wght@700&family=Archivo+Black&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <style>
 /* ===== Movie Night page: the night's poster, as a web page. Scoped to body.mn.
@@ -34,9 +34,16 @@ body.mn { background: var(--cream); }
 body.mn [hidden] { display: none !important; }
 .mn-hero { background: #060f12; color: #f6f1e7; padding: clamp(.6rem, 2.5vw, 2rem) 0 clamp(1.6rem, 4vw, 3rem); overflow: hidden; }
 /* the sheet: the poster's proportions, the night's picture behind, fading into the dark at the sides */
-.mn-sheet { --hero: none; position: relative; max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; aspect-ratio: 17 / 22;
+/* the house look lives in these variables; a night's own look (content.js → look.css) overrides them on the sheet */
+.mn-sheet { --hero: none; --veil: linear-gradient(transparent, transparent); --hero-pos: center; --accent: #f2af46;
+  --title-font: "Poiret One", "Fraunces", serif; --title-weight: 400; --title-spacing: .06em; --title-color: #f6f1e7;
+  --no-font: Fraunces, var(--serif-zine); --no-style: italic; --no-weight: 600;
+  --riddle-font: Fraunces, var(--serif-zine); --riddle-style: italic; --riddle-weight: 600; --riddle-size: clamp(1.2rem, 3.2vw, 2rem);
+  --clue-box: transparent; --clue-radius: 0; --clue-pad: 0;
+  --marq-font: inherit; --marq-weight: 800; --marq-spacing: .12em; --marq-color: inherit;
+  position: relative; max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; aspect-ratio: 17 / 22;
   padding: clamp(1.6rem, 5vw, 3.2rem) clamp(1.2rem, 6vw, 4.5rem) clamp(1.4rem, 4vw, 2.6rem); text-align: center;
-  background: #060f12 var(--hero) center / cover no-repeat; }
+  background-color: #060f12; background-image: var(--veil), var(--hero); background-size: cover, cover; background-position: center, var(--hero-pos); background-repeat: no-repeat; }
 .mn-sheet::before, .mn-sheet::after { content: ""; position: absolute; top: 0; bottom: 0; width: 14%; pointer-events: none; }
 .mn-sheet::before { left: 0; background: linear-gradient(90deg, #060f12, rgba(6,15,18,0)); }
 .mn-sheet::after { right: 0; background: linear-gradient(270deg, #060f12, rgba(6,15,18,0)); }
@@ -44,23 +51,25 @@ body.mn [hidden] { display: none !important; }
 .mn-flower { display: block; width: clamp(44px, 7vw, 72px); margin: 0 auto .35rem; }
 .mn-wm { display: block; width: clamp(120px, 18vw, 180px); margin: 0 auto; }
 .mn-presents { font-weight: 600; font-size: clamp(.62rem, 1.4vw, .8rem); letter-spacing: .34em; text-transform: uppercase; margin: .9rem 0 0; }
-.mn-title { font-family: "Poiret One", "Fraunces", serif; font-weight: 400; color: #f6f1e7; text-transform: uppercase; letter-spacing: .06em; font-size: clamp(2.3rem, 9.5vw, 6.4rem); line-height: 1.02; margin: .5rem 0 .3rem; }
-.mn-no { font-family: Fraunces, var(--serif-zine); font-style: italic; font-weight: 600; color: #f2af46; font-size: clamp(1.4rem, 4vw, 2.6rem); margin: 0; }
+.mn-title { font-family: var(--title-font); font-weight: var(--title-weight); color: var(--title-color); text-transform: uppercase; letter-spacing: var(--title-spacing); font-size: clamp(2.3rem, 9.5vw, 6.4rem); line-height: 1.02; margin: .5rem 0 .3rem; }
+.mn-no { font-family: var(--no-font); font-style: var(--no-style); font-weight: var(--no-weight); color: var(--accent); font-size: clamp(1.4rem, 4vw, 2.6rem); margin: 0; }
 .mn-riddle { align-self: flex-start; text-align: left; max-width: 62%; margin: clamp(1.6rem, 5vw, 3.2rem) 0 auto;
-  font-family: Fraunces, var(--serif-zine); font-style: italic; font-weight: 600; color: #f2af46; font-size: clamp(1.2rem, 3.2vw, 2rem); line-height: 1.22; }
+  font-family: var(--riddle-font); font-style: var(--riddle-style); font-weight: var(--riddle-weight); color: var(--accent); font-size: var(--riddle-size); line-height: 1.22;
+  background: var(--clue-box); border-radius: var(--clue-radius); padding: var(--clue-pad); }
 .mn-riddle b { font-weight: 700; color: #f6f1e7; }
+.mn-clue-label { display: block; font-family: var(--sans, "Nunito Sans", sans-serif); font-style: normal; font-weight: 600; font-size: clamp(.6rem, 1.3vw, .78rem); letter-spacing: .3em; text-transform: uppercase; margin-bottom: .45rem; }
 .mn-foot { margin-top: auto; padding-top: clamp(1.6rem, 5vw, 3rem); }
-.mn-rule { display: block; width: 64px; height: 2px; background: #f2af46; margin: 0 auto 1rem; }
-.mn-marq { font-weight: 800; text-transform: uppercase; letter-spacing: .12em; font-size: clamp(1.05rem, 3.4vw, 2rem); line-height: 1.15; margin: 0; }
+.mn-rule { display: block; width: 64px; height: 2px; background: var(--accent); margin: 0 auto 1rem; }
+.mn-marq { font-family: var(--marq-font); font-weight: var(--marq-weight); color: var(--marq-color); text-transform: uppercase; letter-spacing: var(--marq-spacing); font-size: clamp(1.05rem, 3.4vw, 2rem); line-height: 1.15; margin: 0; }
 .mn-addr { font-weight: 600; text-transform: uppercase; letter-spacing: .22em; font-size: clamp(.66rem, 1.6vw, .9rem); margin: .55rem 0 0; }
 .mn-line { font-size: clamp(.88rem, 1.7vw, 1.05rem); line-height: 1.45; margin: .4rem 0 0; }
 .mn-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 1.5rem; margin-top: clamp(1.2rem, 3vw, 1.8rem); text-align: left; }
-.mn-game { font-family: Caveat, cursive; font-weight: 700; color: #f2af46; font-size: clamp(1.3rem, 2.8vw, 1.8rem); line-height: 1.1; max-width: 60%; margin: 0; }
+.mn-game { font-family: Caveat, cursive; font-weight: 700; color: var(--accent); font-size: clamp(1.3rem, 2.8vw, 1.8rem); line-height: 1.1; max-width: 60%; margin: 0; }
 .mn-game a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .12em; }
 .mn-cta { display: flex; flex-direction: column; align-items: center; gap: .55rem; flex: 0 0 auto; }
 .mn-seat { display: inline-block; background: #f6f1e7; color: #060f12; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; font-size: .92rem;
   padding: .95rem 1.9rem .85rem; border-radius: 999px; white-space: nowrap; transition: background .2s, transform .2s; }
-.mn-seat:hover { background: #f2af46; color: #060f12; text-decoration: none; transform: translateY(-2px); }
+.mn-seat:hover { background: var(--accent); color: #060f12; text-decoration: none; transform: translateY(-2px); }
 .mn-spots { font-weight: 600; font-size: .66rem; letter-spacing: .18em; text-transform: uppercase; opacity: .85; text-align: center; }
 .mn-cred { font-size: .62rem; letter-spacing: .04em; opacity: .55; margin: 1.6rem 0 0; }
 /* how it works */
@@ -85,7 +94,7 @@ body.mn [hidden] { display: none !important; }
 @media (max-width: 640px) {
   .mn-sheet { aspect-ratio: auto; min-height: 92vh; padding-left: 1.2rem; padding-right: 1.2rem; }
   .mn-sheet::before, .mn-sheet::after { width: 8%; }
-  .mn-riddle { max-width: 82%; }
+  .mn-riddle { max-width: 88%; }
   .mn-marq b { display: none; } .mn-marq span { display: block; }   /* the date on one line, the times on the next */
   .mn-row { flex-direction: column; align-items: stretch; }
   .mn-game { max-width: none; }
@@ -185,7 +194,8 @@ body.mn [hidden] { display: none !important; }
   function short(d) { return local(d).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }).toUpperCase().replace(/,/g, " ·"); }
   // the hint: the night's riddle, or "<label> is <tag>, featuring <hints>"
   function hint(n) {
-    if (n.riddle) return lines(n.riddle);
+    var label = n.look && n.look.clueLabel ? '<span class="mn-clue-label">' + esc(n.look.clueLabel) + '</span>' : '';
+    if (n.riddle) return label + lines(n.riddle);
     return esc(copy.gameLabel) + " is " + esc(n.tag) + ", featuring <b>" + esc(n.hints[0]) + "</b>… <b>" + esc(n.hints[1]) + "</b>… and <b>" + esc(n.hints[2]) + "</b>.";
   }
   var cap = function (s) { s = String(s || ""); return s.charAt(0).toUpperCase() + s.slice(1); };
@@ -201,6 +211,8 @@ body.mn [hidden] { display: none !important; }
   $("seating").textContent = copy.seating || "";
   if (cur) {
     $("sheet").style.setProperty("--hero", cur.hero ? "url(" + cur.hero + ")" : "none");
+    var css = (cur.look && cur.look.css) || {};   // the night's own look, if it has one
+    Object.keys(css).forEach(function (k) { $("sheet").style.setProperty(k, css[k]); });
     $("no").textContent = String(copy.number || "No. {n}").replace("{n}", cur.no);
     $("riddle").innerHTML = hint(cur);
     $("marq").innerHTML = "<span>" + esc(short(cur.date)) + "</span><b> · </b><span>DOORS " + esc(cur.doors) + " · FILM " + esc(cur.film) + "</span>";
