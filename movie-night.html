@@ -56,6 +56,8 @@ body.mn [hidden] { display: none !important; }
 .mn-riddle { align-self: flex-start; text-align: left; max-width: 62%; margin: clamp(1.6rem, 5vw, 3.2rem) 0 auto;
   font-family: var(--riddle-font); font-style: var(--riddle-style); font-weight: var(--riddle-weight); color: var(--accent); font-size: var(--riddle-size); line-height: 1.22;
   background: var(--clue-box); border-radius: var(--clue-radius); padding: var(--clue-pad); }
+/* the oval (a night's look sets clueShape: "oval"): an ellipse with enough room that the whole block of text sits inside it */
+.mn-riddle.oval { border-radius: 50%; padding: 8% 12%; max-width: 78%; }
 .mn-riddle b { font-weight: 700; color: #f6f1e7; }
 .mn-clue-label { display: block; font-family: var(--sans, "Nunito Sans", sans-serif); font-style: normal; font-weight: 600; font-size: clamp(.6rem, 1.3vw, .78rem); letter-spacing: .3em; text-transform: uppercase; margin-bottom: .45rem; }
 .mn-foot { margin-top: auto; padding-top: clamp(1.6rem, 5vw, 3rem); }
@@ -95,6 +97,7 @@ body.mn [hidden] { display: none !important; }
   .mn-sheet { aspect-ratio: auto; min-height: 92vh; padding-left: 1.2rem; padding-right: 1.2rem; }
   .mn-sheet::before, .mn-sheet::after { width: 8%; }
   .mn-riddle { max-width: 88%; }
+  .mn-riddle.oval { max-width: 98%; padding: 20% 12%; font-size: clamp(.95rem, 4vw, 1.2rem); }
   .mn-marq b { display: none; } .mn-marq span { display: block; }   /* the date on one line, the times on the next */
   .mn-row { flex-direction: column; align-items: stretch; }
   .mn-game { max-width: none; }
@@ -213,6 +216,7 @@ body.mn [hidden] { display: none !important; }
     $("sheet").style.setProperty("--hero", cur.hero ? "url(" + cur.hero + ")" : "none");
     var css = (cur.look && cur.look.css) || {};   // the night's own look, if it has one
     Object.keys(css).forEach(function (k) { $("sheet").style.setProperty(k, css[k]); });
+    if (cur.look && cur.look.clueShape) $("riddle").classList.add(cur.look.clueShape);
     $("no").textContent = String(copy.number || "No. {n}").replace("{n}", cur.no);
     $("riddle").innerHTML = hint(cur);
     $("marq").innerHTML = "<span>" + esc(short(cur.date)) + "</span><b> · </b><span>DOORS " + esc(cur.doors) + " · FILM " + esc(cur.film) + "</span>";

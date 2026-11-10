@@ -75,7 +75,8 @@ window.MOVIE_NIGHT = {
        recap    a sentence or two after the night (optional)
        look     (optional) the night's own colors and type, so the page matches that night's poster.
                 Leave it out for the house look (cream Poiret One title, gold Fraunces italics).
-                css: CSS variables on the poster sheet; clueLabel: small caps over the riddle. */
+                css: CSS variables on the poster sheet; clueLabel: small caps over the riddle;
+                clueShape: "oval" puts the riddle inside an oval of the --clue-box color. */
   nights: [
     {
       no: 1,
@@ -139,6 +140,7 @@ window.MOVIE_NIGHT = {
       // the poster's look: the film's yellow on black, a heavy block title, the crawl face, the clue in a brick panel over the photo
       look: {
         clueLabel: "This week's mystery movie clue",
+        clueShape: "oval",                       // the clue sits inside a brick oval (the panel's color is --clue-box below)
         css: {
           "--accent": "#ffe81f",
           "--title-font": "'Archivo Black', 'Nunito Sans', sans-serif",
@@ -153,8 +155,6 @@ window.MOVIE_NIGHT = {
           "--riddle-weight": "700",
           "--riddle-size": "clamp(1.05rem, 2.5vw, 1.55rem)",
           "--clue-box": "rgba(166, 72, 42, .5)",
-          "--clue-radius": "48% 52% 46% 54% / 60% 40% 60% 40%",
-          "--clue-pad": "clamp(1.1rem, 3vw, 2rem) clamp(1.3rem, 4vw, 2.6rem)",
           "--marq-font": "'Archivo Black', 'Nunito Sans', sans-serif",
           "--marq-weight": "400",
           "--marq-spacing": ".04em",
