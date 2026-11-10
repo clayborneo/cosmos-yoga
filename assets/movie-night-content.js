@@ -153,7 +153,7 @@ window.MOVIE_NIGHT = {
           "--riddle-font": "'News Cycle', 'Nunito Sans', sans-serif",
           "--riddle-style": "normal",
           "--riddle-weight": "700",
-          "--riddle-size": "clamp(1.05rem, 2.5vw, 1.55rem)",
+          "--riddle-size": "clamp(.9rem, 1.75vw, 1.15rem)",
           "--clue-box": "rgba(166, 72, 42, .5)",
           "--marq-font": "'Archivo Black', 'Nunito Sans', sans-serif",
           "--marq-weight": "400",
