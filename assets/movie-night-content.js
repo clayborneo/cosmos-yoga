@@ -163,6 +163,60 @@ window.MOVIE_NIGHT = {
           "--veil": "linear-gradient(180deg, rgba(6,15,18,.55) 0%, rgba(6,15,18,.08) 28%, rgba(6,15,18,.08) 55%, rgba(6,15,18,.7) 100%)"
         }
       }
+    },
+    {
+      no: 4,
+      date: "2026-11-20",
+      doors: "7:00",
+      film: "7:30",
+      rating: "R",
+      riddle: "She's 44, flies a cheap little airline down to Mexico for $16,000 a year, and the feds just caught her carrying. Now would be an ideal time to make a real friend.",
+      tag: "a carry-on full of cash",
+      hints: ["a flight attendant", "a bail bondsman", "a shopping bag of cash"],
+      prize: "a famous Cosmos Combo (popcorn, candy and a drink) at the door",
+      rsvp: "https://go.mindbodyonline.com/book/app/classes/5755552?date=2026-11-20&mbo_src=links-shortcuts",   // Mindbody's booking page for the night (Links & Shortcuts, Clay 2026-11-16)
+      hero: "assets/movie-night/no4-art.webp",
+      art: "assets/movie-night/no4-scene.webp",
+      alt: "A 70s cartoon still life against an orange sunburst: a neon bail bonds sign, a soul cassette, a shopping bag stuffed with cash",
+      flyer: "assets/movie-night/no4-post.webp",
+      credit: "",
+      title: "",
+      reveal: false,
+      recap: "",
+      // the poster's look: a 70s one-sheet. MYSTERY in Ultra (gold), Movie Night in Shrikhand (tangerine), ink drop
+      // shadows, the clue in a chocolate oval, chocolate edges instead of the house's night-teal
+      look: {
+        clueLabel: "This week's mystery movie clue",
+        clueShape: "oval",
+        css: {
+          "--edge": "#2a140b",
+          "--accent": "#f6c64e",
+          "--title-font": "'Ultra', 'Archivo Black', serif",
+          "--title-weight": "400",
+          "--title-spacing": ".01em",
+          "--title-color": "#f6c64e",
+          "--title-shadow": ".06em .06em 0 #1f0e07",
+          "--title2-font": "'Shrikhand', 'Fraunces', serif",
+          "--title2-color": "#ee8a2f",
+          "--title2-transform": "none",
+          "--no-font": "'Shrikhand', 'Fraunces', serif",
+          "--no-style": "normal",
+          "--no-weight": "400",
+          "--riddle-font": "'News Cycle', 'Nunito Sans', sans-serif",
+          "--riddle-style": "normal",
+          "--riddle-weight": "700",
+          "--riddle-color": "#f6e6c4",
+          "--riddle-size": "clamp(.9rem, 1.75vw, 1.15rem)",
+          "--clue-box": "rgba(59, 29, 16, .84)",
+          "--marq-weight": "800",
+          "--marq-spacing": ".12em",
+          "--marq-color": "#f6c64e",
+          "--hero-pos": "50% 50%",
+          "--hero-size-phone": "100% auto",      // on a phone: the whole picture across the top, the clue and the rest below it on the dark
+          "--hero-pos-phone": "50% 70px",   // starts a little down, so the title sits on the plain sunburst and the pieces below it
+          "--veil": "linear-gradient(180deg, rgba(31,14,7,.35) 0%, rgba(31,14,7,0) 26%, rgba(31,14,7,0) 62%, rgba(31,14,7,.75) 100%)"
+        }
+      }
     }
   ]
 };
