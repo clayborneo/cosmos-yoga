@@ -40,7 +40,7 @@
 
 /* hero: Photo 1 behind a teal veil */
 .mn-hero { position: relative; overflow: hidden; text-align: center; padding: 4.5rem 16px 4rem; isolation: isolate; }
-.mn-hero > img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; z-index: -2; }
+.mn-hero > img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; z-index: -2; }
 .mn-hero::after { content: ""; position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(180deg, rgba(16,66,68,.5) 0%, rgba(16,66,68,.62) 55%, var(--mn-teal) 100%); }
 .mn-hero img.mn-lockup { width: 128px; height: auto; display: block; margin: 0 auto 1.4rem; }
@@ -68,32 +68,33 @@
 .mn-step ol { margin: 0; padding-left: 1.4rem; }
 .mn-step ol li::marker { color: var(--mn-gold); font-family: "Fraunces", var(--serif); font-weight: 600; }
 .mn-step .tag { text-transform: uppercase; letter-spacing: .14em; font-size: 1rem; font-weight: 700; color: var(--mn-gold); }
-.mn-step .facts { list-style: none; padding: 0; margin: 0; }
-.mn-step .facts li { font-family: "Fraunces", var(--serif); font-weight: 500; color: var(--mn-gold); font-size: 1.25rem; line-height: 1.4; margin-bottom: .6rem; }
-.mn-step .mn-btn { align-self: flex-start; margin-top: .6rem; }
 /* each heading wears its slide's pill */
 .mn-step[data-i="0"] h2 { background: var(--mn-gold); color: #fff8ea; }
-.mn-step[data-i="1"] h2, .mn-step[data-i="3"] h2, .mn-step[data-i="6"] h2 { background: #1f6f6c; color: var(--mn-gold); }
+.mn-step[data-i="1"] h2, .mn-step[data-i="3"] h2 { background: #1f6f6c; color: var(--mn-gold); }
 .mn-step[data-i="2"] h2 { background: var(--mn-sea); color: var(--mn-teal); }
 .mn-step[data-i="4"] h2 { background: #a9501f; color: var(--mn-gold); }
-.mn-step[data-i="5"] h2 { background: var(--mn-gold); color: var(--mn-plum); }
 
 /* booking card, the email's event block */
 .mn-book { max-width: 680px; margin: 1rem auto 0; padding: 0 16px 3.4rem; scroll-margin-top: 90px; }
-.mn-card { background: var(--mn-amber); border: 3px solid var(--mn-rust); border-radius: 14px; padding: 1.6rem 1.5rem 1.7rem; color: var(--mn-rust); }
-.mn-card .k { font-weight: 700; margin: 0 0 .2rem; font-size: .95rem; }
-.mn-card h2 { font-family: "Fraunces", var(--serif); font-weight: 600; color: var(--mn-rust); font-size: clamp(1.7rem, 4.6vw, 2.2rem); margin: 0 0 1rem; }
+.mn-card { background: var(--mn-amber); border: 3px solid var(--mn-rust); border-radius: 16px; padding: 2rem 1.9rem 2rem; color: var(--mn-rust); box-shadow: 0 18px 40px rgba(0,0,0,.3); }
+.mn-card .k { font-weight: 700; margin: 0 0 .5rem; font-size: .78rem; text-transform: uppercase; letter-spacing: .16em; }
+.mn-card h2 { font-family: "Fraunces", var(--serif); font-weight: 600; color: var(--mn-rust); font-size: clamp(2.1rem, 6vw, 2.9rem); line-height: 1.05; margin: 0 0 .8rem; }
+.mn-lead { font-family: "Fraunces", var(--serif); font-weight: 600; font-size: 1.25rem; margin: 0 0 .25rem; color: var(--mn-rust); }
+.mn-what { font-family: "Fraunces", var(--serif); font-style: italic; font-size: 1.08rem; line-height: 1.5; margin: 0 0 1.3rem; color: #7a3018; }
 .mn-circle { display: grid; grid-template-columns: 92px 1fr; gap: 1rem; align-items: start; padding: 1rem 0; border-top: 1.5px solid rgba(166,72,42,.35); }
 .mn-circle img { width: 92px; height: 116px; object-fit: cover; border-radius: 8px; border: 2px solid var(--mn-rust); display: block; }
 .mn-circle h3 { font-family: "Fraunces", var(--serif); font-weight: 600; color: var(--mn-rust); font-size: 1.2rem; margin: 0; }
-.mn-circle .t { font-weight: 700; margin: .1rem 0 .35rem; }
+.mn-circle .t { font-weight: 700; margin: .15rem 0 .4rem; }
+.mn-circle .t span { display: block; font-weight: 600; color: #7a3018; }
 .mn-circle p { margin: 0; line-height: 1.5; color: #7a3018; }
-.mn-meta { border-top: 1.5px solid rgba(166,72,42,.35); padding-top: .9rem; margin: 0 0 1.3rem; line-height: 1.7; color: #7a3018; }
+.mn-meta { border-top: 1.5px solid rgba(166,72,42,.35); padding-top: .9rem; margin: 0 0 1.2rem; line-height: 1.7; color: #7a3018; }
 .mn-meta strong { color: var(--mn-rust); }
-.mn-price { font-family: "Fraunces", var(--serif); font-weight: 600; font-size: 1.5rem; color: var(--mn-rust); margin: 0 0 1.1rem; }
+.mn-buy { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .9rem 1.2rem; border-top: 1.5px solid rgba(166,72,42,.35); padding-top: 1.2rem; }
+.mn-price { font-family: "Fraunces", var(--serif); font-weight: 600; font-size: 2rem; line-height: 1; color: var(--mn-rust); margin: 0; }
+.mn-price span { font-size: 1.05rem; font-weight: 500; font-style: italic; color: #7a3018; }
 .mn-btn { display: inline-block; background: var(--mn-teal); color: var(--mn-gold); border: 3px solid var(--mn-rust); border-radius: 999px; padding: .75rem 1.7rem; font-weight: 700; font-size: 1.05rem; text-decoration: none; transition: transform .15s, background .15s; }
 .mn-btn:hover { background: var(--mn-teal-2); transform: translateY(-1px); color: var(--mn-gold); }
-.mn-fine { margin: 1.1rem 0 0; font-size: .95rem; color: #7a3018; }
+.mn-fine { margin: 1.2rem 0 0; font-size: .95rem; color: #7a3018; }
 .mn-foot-lockup { text-align: center; padding: 0 16px 3rem; }
 .mn-foot-lockup img { width: 150px; height: auto; }
 
@@ -102,10 +103,11 @@
   .mn-story { display: block; padding-top: 0; }
   .mn-pin { display: none; }
   .mn-step { min-height: 0; opacity: 1; padding: 1.6rem 0 2.2rem; }
-  .mn-step .ph { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 2px solid var(--mn-gold); border-radius: 8px; margin: 0 0 1.3rem; }
+  .mn-step .ph { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border: 2px solid var(--mn-gold); border-radius: 8px; margin: 0 0 1.3rem; }
   .mn-hero { padding: 3rem 16px 2.6rem; }
 }
 @media (max-width: 420px) {
+  .mn-card { padding: 1.6rem 1.25rem 1.7rem; }
   .mn-circle { grid-template-columns: 72px 1fr; gap: .8rem; }
   .mn-circle img { width: 72px; height: 92px; }
 }
@@ -150,7 +152,7 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
 
 <main class="mn">
   <section class="mn-hero">
-    <img class="bg" src="../assets/magical-nights/welcome.webp" alt="" width="1080" height="1920">
+    <img class="bg" src="../assets/magical-nights/incense.webp" alt="" width="1080" height="1920">
     <img class="mn-lockup" src="../assets/magical-nights/lockup.webp" alt="Cosmos Yoga" width="400" height="338">
     <p class="mn-kicker">A Winter Solstice Ritual</p>
     <h1>13 Magical Nights</h1>
@@ -162,32 +164,30 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
   <section class="mn-story" id="story">
     <div class="mn-pin" aria-hidden="true">
       <div class="frame">
-        <img class="on" src="../assets/magical-nights/journal.webp" alt="" width="1080" height="1920">
-        <img src="../assets/magical-nights/practice.webp" alt="" width="1080" height="1920" loading="lazy">
-        <img src="../assets/magical-nights/wishes.webp" alt="" width="1080" height="1920" loading="lazy">
-        <img src="../assets/magical-nights/release.webp" alt="" width="1080" height="1920" loading="lazy">
-        <img src="../assets/magical-nights/final-wish.webp" alt="" width="1080" height="1920" loading="lazy">
-        <img src="../assets/magical-nights/together.webp" alt="" width="1080" height="1920" loading="lazy">
-        <img src="../assets/magical-nights/invitation.webp" alt="" width="1080" height="1920" loading="lazy">
+        <img class="on" src="../assets/magical-nights/invitation.webp" style="object-position:center 62%" alt="" width="1080" height="1920">
+        <img src="../assets/magical-nights/practice.webp" style="object-position:center 42%" alt="" width="1080" height="1920" loading="lazy">
+        <img src="../assets/magical-nights/wishes.webp" style="object-position:center 40%" alt="" width="1080" height="1920" loading="lazy">
+        <img src="../assets/magical-nights/release.webp" style="object-position:center 45%" alt="" width="1080" height="1920" loading="lazy">
+        <img src="../assets/magical-nights/final-wish.webp" style="object-position:center 55%" alt="" width="1080" height="1920" loading="lazy">
       </div>
     </div>
 
     <div class="mn-steps">
       <article class="mn-step on" data-i="0">
-        <img class="ph" src="../assets/magical-nights/journal.webp" alt="A hand writing in a journal on an embroidered purple cloth" width="1080" height="1920" loading="lazy">
+        <img class="ph" src="../assets/magical-nights/invitation.webp" style="object-position:center 62%" alt="A match being lit over a card with a snake drawn on it, beside dried flowers" width="1080" height="1920" loading="lazy">
         <p class="n">i.</p>
         <h2>13 Magical Nights</h2>
         <p class="tag">A ritual of wishes, reflection &amp; release</p>
       </article>
       <article class="mn-step" data-i="1">
-        <img class="ph" src="../assets/magical-nights/practice.webp" alt="A teacher seated at the front of the studio before students resting on bolsters" width="1080" height="1920" loading="lazy">
+        <img class="ph" src="../assets/magical-nights/practice.webp" style="object-position:center 42%" alt="A teacher seated at the front of the studio before students resting on bolsters" width="1080" height="1920" loading="lazy">
         <p class="n">ii.</p>
         <h2>The Practice</h2>
         <p>Imagine giving yourself permission to dream without needing to know how everything will unfold.</p>
         <p>The 13 wishes ritual is an invitation to reflect on what matters and what you hope to welcome into the next season.</p>
       </article>
       <article class="mn-step" data-i="2">
-        <img class="ph" src="../assets/magical-nights/wishes.webp" alt="Folded paper wishes in a bowl beside a hand writing a wish in a notebook" width="1080" height="1920" loading="lazy">
+        <img class="ph" src="../assets/magical-nights/wishes.webp" style="object-position:center 40%" alt="Folded paper wishes in a bowl beside a hand writing a wish in a notebook" width="1080" height="1920" loading="lazy">
         <p class="n">iii.</p>
         <h2>Thirteen Wishes</h2>
         <ol>
@@ -197,50 +197,32 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
         </ol>
       </article>
       <article class="mn-step" data-i="3">
-        <img class="ph" src="../assets/magical-nights/release.webp" alt="A hand holding a paper wish to a candle flame" width="1080" height="1920" loading="lazy">
+        <img class="ph" src="../assets/magical-nights/release.webp" style="object-position:center 45%" alt="A hand holding a paper wish to a candle flame" width="1080" height="1920" loading="lazy">
         <p class="n">iv.</p>
         <h2>Release &amp; Trust</h2>
         <p>The act of releasing each wish symbolizes letting go of the need to control how it comes to life.</p>
         <p>The practice invites trust, patience and openness.</p>
       </article>
       <article class="mn-step" data-i="4">
-        <img class="ph" src="../assets/magical-nights/final-wish.webp" alt="A paper wish burning in an ornate brass bowl" width="1080" height="1920" loading="lazy">
+        <img class="ph" src="../assets/magical-nights/final-wish.webp" style="object-position:center 55%" alt="A paper wish burning in an ornate brass bowl" width="1080" height="1920" loading="lazy">
         <p class="n">v.</p>
         <h2>The Final Wish</h2>
         <p>This final intention becomes something you can actively nurture through your own choices and actions.</p>
-      </article>
-      <article class="mn-step" data-i="5">
-        <img class="ph" src="../assets/magical-nights/together.webp" alt="Students sitting in a circle on the studio floor, talking and laughing by candlelight" width="1080" height="1920" loading="lazy">
-        <p class="n">vi.</p>
-        <h2>Experience It Together</h2>
-        <ul class="facts">
-          <li>December 8 + December 21</li>
-          <li>Two circles at Cosmos Yoga</li>
-          <li>Meditation, breathwork, reflection, ritual, restorative movement &amp; sound</li>
-        </ul>
-      </article>
-      <article class="mn-step" data-i="6">
-        <img class="ph" src="../assets/magical-nights/invitation.webp" alt="A match being lit beside dried flowers and a candle" width="1080" height="1920" loading="lazy">
-        <p class="n">vii.</p>
-        <h2>Your Invitation</h2>
-        <ul class="facts">
-          <li>13 Magical Nights: A Winter Solstice Ritual</li>
-          <li>$50 for both gatherings.</li>
-        </ul>
-        <a class="mn-btn" href="#book">Reserve your space</a>
       </article>
     </div>
   </section>
 
   <section class="mn-book" id="book">
     <div class="mn-card">
-      <p class="k">Booking Details:</p>
-      <h2>13 Magical Nights</h2>
+      <p class="k">13 Magical Nights: A Winter Solstice Ritual</p>
+      <h2>Your Invitation</h2>
+      <p class="mn-lead">Two circles at Cosmos Yoga</p>
+      <p class="mn-what">Meditation, breathwork, reflection, ritual, restorative movement &amp; sound</p>
       <div class="mn-circle">
         <img src="../assets/magical-nights/tarot-sm.webp" alt="Tarot cards fanned out beside a salt lamp" width="400" height="711" loading="lazy">
         <div>
           <h3>Opening Circle</h3>
-          <p class="t">Tuesday, December 8th · 7 pm – 8:30 pm</p>
+          <p class="t">Tuesday, December 8th<span>7 pm – 8:30 pm</span></p>
           <p>An evening of intention setting, collective tarot, guided meditation and the beginning of our 13 wishes ritual.</p>
         </div>
       </div>
@@ -248,13 +230,15 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
         <img src="../assets/magical-nights/restorative-sm.webp" alt="A teacher giving a gentle assist to a student in a restorative pose" width="400" height="711" loading="lazy">
         <div>
           <h3>Winter Solstice Closing Circle</h3>
-          <p class="t">Monday, December 21st · 6 pm – 7:30 pm</p>
+          <p class="t">Monday, December 21st<span>6 pm – 7:30 pm</span></p>
           <p>We'll return to our intentions through restorative movement, reflection, candlelight and an extended sound bath.</p>
         </div>
       </div>
       <p class="mn-meta"><strong>Where:</strong> The studio, 1306 S Willow St<br><strong>What to bring:</strong> Journal, pen, yoga mat</p>
-      <p class="mn-price">$50 for both gatherings</p>
-      <a class="mn-btn" href="../classes.html">Save my seat</a>
+      <div class="mn-buy">
+        <p class="mn-price">$50 <span>for both gatherings</span></p>
+        <a class="mn-btn" href="../classes.html">Save my seat</a>
+      </div>
       <p class="mn-fine">No previous experience with these practices is needed. Just bring your curiosity and a willingness to turn inward.</p>
     </div>
   </section>
