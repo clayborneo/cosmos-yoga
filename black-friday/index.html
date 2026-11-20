@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Friday Weekend Deals | Cosmos Yoga</title>
+<meta name="description" content="Cosmos Yoga's Black Friday weekend, Nov 27–29: two weeks unlimited for $35, unlimited month-to-month for $85/mo, or a 3-class pack for $25. Southside Chattanooga.">
+<link rel="canonical" href="https://cosmosyogachattanooga.com/black-friday/">
+<meta name="theme-color" content="#121110">
+<link rel="icon" type="image/png" href="../assets/favicon.png?v=4">
+<link rel="apple-touch-icon" href="../assets/favicon.png?v=4">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cosmos Yoga">
+<meta property="og:title" content="Black Friday Weekend at Cosmos Yoga">
+<meta property="og:description" content="Nov 27–29 only: $35 for two weeks unlimited, $85/mo unlimited month-to-month, or $25 for a 3-class pack.">
+<meta property="og:url" content="https://cosmosyogachattanooga.com/black-friday/">
+<meta property="og:image" content="https://cosmosyogachattanooga.com/assets/black-friday/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The black Cosmos flower stamp beside a student in class, with the words Black Friday">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Black Friday Weekend at Cosmos Yoga">
+<meta name="twitter:description" content="Nov 27–29 only: $35 two weeks unlimited, $85/mo month-to-month, $25 3-class pack.">
+<meta name="twitter:image" content="https://cosmosyogachattanooga.com/assets/black-friday/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,500&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=20261120">
+<style>
+/* Black Friday weekend landing page (Nov 27-29, 2026). Same look as the IG ads in
+   social/black-friday/: the black flower stamp on a cream ticket, photos from the
+   11-14-26 shoot. Buy buttons: fill in BUY below once the Mindbody items exist. */
+.bf { --ink: #121110; --paper: #f6f1e7; --paper-2: #ece3d2; background: var(--paper); color: var(--ink); }
+.bf-hero { background: var(--ink); color: var(--paper); text-align: center; padding: clamp(2.6rem,7vw,5rem) 16px clamp(2.4rem,6vw,4rem); position: relative; overflow: hidden; }
+.bf-hero .stampdisc { width: clamp(120px,22vw,170px); aspect-ratio: 1; margin: 0 auto 1.4rem; background: var(--paper); border-radius: 50%;
+  display: grid; place-items: center; transform: rotate(-9deg); }
+.bf-hero .stampdisc img { width: 78%; }
+.bf-eyebrow { font-family: var(--sans); font-weight: 900; letter-spacing: .22em; text-transform: uppercase; font-size: .82rem; margin: 0; }
+.bf-hero h1 { font-family: 'Fraunces', serif; font-weight: 800; font-variation-settings: 'opsz' 144; letter-spacing: -.03em;
+  color: var(--paper); font-size: clamp(3.2rem,11vw,6.6rem); line-height: .9; margin: .9rem 0 1rem; }
+.bf-hero .lede { font-family: 'Fraunces', serif; font-style: italic; font-size: clamp(1.15rem,2.6vw,1.45rem); max-width: 34ch; margin: 0 auto; opacity: .92; }
+.bf-hero .jump { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin-top: 1.8rem; }
+.bf-hero .jump a { color: var(--paper); border: 1.5px solid rgba(246,241,231,.45); border-radius: 999px; padding: .5rem 1rem;
+  font-weight: 800; font-size: .95rem; text-decoration: none; }
+.bf-hero .jump a:hover { background: var(--paper); color: var(--ink); }
+
+.bf-deals { max-width: 1080px; margin: 0 auto; padding: clamp(2rem,6vw,4rem) 16px; display: grid; gap: clamp(1.6rem,4vw,2.6rem); }
+.deal { display: grid; grid-template-columns: minmax(0,5fr) minmax(0,6fr); background: #fffdf8; border: 3px solid var(--ink); scroll-margin-top: 1rem; }
+.deal:nth-child(even) { grid-template-columns: minmax(0,6fr) minmax(0,5fr); }
+.deal:nth-child(even) .deal-photo { order: 2; }
+.deal-photo { position: relative; min-height: 340px; background: var(--ink); }
+.deal-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.deal-photo .tag { position: absolute; left: 0; top: 1.1rem; background: var(--ink); color: var(--paper); font-weight: 900; letter-spacing: .2em;
+  text-transform: uppercase; font-size: .78rem; padding: .5rem .7rem .48rem .8rem; }
+.deal-body { padding: clamp(1.4rem,4vw,2.4rem); display: flex; flex-direction: column; }
+.deal .bf-price { font-family: 'Fraunces', serif; font-weight: 800; font-variation-settings: 'opsz' 144; letter-spacing: -.035em;
+  font-size: clamp(4.2rem,10vw,6.2rem); line-height: .85; margin: .6rem 0 .5rem; color: var(--ink); }
+.deal .bf-price small { font-size: .32em; font-weight: 600; letter-spacing: 0; }
+.deal h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(1.6rem,3.4vw,2.1rem); margin: 0 0 .5rem; color: var(--ink); }
+.deal .was { font-family: var(--sans); font-weight: 700; color: #6b675e; margin: 0 0 .9rem; font-size: .95rem; }
+.deal .was s { opacity: .8; }
+.deal ul { margin: 0 0 1.4rem; padding-left: 1.1rem; color: #3a3833; line-height: 1.55; }
+.deal ul li { margin: .2rem 0; }
+.bf-buy { margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: .5rem; background: var(--ink); color: var(--paper);
+  font-weight: 800; font-size: 1.05rem; padding: .9rem 1.5rem; border-radius: 999px; text-decoration: none; transition: transform .15s; }
+.bf-buy:hover { transform: translateY(-1px); color: #fff; text-decoration: none; }
+
+.bf-how { background: var(--paper-2); padding: clamp(2rem,6vw,3.6rem) 16px; }
+.bf-how .in { max-width: 760px; margin: 0 auto; }
+.bf-how h2 { font-family: 'Fraunces', serif; font-weight: 600; color: var(--ink); font-size: clamp(1.7rem,4vw,2.3rem); }
+.bf-how p, .bf-how li { color: #3a3833; line-height: 1.6; }
+.bf-how .fine { font-size: .9rem; color: #6b675e; margin-top: 1.4rem; }
+mark.tbd { background: #ffe8a3; color: inherit; padding: 0 .2em; }
+
+@media (max-width: 760px) {
+  .deal, .deal:nth-child(even) { grid-template-columns: 1fr; }
+  .deal:nth-child(even) .deal-photo { order: 0; }
+  .deal-photo { min-height: 0; aspect-ratio: 4 / 3; }
+  .bf-buy { align-self: stretch; justify-content: center; }
+}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1400458978895224');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="../index.html"><img src="../assets/logo-mark.png?v=4" alt="Cosmos Yoga"><span class="cosmos-wordmark brand-wordmark" aria-hidden="true"></span></a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../classes.html">Classes</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../teachers.html">Teachers</a>
+      <a href="../movie-night.html">Movie Night</a>
+      <a href="../faq.html">FAQ</a>
+    </div>
+  </nav>
+</header>
+
+<main class="bf">
+  <section class="bf-hero">
+    <div class="stampdisc"><img src="../assets/black-friday/stamp.svg" alt=""></div>
+    <p class="bf-eyebrow">Fri Nov 27 &ndash; Sun Nov 29 &middot; three days only</p>
+    <h1>Black Friday<br>at Cosmos</h1>
+    <p class="lede">Three ways in, one weekend to grab them. Pick the one that fits, then come find your mat on the Southside.</p>
+    <nav class="jump" aria-label="The three deals">
+      <a href="#two-weeks">$35 &middot; 2 weeks unlimited</a>
+      <a href="#monthly">$85/mo &middot; month to month</a>
+      <a href="#three-pack">$25 &middot; 3 classes</a>
+    </nav>
+  </section>
+
+  <div class="bf-deals">
+    <article class="deal" id="two-weeks">
+      <div class="deal-photo"><img src="../assets/black-friday/group.webp" alt="A teacher leading a full class through warrior two in the blue and pink light of the studio" style="object-position:50% 10%" width="1000" height="1500" loading="lazy"><span class="tag">Black Friday</span></div>
+      <div class="deal-body">
+        <p class="bf-eyebrow">Deal one</p>
+        <p class="bf-price">$35</p>
+        <h2>Two weeks unlimited</h2>
+        <p class="was">Every class on the schedule for 14 days.</p>
+        <ul>
+          <li>Hatha, Vinyasa, Yin, sound and every special class on the schedule</li>
+          <li>Come every day if you like</li>
+          <li>Your 14 days start the day you buy</li>
+        </ul>
+        <a class="bf-buy" data-buy="twoWeeks" href="../pricing.html">Get two weeks for $35 &rarr;</a>
+      </div>
+    </article>
+
+    <article class="deal" id="monthly">
+      <div class="deal-photo"><img src="../assets/black-friday/altar.webp" alt="A smiling teacher standing in front of the altar at the head of a class" style="object-position:50% 25%" width="1000" height="1500" loading="lazy"><span class="tag">Black Friday</span></div>
+      <div class="deal-body">
+        <p class="bf-eyebrow">Deal two</p>
+        <p class="bf-price">$85<small>/mo</small></p>
+        <h2>Unlimited, month to month</h2>
+        <p class="was">Normally <s>$100/mo</s>. Our annual rate, without the year.</p>
+        <ul>
+          <li>Unlimited classes, no annual contract</li>
+          <li>$85 stays your rate for as long as you keep the membership</li>
+          <li>Cancel any time: you're billed once more and keep unlimited classes for that last month</li>
+        </ul>
+        <a class="bf-buy" data-buy="monthly" href="../pricing.html">Join for $85/mo &rarr;</a>
+      </div>
+    </article>
+
+    <article class="deal" id="three-pack">
+      <div class="deal-photo"><img src="../assets/black-friday/glow.webp" alt="A student with eyes closed and hands raised in prayer, lit by warm candlelight" style="object-position:50% 20%" width="1000" height="1500" loading="lazy"><span class="tag">Black Friday</span></div>
+      <div class="deal-body">
+        <p class="bf-eyebrow">Deal three</p>
+        <p class="bf-price">$25</p>
+        <h2>3-class pack</h2>
+        <p class="was">Three classes to see what Cosmos feels like.</p>
+        <ul>
+          <li>Any three classes on the schedule</li>
+          <li>Use them within 10 days of buying</li>
+        </ul>
+        <a class="bf-buy" data-buy="threePack" href="../pricing.html">Get 3 classes for $25 &rarr;</a>
+      </div>
+    </article>
+  </div>
+
+  <section class="bf-how">
+    <div class="in">
+      <h2>How it works</h2>
+      <ul>
+        <li><strong>Online:</strong> tap a button above and check out on Mindbody, the same place you book classes.</li>
+        <li><strong>At the studio:</strong> tell us at the desk before or after any class that weekend.</li>
+      </ul>
+      <p>Cosmos is a small studio at 1306 S Willow St, owned and run by the people you see at the front desk. Thank you for shopping small with us.</p>
+      <p class="fine">On sale Friday, November 27 through Sunday, November 29, 2026. Open to everyone, new and returning students alike. Not available as gift cards.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="foot-brand"><img src="../assets/logo-mark.png?v=4" alt=""> Cosmos Yoga</div>
+      <p class="muted mt-1">Now open on the Southside.</p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p>1306 S Willow St<br>Chattanooga, TN 37404</p>
+      <p class="muted">Free street parking along 13th &amp; 14th St.</p>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <p><a href="mailto:cosmosyogachattanooga@gmail.com">cosmosyogachattanooga@gmail.com</a><br>
+      <a class="ig-link" href="https://instagram.com/cosmosyogachattanooga"><svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.42.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.68.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.66 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.66-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13-.67-.66-1.34-1.07-2.13-1.38-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zM12 16a4 4 0 114-4 4 4 0 01-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg>@cosmosyogachattanooga</a></p>
+    </div>
+  </div>
+  <div class="wrap foot-legal">
+    <p>&copy; 2026 Cosmos Yoga, LLC &middot; <a href="../privacy.html">Privacy Policy</a> &middot; <a href="../terms.html">Terms of Service</a></p>
+  </div>
+</footer>
+
+<script>
+// Buy buttons: paste each Mindbody item's link here once it exists; until then they go to Pricing.
+var BUY = {
+  twoWeeks: "https://go.mindbodyonline.com/book/app/pricing/bus_11kZEJgGrRECjp3272/po_11kZEJgGrRECjK3qbC?mbo_src=links-shortcuts",
+  monthly: "https://go.mindbodyonline.com/book/app/pricing/bus_11kZEJgGrRECjp3272/cntr_11kZEJgGrRECjJY8F4?mbo_src=contracts-edit-page",
+  threePack: "https://go.mindbodyonline.com/book/app/pricing/bus_11kZEJgGrRECjp3272/po_11kZEJgGrRECjK3qZA?mbo_src=links-shortcuts"
+};
+document.querySelectorAll("[data-buy]").forEach(function (a) {
+  var url = BUY[a.getAttribute("data-buy")];
+  if (url) { a.href = url; a.target = "_blank"; a.rel = "noopener"; }
+  a.addEventListener("click", function () {
+    if (window.fbq) fbq("track", "InitiateCheckout", { content_name: "Black Friday " + a.getAttribute("data-buy") });
+  });
+});
+</script>
+</body>
+</html>

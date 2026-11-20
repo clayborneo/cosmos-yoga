@@ -415,3 +415,23 @@ body.home-zine > * { position: relative; z-index: 1; }
   .offer-body { padding: 1.4rem 1.4rem 1.3rem; }
   .offer-detail .inner { grid-template-columns: 1fr; padding: 1.4rem 1.4rem 1.6rem; gap: 1.4rem; }
 }
+
+/* ===== Black Friday banner (homepage, Nov 2026; hides itself from Nov 30) ===== */
+.bf-banner { display: flex; align-items: center; justify-content: center; gap: 1rem; background: #121110; color: #f6f1e7;
+  padding: .85rem 16px; text-decoration: none; font-family: var(--sans); }
+.bf-banner[hidden], .soft-banner[hidden] { display: none; }
+.bf-banner:hover { color: #fff; text-decoration: none; }
+.bf-banner-stamp { flex: none; width: 46px; height: 46px; border-radius: 50%; background: #f6f1e7; display: grid; place-items: center; transform: rotate(-9deg); }
+.bf-banner-stamp img { width: 80%; }
+.bf-banner-txt { display: flex; flex-direction: column; line-height: 1.3; }
+.bf-banner-txt strong { font-weight: 900; letter-spacing: .14em; text-transform: uppercase; font-size: .9rem; }
+.bf-banner-txt span { font-size: .92rem; opacity: .88; }
+.bf-banner-go { flex: none; background: #f6f1e7; color: #121110; border-radius: 999px; padding: .5rem 1rem; font-weight: 800; font-size: .92rem; }
+.bf-banner:hover .bf-banner-go { background: #fff; }
+@media (max-width: 640px) {
+  .bf-banner { gap: .7rem; justify-content: flex-start; }
+  .bf-banner-stamp { width: 38px; height: 38px; }
+  .bf-banner-txt strong { font-size: .78rem; }
+  .bf-banner-txt span { font-size: .8rem; }
+  .bf-banner-go { display: none; }
+}
