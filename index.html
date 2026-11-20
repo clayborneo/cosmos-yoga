@@ -72,13 +72,13 @@ src="https://www.facebook.com/tr?id=1400458978895224&ev=PageView&noscript=1"
 
 <a class="bf-banner" id="bf-banner" href="black-friday/">
   <span class="bf-banner-stamp"><img src="assets/black-friday/stamp.svg" alt=""></span>
-  <span class="bf-banner-txt"><strong>Black Friday weekend &middot; Nov 27&ndash;29</strong><span>$35 two weeks unlimited &middot; $85/mo month to month &middot; $25 for 3 classes</span></span>
+  <span class="bf-banner-txt"><strong>Early Black Friday deals</strong><span>$25 for 3 classes &middot; $35 two weeks unlimited &middot; $85/mo month to month</span></span>
   <span class="bf-banner-go">See the deals &rarr;</span>
 </a>
 <a class="soft-banner" id="soft-banner" href="pricing.html" hidden>Now open on the Southside &middot; new students: your first month unlimited is $70 &rarr;</a>
 <script>
-// After the Black Friday weekend (from Mon Nov 30, 2026, Chattanooga time) the usual banner comes back.
-if (Date.now() >= Date.parse("2026-11-30T00:00:00-06:00")) {
+// The deals run through Mon Nov 30, 2026; from Dec 1 (Chattanooga time) the usual banner comes back.
+if (Date.now() >= Date.parse("2026-12-01T00:00:00-06:00")) {
   document.getElementById("bf-banner").hidden = true;
   document.getElementById("soft-banner").hidden = false;
 }
